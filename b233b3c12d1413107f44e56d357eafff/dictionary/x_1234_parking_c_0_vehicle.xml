@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="b612da35f19813107f446e35e74164c2" label="Vehicle" max_length="40" name="x_1234_parking_c_0_vehicle" type="collection">
+        <element choice="3" label="Plate State" max_length="40" name="plate_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="AK" sequence="2" value="AK"/>
+                <element inactive_on_update="false" label="AZ" sequence="3" value="AZ"/>
+                <element inactive_on_update="false" label="GA" sequence="11" value="GA"/>
+                <element inactive_on_update="false" label="LA" sequence="18" value="LA"/>
+                <element inactive_on_update="false" label="MT" sequence="26" value="MT"/>
+                <element inactive_on_update="false" label="OK" sequence="34" value="OK"/>
+                <element inactive_on_update="false" label="UT" sequence="42" value="UT"/>
+                <element inactive_on_update="false" label="ID" sequence="13" value="ID"/>
+                <element inactive_on_update="false" label="MD" sequence="20" value="MD"/>
+                <element inactive_on_update="false" label="NV" sequence="28" value="NV"/>
+                <element inactive_on_update="false" label="PA" sequence="36" value="PA"/>
+                <element inactive_on_update="false" label="VA" sequence="44" value="VA"/>
+                <element inactive_on_update="false" label="IN" sequence="15" value="IN"/>
+                <element inactive_on_update="false" label="MI" sequence="22" value="MI"/>
+                <element inactive_on_update="false" label="NY" sequence="30" value="NY"/>
+                <element inactive_on_update="false" label="SC" sequence="38" value="SC"/>
+                <element inactive_on_update="false" label="WI" sequence="46" value="WI"/>
+                <element inactive_on_update="false" label="KS" sequence="17" value="KS"/>
+                <element inactive_on_update="false" label="MS" sequence="24" value="MS"/>
+                <element inactive_on_update="false" label="ND" sequence="32" value="ND"/>
+                <element inactive_on_update="false" label="TN" sequence="40" value="TN"/>
+                <element inactive_on_update="false" label="DE" sequence="8" value="DE"/>
+                <element inactive_on_update="false" label="NM" sequence="49" value="NM"/>
+                <element inactive_on_update="false" label="AL" sequence="1" value="AL"/>
+                <element inactive_on_update="false" label="AR" sequence="4" value="AR"/>
+                <element inactive_on_update="false" label="CA" sequence="5" value="CA"/>
+                <element inactive_on_update="false" label="DC" sequence="9" value="DC"/>
+                <element inactive_on_update="false" label="HI" sequence="12" value="HI"/>
+                <element inactive_on_update="false" label="ME" sequence="19" value="ME"/>
+                <element inactive_on_update="false" label="NE" sequence="27" value="NE"/>
+                <element inactive_on_update="false" label="OR" sequence="35" value="OR"/>
+                <element inactive_on_update="false" label="VT" sequence="43" value="VT"/>
+                <element inactive_on_update="false" label="IL" sequence="14" value="IL"/>
+                <element inactive_on_update="false" label="MA" sequence="21" value="MA"/>
+                <element inactive_on_update="false" label="NH" sequence="29" value="NH"/>
+                <element inactive_on_update="false" label="RI" sequence="37" value="RI"/>
+                <element inactive_on_update="false" label="WV" sequence="45" value="WV"/>
+                <element inactive_on_update="false" label="IA" sequence="16" value="IA"/>
+                <element inactive_on_update="false" label="MN" sequence="23" value="MN"/>
+                <element inactive_on_update="false" label="NC" sequence="31" value="NC"/>
+                <element inactive_on_update="false" label="SD" sequence="39" value="SD"/>
+                <element inactive_on_update="false" label="MO" sequence="25" value="MO"/>
+                <element inactive_on_update="false" label="OH" sequence="33" value="OH"/>
+                <element inactive_on_update="false" label="TX" sequence="41" value="TX"/>
+                <element inactive_on_update="false" label="WY" sequence="47" value="WY"/>
+                <element inactive_on_update="false" label="KY" sequence="48" value="KY"/>
+                <element inactive_on_update="false" label="CO" sequence="6" value="CO"/>
+                <element inactive_on_update="false" label="CT" sequence="7" value="CT"/>
+                <element inactive_on_update="false" label="FL" sequence="10" value="FL"/>
+                <element inactive_on_update="false" label="WA" sequence="0" value="WA"/>
+                <element inactive_on_update="false" label="NJ" sequence="50" value="NJ"/>
+            </choice>
+        </element>
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Owner" max_length="40" name="owner" type="string"/>
+        <element label="Color" max_length="40" name="color" type="string"/>
+        <element label="Make" max_length="40" name="make" type="string"/>
+        <element label="Plate" max_length="40" name="plate" type="string"/>
+        <element label="Model" max_length="40" name="model" type="string"/>
+    </element>
+</database>

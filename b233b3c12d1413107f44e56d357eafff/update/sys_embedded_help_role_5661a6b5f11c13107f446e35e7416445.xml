@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1234_parking_c_0.appeal_user" name="x_1234_parking_c_0.appeal_user">5a61a6b5f11c13107f446e35e7416441</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-02 17:53:43</sys_created_on>
+        <sys_id>5661a6b5f11c13107f446e35e7416445</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5a61a6b5f11c13107f446e35e7416441</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sys_embedded_help_role_5661a6b5f11c13107f446e35e7416445</sys_update_name>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-02 17:53:43</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="19315ab1f19813107f446e35e74164dd" label="Campus Person" max_length="40" name="x_1234_parking_c_0_campus_person" type="collection">
+        <element display="true" label="Person" mandatory="true" max_length="32" name="person" reference="sys_user" type="reference"/>
+        <element default="True" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Student ID" max_length="40" name="student_id" type="string" unique="true"/>
+        <element label="Department" max_length="100" name="department" type="string"/>
+        <element choice="3" label="Person type" mandatory="true" max_length="40" name="person_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Employee" sequence="1" value="employee"/>
+                <element inactive_on_update="false" label="Student" sequence="0" value="student"/>
+                <element inactive_on_update="false" label="Guest" sequence="2" value="guest"/>
+            </choice>
+        </element>
+        <element label="Email" mandatory="true" max_length="40" name="email" type="string"/>
+        <element label="Employee ID" max_length="40" name="employee_id" type="string"/>
+        <element label="Phone" max_length="40" name="phone" type="phone_number_e164"/>
+        <index name="index">
+            <element name="person"/>
+        </index>
+        <index name="index2" unique="true">
+            <element name="student_id"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="0a5166b5f11c13107f446e35e7416459" label="Appeal" max_length="40" name="x_1234_parking_c_0_appeal" type="collection">
+        <element choice="3" label="Submitted via" max_length="40" name="submitted_via" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Secure Link" sequence="1" value="secure_link"/>
+                <element inactive_on_update="false" label="Portal" sequence="0" value="portal"/>
+            </choice>
+        </element>
+        <element label="Decision Reason" max_length="40" name="decision_reason" type="string"/>
+        <element label="New Amount" max_length="40" name="new_amount" type="currency"/>
+        <element label="Evidence" max_length="40" name="evidence" type="file_attachment"/>
+        <element label="Decided on" max_length="40" name="decided_on" type="glide_date_time"/>
+        <element label="Appellant Name" max_length="40" name="appellant_name" type="string"/>
+        <element label="Applied on" max_length="40" name="applied_on" type="glide_date_time"/>
+        <element label="Citation" max_length="40" name="citation" type="string"/>
+        <element label="Decided by" max_length="40" name="decided_by" type="string"/>
+        <element choice="3" label="Decision" max_length="40" name="decision" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Upheld" sequence="0" value="upheld"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="2" value="cancelled"/>
+                <element inactive_on_update="false" label="Reduced" sequence="1" value="reduced"/>
+            </choice>
+        </element>
+        <element label="Reason" max_length="40" name="reason" type="string"/>
+        <element label="Number" mandatory="true" max_length="40" name="number" type="integer"/>
+        <element label="Appellant Email" max_length="40" name="appellant_email" type="string"/>
+        <element label="Applied by" max_length="40" name="applied_by" type="string"/>
+    </element>
+</database>
