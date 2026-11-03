@@ -1,5 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="39795675f1d813107f446e35e741645d" sys_domain="global" table="x_1234_parking_c_0_violation_type" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-03 14:51:48</sys_created_on>
+            <sys_id>c7518bc2d59413107f448437bb97945c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1234_parking_c_0_violation_type" sys_domain="global" view="Default view">39795675f1d813107f446e35e741645d</sys_ui_section>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-03 14:51:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>code</element>
+            <position>1</position>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-03 14:51:48</sys_created_on>
+            <sys_id>0b518bc2d59413107f448437bb97945d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1234_parking_c_0_violation_type" sys_domain="global" view="Default view">39795675f1d813107f446e35e741645d</sys_ui_section>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-03 14:51:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-03 14:51:48</sys_created_on>
+            <sys_id>c3518bc2d59413107f448437bb97945e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1234_parking_c_0_violation_type" sys_domain="global" view="Default view">39795675f1d813107f446e35e741645d</sys_ui_section>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-03 14:51:48</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>3</position>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-03 14:51:48</sys_created_on>
+            <sys_id>8f518bc2d59413107f448437bb97945e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1234_parking_c_0_violation_type" sys_domain="global" view="Default view">39795675f1d813107f446e35e741645d</sys_ui_section>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-03 14:51:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fine_amount</element>
+            <position>4</position>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-03 14:51:48</sys_created_on>
+            <sys_id>4b518bc2d59413107f448437bb97945f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1234_parking_c_0_violation_type" sys_domain="global" view="Default view">39795675f1d813107f446e35e741645d</sys_ui_section>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-03 14:51:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

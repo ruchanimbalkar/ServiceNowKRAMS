@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description>Default access control on x_1234_parking_c_0_appeal</description>
+        <local_or_existing>Existing</local_or_existing>
+        <name>x_1234_parking_c_0_appeal</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-02 17:53:44</sys_created_on>
+        <sys_id>ae616ab5f11c13107f446e35e7416400</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1234_parking_c_0_appeal</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sys_security_acl_ae616ab5f11c13107f446e35e7416400</sys_update_name>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-02 17:53:44</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</application>
+        <file_path/>
+        <instance_id>11b399e8971097945382ff671153af6b</instance_id>
+        <instance_name>sya-oct-6371-0004</instance_name>
+        <name>sys_security_acl_ae616ab5f11c13107f446e35e7416400</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on x_1234_parking_c_0_appeal</description><local_or_existing>Existing</local_or_existing><name>x_1234_parking_c_0_appeal</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>ruchan</sys_created_by><sys_created_on>2026-11-02 17:53:44</sys_created_on><sys_id>ae616ab5f11c13107f446e35e7416400</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1234_parking_c_0_appeal</sys_name><sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package><sys_policy/><sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope><sys_update_name>sys_security_acl_ae616ab5f11c13107f446e35e7416400</sys_update_name><sys_updated_by>ruchan</sys_updated_by><sys_updated_on>2026-11-02 17:53:44</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>965414691</payload_hash>
+        <record_name>x_1234_parking_c_0_appeal</record_name>
+        <reverted_from/>
+        <source>4f33f3c12d1413107f44e56d357eaf5b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-02 17:53:44</sys_created_on>
+        <sys_id>e6616ab5f11c13107f446e35e741642a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a19d654cf40000001</sys_recorded_at>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-02 17:53:44</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>ea616ab5411c13103364eb0b6be45129</update_guid>
+        <update_guid_history>ea616ab5411c13103364eb0b6be45129:965414691</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-02 19:20:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>25e5df2b1a314bd28c0206ce095ac881</sys_id>
+        <sys_metadata>ae616ab5f11c13107f446e35e7416400</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1234_parking_c_0_appeal</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_parent display_value="">2a616ab5f11c13107f446e35e741644b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_scope_delete display_value="">262add6e65a2409db2b8906c824ca431</sys_scope_delete>
+        <sys_update_name>sys_security_acl_ae616ab5f11c13107f446e35e7416400</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_ae616ab5f11c13107f446e35e7416400">e6616ab5f11c13107f446e35e741642a</sys_update_version>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-02 19:20:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

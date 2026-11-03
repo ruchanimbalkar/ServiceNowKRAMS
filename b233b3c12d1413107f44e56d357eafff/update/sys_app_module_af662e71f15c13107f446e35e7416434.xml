@@ -27,17 +27,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>af662e71f15c13107f446e35e7416434</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Citations</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>All</sys_name>
         <sys_overrides/>
         <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
         <sys_policy/>
         <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
         <sys_update_name>sys_app_module_af662e71f15c13107f446e35e7416434</sys_update_name>
-        <sys_updated_by>adetola</sys_updated_by>
-        <sys_updated_on>2026-11-02 18:15:39</sys_updated_on>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-03 19:29:46</sys_updated_on>
         <timeline_page/>
-        <title>Citations</title>
+        <title>All</title>
         <uncancelable>false</uncancelable>
         <ux_list/>
         <view_name/>

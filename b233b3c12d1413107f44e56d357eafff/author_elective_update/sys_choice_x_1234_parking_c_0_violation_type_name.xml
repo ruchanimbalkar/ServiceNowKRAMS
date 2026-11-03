@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="name" table="x_1234_parking_c_0_violation_type" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <name>x_1234_parking_c_0_violation_type</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-02 21:13:39</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>name</sys_name>
+            <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+            <sys_update_name>sys_choice_x_1234_parking_c_0_violation_type_name</sys_update_name>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-02 21:13:39</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No Valid Permit Visible</label>
+            <language>en</language>
+            <name>x_1234_parking_c_0_violation_type</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-02 21:13:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-02 21:13:39</sys_updated_on>
+            <value>NVPV</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Speeding</label>
+            <language>en</language>
+            <name>x_1234_parking_c_0_violation_type</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-02 21:13:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-02 21:13:39</sys_updated_on>
+            <value>SPEED</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Obstructing Traffic</label>
+            <language>en</language>
+            <name>x_1234_parking_c_0_violation_type</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-02 21:24:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-02 21:24:20</sys_updated_on>
+            <value>OT</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Stop Sign Violation</label>
+            <language>en</language>
+            <name>x_1234_parking_c_0_violation_type</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-02 21:24:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-02 21:24:20</sys_updated_on>
+            <value>SSV</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Illegal Parking</label>
+            <language>en</language>
+            <name>x_1234_parking_c_0_violation_type</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-02 21:24:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-02 21:24:20</sys_updated_on>
+            <value>IP</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Parking in Fire Lane</label>
+            <language>en</language>
+            <name>x_1234_parking_c_0_violation_type</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-02 21:24:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-02 21:24:20</sys_updated_on>
+            <value>PFL</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reckless Driving</label>
+            <language>en</language>
+            <name>x_1234_parking_c_0_violation_type</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-02 21:24:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-02 21:24:20</sys_updated_on>
+            <value>RD</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other Violations</label>
+            <language>en</language>
+            <name>x_1234_parking_c_0_violation_type</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-02 21:24:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-02 21:24:20</sys_updated_on>
+            <value>OV</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Disabled Parking</label>
+            <language>en</language>
+            <name>x_1234_parking_c_0_violation_type</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-02 21:24:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-02 21:24:20</sys_updated_on>
+            <value>DP/ADA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reserved Police Dept. Parking</label>
+            <language>en</language>
+            <name>x_1234_parking_c_0_violation_type</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-02 21:24:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-02 21:24:20</sys_updated_on>
+            <value>RPDP</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

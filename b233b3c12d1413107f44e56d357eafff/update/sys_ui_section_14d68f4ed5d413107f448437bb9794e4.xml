@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Appeal Details" section_id="14d68f4ed5d413107f448437bb9794e4" sys_domain="global" table="x_1234_parking_c_0_appeal" version="3" view="Student_View">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>appellant_name</element>
+            <position>0</position>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-03 15:47:30</sys_created_on>
+            <sys_id>0b1e478ed51813107f448437bb9794b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Appeal Details" display_value="Appeal Details" name="x_1234_parking_c_0_appeal" sys_domain="global" view="c8d68f4ed5d413107f448437bb9794b7">14d68f4ed5d413107f448437bb9794e4</sys_ui_section>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-03 15:47:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>appellant_email</element>
+            <position>1</position>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-03 15:47:30</sys_created_on>
+            <sys_id>c31e478ed51813107f448437bb9794b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Appeal Details" display_value="Appeal Details" name="x_1234_parking_c_0_appeal" sys_domain="global" view="c8d68f4ed5d413107f448437bb9794b7">14d68f4ed5d413107f448437bb9794e4</sys_ui_section>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-03 15:47:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>evidence</element>
+            <position>2</position>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-03 15:47:30</sys_created_on>
+            <sys_id>8f1e478ed51813107f448437bb9794b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Appeal Details" display_value="Appeal Details" name="x_1234_parking_c_0_appeal" sys_domain="global" view="c8d68f4ed5d413107f448437bb9794b7">14d68f4ed5d413107f448437bb9794e4</sys_ui_section>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-03 15:47:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-03 15:47:30</sys_created_on>
+            <sys_id>4b1e478ed51813107f448437bb9794b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Appeal Details" display_value="Appeal Details" name="x_1234_parking_c_0_appeal" sys_domain="global" view="c8d68f4ed5d413107f448437bb9794b7">14d68f4ed5d413107f448437bb9794e4</sys_ui_section>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-03 15:47:30</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>citation_number</element>
+            <position>4</position>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-03 15:47:30</sys_created_on>
+            <sys_id>071e478ed51813107f448437bb9794b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Appeal Details" display_value="Appeal Details" name="x_1234_parking_c_0_appeal" sys_domain="global" view="c8d68f4ed5d413107f448437bb9794b7">14d68f4ed5d413107f448437bb9794e4</sys_ui_section>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-03 15:47:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Appeal Details</caption>
+            <header>false</header>
+            <name>x_1234_parking_c_0_appeal</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-03 15:15:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>14d68f4ed5d413107f448437bb9794e4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_1234_parking_c_0_appeal</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+            <sys_update_name>sys_ui_section_14d68f4ed5d413107f448437bb9794e4</sys_update_name>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-03 15:27:17</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Student View" name="Student_View">c8d68f4ed5d413107f448437bb9794b7</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

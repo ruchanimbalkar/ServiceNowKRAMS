@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="54c287cad59413107f448437bb979418" sys_domain="global" table="x_1234_parking_c_0_vehicle" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-03 14:57:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a4c287cad59413107f448437bb97941d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1234_parking_c_0_vehicle" name="x_1234_parking_c_0_vehicle" sys_domain="global" view="Default view">54c287cad59413107f448437bb979418</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1234_parking_c_0_vehicle" sys_domain="global" view="Default view">61e25675f19813107f446e35e741642e</sys_ui_section>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-03 14:57:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-03 14:57:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a8c287cad59413107f448437bb97941e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1234_parking_c_0_vehicle" name="x_1234_parking_c_0_vehicle" sys_domain="global" view="Default view">54c287cad59413107f448437bb979418</sys_ui_form>
+            <sys_ui_section caption="Owner Details" display_value="Owner Details" name="x_1234_parking_c_0_vehicle" sys_domain="global" view="Default view">50c287cad59413107f448437bb979416</sys_ui_section>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-03 14:57:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1234_parking_c_0_vehicle</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-03 14:57:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>54c287cad59413107f448437bb979418</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1234_parking_c_0_vehicle</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+            <sys_update_name>sys_ui_form_sections_54c287cad59413107f448437bb979418</sys_update_name>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-03 14:57:54</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

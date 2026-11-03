@@ -3,19 +3,32 @@
         <element label="Active" max_length="40" name="active" type="boolean"/>
         <element choice="1" label="Code" max_length="40" name="code" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Illegal Parking" sequence="4" value="IP"/>
-                <element inactive_on_update="false" label="Disabled Parking" sequence="8" value="DP/ADA"/>
-                <element inactive_on_update="false" label="Stop Sign Violation" sequence="3" value="SSV"/>
-                <element inactive_on_update="false" label="Other Violations" sequence="7" value="OV"/>
-                <element inactive_on_update="false" label="Obstructing Traffic" sequence="2" value="OT"/>
-                <element inactive_on_update="false" label="Reckless Driving" sequence="6" value="RD"/>
-                <element inactive_on_update="false" label="Parking in Fire Lane" sequence="5" value="PFL"/>
-                <element inactive_on_update="false" label="No Valid Permit Visible" sequence="0" value="NVPV"/>
-                <element inactive_on_update="false" label="Speeding" sequence="1" value="SPEED"/>
-                <element inactive_on_update="false" label="Reserved Police Department Parking" sequence="9" value="RPDP"/>
+                <element inactive_on_update="false" label="IP" sequence="4" value="IP"/>
+                <element inactive_on_update="false" label="DP/ADA" sequence="8" value="DP/ADA"/>
+                <element inactive_on_update="false" label="SSV" sequence="3" value="SSV"/>
+                <element inactive_on_update="false" label="OV" sequence="7" value="OV"/>
+                <element inactive_on_update="false" label="OT" sequence="2" value="OT"/>
+                <element inactive_on_update="false" label="RD" sequence="6" value="RD"/>
+                <element inactive_on_update="false" label="PFL" sequence="5" value="PFL"/>
+                <element inactive_on_update="false" label="NVPV" sequence="0" value="NVPV"/>
+                <element inactive_on_update="false" label="SPEED" sequence="1" value="SPEED"/>
+                <element inactive_on_update="false" label="RPDP" sequence="9" value="RPDP"/>
             </choice>
         </element>
-        <element label="Name" max_length="40" name="name" type="string"/>
+        <element choice="3" display="true" label="Name" mandatory="true" max_length="40" name="name" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Reserved Police Dept. Parking" sequence="9" value="RPDP"/>
+                <element inactive_on_update="false" label="Other Violations" sequence="7" value="OV"/>
+                <element inactive_on_update="false" label="Illegal Parking" sequence="4" value="IP"/>
+                <element inactive_on_update="false" label="Obstructing Traffic" sequence="2" value="OT"/>
+                <element inactive_on_update="false" label="Speeding" sequence="1" value="SPEED"/>
+                <element inactive_on_update="false" label="Reckless Driving" sequence="6" value="RD"/>
+                <element inactive_on_update="false" label="Disabled Parking" sequence="8" value="DP/ADA"/>
+                <element inactive_on_update="false" label="Parking in Fire Lane" sequence="5" value="PFL"/>
+                <element inactive_on_update="false" label="Stop Sign Violation" sequence="3" value="SSV"/>
+                <element inactive_on_update="false" label="No Valid Permit Visible" sequence="0" value="NVPV"/>
+            </choice>
+        </element>
         <element label="Fine Amount" max_length="40" name="fine_amount" type="currency"/>
     </element>
 </database>
