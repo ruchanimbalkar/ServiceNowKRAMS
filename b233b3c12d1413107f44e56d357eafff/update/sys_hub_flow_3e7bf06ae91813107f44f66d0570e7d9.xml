@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Objective : Record a violation once, with evidence</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>issue_citation</internal_name>
+        <label_cache>[{"name":"trigger.current.vehicle.plate","label":"Trigger - Record Created➛Citation Record➛Vehicle➛Plate","reference":"","reference_display":"Plate","type":"string","base_type":"string","parent_table_name":"x_1234_parking_c_0_vehicle","column_name":"plate","usedInstances":{"6bb5d989-0243-42c8-8549-21b2290f649c":["vehicle","short_description"]}},{"name":"trigger.current.vehicle.make","label":"Trigger - Record Created or Updated➛Citation Record➛Vehicle➛Make","reference":"","reference_display":"Make","type":"string","base_type":"string","parent_table_name":"x_1234_parking_c_0_vehicle","column_name":"make","usedInstances":{"6bb5d989-0243-42c8-8549-21b2290f649c":["vehicle"]}},{"name":"trigger.current.cited_to","label":"Trigger - Record Created or Updated➛Citation Record➛Cited to","reference":"x_1234_parking_c_0_campus_person","reference_display":"Campus Person","type":"reference","base_type":"reference","parent_table_name":"x_1234_parking_c_0_citation","column_name":"cited_to","usedInstances":{"102b57f8-6c8b-4b8c-b413-2b427c173b4f":["condition"]}},{"name":"trigger.current","label":"Trigger - Record Created➛Citation Record","reference":"x_1234_parking_c_0_citation","reference_display":"Citation","type":"reference","base_type":"reference","usedInstances":{"6bb5d989-0243-42c8-8549-21b2290f649c":["citation","vehicle"],"bab4c489-4d71-4752-96fc-38b306b74292":["record"],"66607d35-10b1-42a8-b851-bf5271015140":["values"],"b1e1d57b-7e0b-40fe-bb04-4ea9ef2723f5":[null]},"attributes":{}},{"name":"trigger.current.vehicle","label":"Trigger - Record Created➛Citation Record➛Vehicle","reference":"x_1234_parking_c_0_vehicle","reference_display":"Vehicle","type":"reference","base_type":"reference","parent_table_name":"x_1234_parking_c_0_citation","column_name":"vehicle","usedInstances":{"6bb5d989-0243-42c8-8549-21b2290f649c":["vehicle"],"66607d35-10b1-42a8-b851-bf5271015140":["values"],"b1e1d57b-7e0b-40fe-bb04-4ea9ef2723f5":[null,"conditions"]}},{"name":"trigger.current.number","label":"Trigger - Record Created➛Citation Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1234_parking_c_0_citation","column_name":"number","usedInstances":{"6bb5d989-0243-42c8-8549-21b2290f649c":["citation"],"a916c9f2-9c3e-4b62-ac47-c193d33c2f09":["work_notes"]}},{"name":"undefined","label":" - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record","usedInstances":{"b1e1d57b-7e0b-40fe-bb04-4ea9ef2723f5":[null]},"attributes":{}},{"name":"b1e1d57b-7e0b-40fe-bb04-4ea9ef2723f5.Record","label":"1 - Look Up Record➛Owner Lookups Record","reference":"x_1234_parking_c_0_owner_lookups","reference_display":"Owner Lookups","type":"reference","base_type":"reference","usedInstances":{"a916c9f2-9c3e-4b62-ac47-c193d33c2f09":["record"],"11d948e5-0df8-4bf8-a63f-423f7a78a877":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Visitor Owner Lookup</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-04 18:23:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3e7bf06ae91813107f44f66d0570e7d9</sys_id>
+        <sys_mod_count>59</sys_mod_count>
+        <sys_name>Visitor Owner Lookup</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sys_hub_flow_3e7bf06ae91813107f44f66d0570e7d9</sys_update_name>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-08 20:59:47</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>a1854eb3a81c13107f44b1cb13a11068</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=3e7bf06ae91813107f44f66d0570e7d9"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3e7bf06ae91813107f44f66d0570e7d9"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=3e7bf06ae91813107f44f66d0570e7d9"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=3e7bf06ae91813107f44f66d0570e7d9^sys_idNOT IN3e7bf06ae91813107f44f66d0570e7da"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>3e7bf06ae91813107f44f66d0570e7d9</id>
+        <name>Issue Citation</name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-04 18:23:50</sys_created_on>
+        <sys_id>3e7bf06ae91813107f44f66d0570e7da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-04 18:23:50</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=3e7bf06ae91813107f44f66d0570e7da"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=3e7bf06ae91813107f44f66d0570e7d9^sys_idNOT IN9d8b746ae91813107f44f66d0570e71c,dd8b346ae91813107f44f66d0570e7e0"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Visitor Owner Lookup">3e7bf06ae91813107f44f66d0570e7d9</model>
+        <model_id>3e7bf06ae91813107f44f66d0570e7d9</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_3e7bf06ae91813107f44f66d0570e7d9</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-04 18:24:00</sys_created_on>
+        <sys_id>9d8b746ae91813107f44f66d0570e71c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-05 19:54:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9d8b746ae91813107f44f66d0570e71c"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Visitor Owner Lookup">3e7bf06ae91813107f44f66d0570e7d9</model>
+        <model_id>3e7bf06ae91813107f44f66d0570e7d9</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_3e7bf06ae91813107f44f66d0570e7d9</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-04 18:24:00</sys_created_on>
+        <sys_id>dd8b346ae91813107f44f66d0570e7e0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-05 19:54:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=dd8b346ae91813107f44f66d0570e7e0"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=3e7bf06ae91813107f44f66d0570e7d9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3e7bf06ae91813107f44f66d0570e7d9"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=3e7bf06ae91813107f44f66d0570e7d9^sys_idNOT INd58b753fa89813107f44b1cb13a110d7"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Visitor Owner Lookup">3e7bf06ae91813107f44f66d0570e7d9</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-08 20:16:01</sys_created_on>
+        <sys_id>d58b753fa89813107f44b1cb13a110d7</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-08 20:43:49</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VYXW/iOBT9K1GediVGygeUwtss7WgrzU4lyuw+dKvIiW2wxthM4qRlR/3ve50PCPmg0NAZ+lIptrHPPT733Ove/zA58gk3x+YM+ZyYPZMJRUKB+Gy9IjCs9LAn0FLPLZHASMlwbY5VGJOeSUO5nJHliiMFiyniEQzKEJPQHNs9M0E8Jnfr6AbDTvD7dJt8TzOfhu8nz3bcvrdC4Tcm5l7gWV7AFFJMCliFWQT7r//OF0+2M8GCcRwSYY7vH3om/By2V/roH5Upps8PaIBGDrEC13Ydx7Kcy77tX7i+7WAXEcuCDatcVPCqBkq2wZInRQQmeMNDja2QIHwr+HqzYgFkZ8ws0VPE/oPdLy29jhLAHpBsbvPp5VRkw8FCsoDcrlIy0pEMZzYpebwUXzL8mkRCUcxVQSKMxBHsR1YasgaRI6J3C/k4LQ78xEQaXT7JZYD45gspFTI/ViTShFPGgXov4yaScZiin15PbqdX3j8fZ5M/r6fe9PpuNr2ZzK6vzOc0Lu97rHfMEOZYvCyc583Nf2KE6wsU8dIHND0zCkK2Uh8DxZJCdc+9rZInUmCWS6Si5qCYinbVXES/T86W1SrooHRiIWpQMMHeioSRFJ5Wzr+xZbl4HpNIHa3diwuEMEEt2vVpSbvl6BvgqQYiyhHuU3E+coiM+5b1i4ScG9NrdbyUmPCr7XYmTM7noGwmVrHSbD0ioSJPSQ9h7JV41EsB00vCzmKrq/tlXYexgC28zQ3V1Z0SuWH0MwOlje8hN+/I9zi7hg9gVLQgLz0BltPP+QnTWBgSbhb+GEEcAnfKKMyP3izRPKccNuQkUCWV0K9R+esvFkVg5aUg2jCknNUgbE4H8RlFwBmUqCOWh1Mmfv1Kkgq3lep1dObbNqU+oY411HlvW65PbWtoDRDFrmUFTinz62BaUaqKYN7EAY7L/yiVKj9AiVWKc/BWOVcOklGyq8GCBC2R3GYmp4Fmnwiao6FV7NI9yi83ssyGr3bVuS+0E/cLCCcIfoEPtU294AB/pFw+glV390YfBd/moYwFrrqTPsJgwtiuMH7L6fz97XySypDsx7O74pwccnsphayRWJ/AG11q+yPSJxZYogtu6A9GIz9ADqXDiyFx7Io3bmE0YnsXnviC+JIm9bb5Y6Nwkia9HeGMHQDWXPJogN39MRdmoztmc+/DBx8XRHgANfQ4S98bFTucc4ZJMXfabK8dnWzzu2vG08tRMLCHw2AIbyDIeNonPrL7zgCNhhfu5aCS8TUo+2CqBmZ+yssoWkcpkBY3+JpNnddz/y1lGxGldDnqXMMFNL3pFig7s1Q49S0ZqcfI0PgixYeb7TrjjkA9TF/Lb1TMDwGlr934qah8qRa15gKQ/AHjO0h0y9rC2dm9ziqKSnZj7fw6I/3LwYi6zX5ER01+tAXTDvPse5ED8ydpzcSmpuRQ/SeNadTaRbxCwhWZlNuLPf3PqUixT06K83akuJ17riIXW5+krwH7jupd2oScsOhpCMSTtOzlV9KACQPONBg18v9pEmz4a0MtCDDModeG8w0NpquJ76kxdWQbff9SXFlvXyt9MGzkrdn5VbWKbk77tiZ4iAYDt6XTHlXf1k2AXsB79jXu6JxJmlJwb6E7bt/qno2lriTZXUUcWMROGnVzJesWdWMteynq7lVq338GGlCcaf15+B8wTOkA8h8AAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=3e7bf06ae91813107f44f66d0570e7d9^sys_idNOT IN79e592baa51053107f449733249e95b4,6b8dfd33a8d813107f44b1cb13a110df,b63ff937a8d813107f44b1cb13a11076"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Visitor Owner Lookup">3e7bf06ae91813107f44f66d0570e7d9</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>11d948e5-0df8-4bf8-a63f-423f7a78a877</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-05 19:37:22</sys_created_on>
+        <sys_id>79e592baa51053107f449733249e95b4</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-08 20:41:14</sys_updated_on>
+        <ui_id>6bb5d989-0243-42c8-8549-21b2290f649c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9VUTW/bMAz9K4bOhmHHWdDmNmDIaWuAbeil6wRZomOhsuRJcj4W+L+Pkp2s6xqgGAps800k9fgeqee7I5GCLMmigPzNdbHgZVGWszyfXc2LalFWxUyUDGBOUqJZC1jpWaWAxkNKtkz1Ibinxayc047ZB6k3lNOcmp0GS5UxD33nsFRI1yl2uJ1urEM6eX9O80YqYUGT5d19ShAIG3iwZHl8kvKHDqhiFShE+RzIJDcjmZcK+eXyBWGhy9OYsSIQylMCew9aAParmXKQkpZpwbyxB7L0tseABSbWWh3OFY3UHgFJqN07+R3Rr/JQVwNK4zDmzkc6jWsM88ZIDuvOS6PHSCQ2JY3qW30zigiDhpr1yp8GjZHeIR50gXIgMTGqPzVm9/HUcCV1VDclleFMnU/Meyur3oML+wAFLQLRlnVd2HZnzVbGy8ilzTYKD1mtzA6bOrnRGeOBeIYTYtkK4+9i+JZZGVR8QBi8PET19Fsf+o46JsZ0FI0FjlvZ+bcIt4WJ3JCeXrCA/Pri4ovq56Ljo3WPXi+XngWGX/o8L8XxiGI3G7AZ7y3Oxg/D1y00kiu4UJBNaSx0jbE+6I5Mz5hJGG8SLZGYOsHNergIk8X0MPxumn+X6B/aF9oIkYwC0xdv8gSwkqCEe2a1J/9ODeh2ajB5uHgtDxeLPH5/x8kjz//MyI/+qRcsff8DwImVsJYGAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=79e592baa51053107f449733249e95b4"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Visitor Owner Lookup">3e7bf06ae91813107f44f66d0570e7d9</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-08 20:24:55</sys_created_on>
+        <sys_id>6b8dfd33a8d813107f44b1cb13a110df</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-08 20:43:49</sys_updated_on>
+        <ui_id>b1e1d57b-7e0b-40fe-bb04-4ea9ef2723f5</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9VYW2/iOhD+K1GeKSchQKBvq1ZIK+3ZSrs9+9KtLMd2wKqxs44DbRH//Yxzg0Kg3FbbffR4Lt/MfDM4PCxcTt1rlw69YTwc9gah5wWB5/X7AcF+FAV9EnkR7rotV+IpA02DI8HgOMMis+dn5HeCLkqwfuJyjAjykJpLppFQ6ilLUlClPE0EfvlRWtzZa+dLfU0mXFDNpHv98NhywREEMky714uNK/OSMCRwxAR4ubc4nK8WVOvgHN4Yb+dkA1RHJAvXSlOLxWu57NkwSRmEirFIWcudYkmxUfqllmiG6Z0UK8GESwMeXav8nPJXcD/wrF7MIC3Cirv6iMpSFWIyUZywu8RwJQtJAbS4VCKbyq9FArbILMaZMFWRQZKl4I8lFrMFUSKKv0/U/FsVcMRlnl55KRTBoj5hYzSPMsNS2wsm2BQcoSlOEtvpRKsZz40By7Q9FnBox0LNIWjKx7KNiQXehhLh9gjkt7n4B9bcZvEvuAFjAMQFdBsVRU9VpvOqzBARWZpfaCzTwpe7zGuFfmUWZZF1mR8qSgQKKdE8MZ/AYMbKVJatiua9vRQZrihBlKTcxkzXuD5jE04E+5mBNV0soDrjMdNtkmkopmmX18vlNuePsDxtHG7W8R6aa6NxUwHKwXgjKwfDv9hgdD3vD42G0dnHm4z3uF4k3Ez4SpiTZtU0ODVNx7KeD5/u5Qxd0SNV2qCi0GsDsk38kwk94kzQN/v9AHCV8Z3lphO97MJb8jm2MTYWfeevX/Qfks0AiKKi3lwKLvPfWQB6Fs1r3vb2UiPyN3iQt3/F2lyGU7LNXuwY5byevpTzvlb8PQBkZfgdEDn3BcoG4NU6rtyX1A0uRt2gcxx1gTgPixp9XbWGAlfPKdu6Sv/V6uNNfWDXmoG/fKypf3NaTP/YmB0bc2M2g6OGc51Zxc3tDoJd+LG2Y9hav3O6J2BaxkPFsKI5p2NmVtErLarMHIunpvuSXfUM5emd/fDz934bRGsPPx6jKfSJJ/Aa1YwAFVKENUOxyiRF5Tt0RRvbt5jr1JTK2zvkGzOZlo6CkXPMhDm5tlNrX2KzHJBdZfg5dqr0SgypA+k5eXpOnd5xxdixj7oXfBqes49GmIu89PA9kaz1jmmt9I6d9E7X9rT/wIV1ICj/oqDO32hNfG/cbO9g/Ss+Ts/dOoThqNvB/TDwfc/zPRp6gzD0B/0o7uOwG68GDaFUEliL4DkGYoB7VBGh6qq3vVqK3XjyPyiwc/8ZlS4OxVsZ3yppP2Y7oXEsYOizUwF+P6VyX0RKCYblip69P7YwPsqfLBm/36xNIfrS1LTf9WOe8f8k/5Wxz5YUA+Z1Bj4lV4PQD6+6Me1fDSnuXeFh1AsDykg3Pv33+fF/0WBNR4EUAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6b8dfd33a8d813107f44b1cb13a110df"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Visitor Owner Lookup">3e7bf06ae91813107f44f66d0570e7d9</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>3ff9fd33-e932-41c1-b372-597e1fcdcfdd</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-08 20:32:14</sys_created_on>
+        <sys_id>b63ff937a8d813107f44b1cb13a11076</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-08 20:41:14</sys_updated_on>
+        <ui_id>a916c9f2-9c3e-4b62-ac47-c193d33c2f09</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UXWvbMBT9K8HPiZE/0o+8FUphsDXQjb50RcjSdSoiS54sJ81C/vuubDlNP9aVUhiD+e1e6d57ztHxvdlGUkSzKAdBktPkiGdJlqWEpCd5UhxlRZKKjAEk0TjSrAK8aYEbKzBeMdX6xHZbJJCI6XExOQZSTHJSwqQoSD7JgZ1CmR6nWTmNr7q63Q4rhWxqxTbXoQFm+J1UwoKOZje346hmFmc5sNFs++TIbWqgihWgsPDc8LYC7UafzrHHW3kM1VcDkafE/AyMRehOpU/ikceTkHEE9w60ABxXMtXAOKqYFswZu4lmzraYsMDEXKvN/sad1K5nWrH7Rv7E/jnx90pAajyosA9pUGgQx0gO89pJo/uMY4UalDOqrfRlT8FrCyVrlTvQtm2wH9QesgfRIyy/3pn11TDvQuqOXUCrDGdqHzHnrCxaB41/DlDQiVKxupZ6QWtrVrIrRihVvFAYxKUya5zZyIWOGfe4YxSIxReYP+/S18xKT+ILtsHiXUee/mj93J5GAEw7zh1h2j0UXm24lbU7w8YrCDB342DkYvqaAfjpw3sf9Hww8z1N0iyn6MClZ8cpoWatwVJlzLKtm+funfvj0ef98fus/M2DGV32YN5K5FHxb4gFMz/KBS9PP8zLJ3/JywHRP2bmP1mYpK/usIOX7lzbHNh3beySaoP0vreEZOJMNWbEpQMxMnq7Re6LBdiYtxalcrFuqwLsSzv5/Y3e6X+ocLyDUQ9g/GYlhgYXEpRoXpBm+AHCALoKA/YL/cP+guSIdN//vf6Be/32F91KIKiiCAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b63ff937a8d813107f44b1cb13a11076"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=3e7bf06ae91813107f44f66d0570e7d9"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=3e7bf06ae91813107f44f66d0570e7d9^sys_idNOT IN036ef5b3a8d813107f44b1cb13a110f3,e62f3937a8d813107f44b1cb13a110bf"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">e241ce7ba8d813107f44b1cb13a1106c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Visitor Owner Lookup">3e7bf06ae91813107f44f66d0570e7d9</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-08 20:28:42</sys_created_on>
+        <sys_id>036ef5b3a8d813107f44b1cb13a110f3</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-08 20:59:43</sys_updated_on>
+        <ui_id>11d948e5-0df8-4bf8-a63f-423f7a78a877</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UXWvbMBT9K8bPjvFHnCx5K9sKhXUZTSiMUYwsXyeisqRJctIs5L/vyh9pWFNWyh735nvu1zlXBx982VjVWLOSV8awtfDnPx4CnwmH4ffBF6QGf+5TKUpmmRR5CwT+lvDGJRY7AdrjUj42ytNApS49Zjyold1jWcmM4mR//7ZqumG81NCzUETjLgvanx/+SNm9gpyTAjgOXVrNxBrbWYlRFZEqntGYpskkTaIo+TCOi0laxEmZEiAp1g2NHwdR3pcWCV5V6/YhboZNyNvRiqPAhycLogRcXRFuIPBrIkpipd6fEA2kXAj+DGyYsDjOd8VPhv3C2UmWucIKUCOFLnkK8/6MHUw3klFYKEewQywpeN9DJW9q8bXT4R4AKtJwOzwAIo3BeaAcaceip1QtN3J3Nyy8ZqIV2Ce5pISfImLxDEVjwbiHAQ41DsprohQeJ1dablnbjFzqcM0xCCsud7jUOSwk1BEP8UYkvEb8UwvfE82cilscg80dzYIYRvPWjTjOapRwbM+S/2wcoU5gLyXvroEFhmqm7BXu2ULP+hi8tPKZiw+HIoa4zKbFaApRMRpHFYyKIhqPxkBmUCXTJK2y8K517PF4s/x8+231/aW/3z3nXzh/RrIqi6PssvPHk0vOv+D51+2e/MXu7oHe6PYoiv7b/dzuzOSdbXtt7fJ3u/3BWbvbYDrflECZQSIrh90M/3eX2KMBGD2HdlI/OgnP2PE3efvcTykGAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">ee41ce7ba8d813107f44b1cb13a1106e</block>
+        <comment/>
+        <connected_to>11d948e5-0df8-4bf8-a63f-423f7a78a877</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Visitor Owner Lookup">3e7bf06ae91813107f44f66d0570e7d9</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-08 20:31:57</sys_created_on>
+        <sys_id>e62f3937a8d813107f44b1cb13a110bf</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-08 20:59:43</sys_updated_on>
+        <ui_id>3ff9fd33-e932-41c1-b372-597e1fcdcfdd</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=3e7bf06ae91813107f44f66d0570e7d9"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=3e7bf06ae91813107f44f66d0570e7d9"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3e7bf06ae91813107f44f66d0570e7d9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-04 18:24:00</sys_created_on>
+        <sys_id>d98b746ae91813107f44f66d0570e717</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-04 18:24:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3e7bf06ae91813107f44f66d0570e7d9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-04 18:24:00</sys_created_on>
+        <sys_id>d98b746ae91813107f44f66d0570e72f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-04 18:24:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_3e7bf06ae91813107f44f66d0570e7d9"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_3e7bf06ae91813107f44f66d0570e7d9"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=3e7bf06ae91813107f44f66d0570e7d9"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=3e7bf06ae91813107f44f66d0570e7d9"/>
+</record_update>

@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>owner_found_on_campus</internal_name>
+        <label_cache>[{"name":"trigger.current.owner","label":"Trigger - Record Updated➛Owner Lookups Record➛Owner","reference":"x_1234_parking_c_0_campus_person","reference_display":"Owner","type":"reference","base_type":"reference","parent_table_name":"x_1234_parking_c_0_owner_lookups","column_name":"owner","choices":null,"usedInstances":{},"attributes":null},{"name":"trigger.current.owner.person_type","label":"Trigger - Record Updated➛Owner Lookups Record➛Owner➛Person type","reference":"","reference_display":"Person type","type":"choice","base_type":"choice","parent_table_name":"x_1234_parking_c_0_campus_person","column_name":"person_type","choices":[{"reference":false,"image":"","sequence":0.0,"used":false,"label":"Student","rawLabel":"Student","selected":false,"missing":false,"value":"student","parameters":{"name":"x_1234_parking_c_0_campus_person","dependent_values":[""],"dependent_values_map":{"":"Student"}}},{"reference":false,"image":"","sequence":1.0,"used":false,"label":"Employee","rawLabel":"Employee","selected":false,"missing":false,"value":"employee","parameters":{"name":"x_1234_parking_c_0_campus_person","dependent_values":[""],"dependent_values_map":{"":"Employee"}}},{"reference":false,"image":"","sequence":2.0,"used":false,"label":"Guest","rawLabel":"Guest","selected":false,"missing":false,"value":"guest","parameters":{"name":"x_1234_parking_c_0_campus_person","dependent_values":[""],"dependent_values_map":{"":"Guest"}}}],"usedInstances":{"c9857b8c-4368-42af-a1da-7e9544936f13":["cited_person_type"]},"attributes":null},{"name":"trigger.current.owner.person","label":"Trigger - Record Updated➛Owner Lookups Record➛Owner➛Person","reference":"sys_user","reference_display":"Person","type":"reference","base_type":"reference","parent_table_name":"x_1234_parking_c_0_campus_person","column_name":"person","choices":[{"label":null,"value":null,"order":0.0}],"usedInstances":{"c9857b8c-4368-42af-a1da-7e9544936f13":["cited_to"]},"attributes":null},{"name":"trigger.current.vehicle","label":"Trigger - Record Updated➛Owner Lookups Record➛Vehicle","reference":"x_1234_parking_c_0_vehicle","reference_display":"Vehicle","type":"reference","base_type":"reference","parent_table_name":"x_1234_parking_c_0_owner_lookups","column_name":"vehicle","choices":null,"usedInstances":{"7b22e8f4-9228-4a69-9f81-67e66a392bdc":["record"]},"attributes":null},{"name":"trigger.current.owner_name","label":"Trigger - Record Updated➛Owner Lookups Record➛Owner Name","reference":"","reference_display":"Owner Name","type":"string","base_type":"string","parent_table_name":"x_1234_parking_c_0_owner_lookups","column_name":"owner_name","choices":[{"label":null,"value":null,"order":0.0}],"usedInstances":{"c9857b8c-4368-42af-a1da-7e9544936f13":["cited_to"]},"attributes":null},{"name":"trigger.current","label":"Trigger - Record Updated➛Owner Lookups Record","reference":"x_1234_parking_c_0_owner_lookups","reference_display":"Owner Lookups","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"c9857b8c-4368-42af-a1da-7e9544936f13":["record","cited_to"],"15fd6091-9035-4aeb-ab22-608c254ca825":["record"],"7b22e8f4-9228-4a69-9f81-67e66a392bdc":["owner","record"],"247f8e5e-ba6b-478f-ab1d-5348998e30a7":["record"]},"attributes":{}},{"name":"trigger.current.citation","label":"Trigger - Record Updated➛Owner Lookups Record➛Citation","reference":"x_1234_parking_c_0_citation","reference_display":"Citation","type":"reference","base_type":"reference","parent_table_name":"x_1234_parking_c_0_owner_lookups","column_name":"citation","choices":null,"usedInstances":{"c9857b8c-4368-42af-a1da-7e9544936f13":["record"],"247f8e5e-ba6b-478f-ab1d-5348998e30a7":["record"]},"attributes":null}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Owner found on campus</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-06 14:53:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>818e1a43e51413107f44b9b2c90b0f1d</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>Owner found on campus</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sys_hub_flow_818e1a43e51413107f44b9b2c90b0f1d</sys_update_name>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-08 19:58:47</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>2e87f5f3a89813107f44b1cb13a11079</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=818e1a43e51413107f44b9b2c90b0f1d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=818e1a43e51413107f44b9b2c90b0f1d"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=818e1a43e51413107f44b9b2c90b0f1d"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=818e1a43e51413107f44b9b2c90b0f1d^sys_idNOT INcd8e1a43e51413107f44b9b2c90b0f1f"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>818e1a43e51413107f44b9b2c90b0f1d</id>
+        <name>Owner found on campus</name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-06 14:53:28</sys_created_on>
+        <sys_id>cd8e1a43e51413107f44b9b2c90b0f1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-06 14:53:28</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=cd8e1a43e51413107f44b9b2c90b0f1f"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=818e1a43e51413107f44b9b2c90b0f1d^sys_idNOT IN569e9e43e51413107f44b9b2c90b0fa9,ba9ede43e51413107f44b9b2c90b0f9f,fa9ede43e51413107f44b9b2c90b0f7b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Owner found on campus">818e1a43e51413107f44b9b2c90b0f1d</model>
+        <model_id>818e1a43e51413107f44b9b2c90b0f1d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_818e1a43e51413107f44b9b2c90b0f1d</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-06 14:53:50</sys_created_on>
+        <sys_id>569e9e43e51413107f44b9b2c90b0fa9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-06 15:10:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=569e9e43e51413107f44b9b2c90b0fa9"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Owner found on campus">818e1a43e51413107f44b9b2c90b0f1d</model>
+        <model_id>818e1a43e51413107f44b9b2c90b0f1d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_818e1a43e51413107f44b9b2c90b0f1d</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-06 14:53:52</sys_created_on>
+        <sys_id>ba9ede43e51413107f44b9b2c90b0f9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-06 14:53:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ba9ede43e51413107f44b9b2c90b0f9f"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Owner found on campus">818e1a43e51413107f44b9b2c90b0f1d</model>
+        <model_id>818e1a43e51413107f44b9b2c90b0f1d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_818e1a43e51413107f44b9b2c90b0f1d</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-06 14:53:52</sys_created_on>
+        <sys_id>fa9ede43e51413107f44b9b2c90b0f7b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-06 15:10:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fa9ede43e51413107f44b9b2c90b0f7b"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=818e1a43e51413107f44b9b2c90b0f1d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=818e1a43e51413107f44b9b2c90b0f1d"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=818e1a43e51413107f44b9b2c90b0f1d^sys_idNOT INb06fde47e51413107f44b9b2c90b0f6b"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Owner found on campus">818e1a43e51413107f44b9b2c90b0f1d</flow>
+        <generation_source/>
+        <name>Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-06 14:57:17</sys_created_on>
+        <sys_id>b06fde47e51413107f44b9b2c90b0f6b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-06 15:10:33</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=818e1a43e51413107f44b9b2c90b0f1d^sys_idNOT IN8e20268be51413107f44b9b2c90b0f13,1da0eacbe51413107f44b9b2c90b0f6c,2e61a243e55413107f44b9b2c90b0f4b,2057fdb3a89813107f44b1cb13a110fe"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Owner found on campus">818e1a43e51413107f44b9b2c90b0f1d</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-06 15:00:39</sys_created_on>
+        <sys_id>8e20268be51413107f44b9b2c90b0f13</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-06 15:10:33</sys_updated_on>
+        <ui_id>7b22e8f4-9228-4a69-9f81-67e66a392bdc</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1U24rbMBD9lUXPxthxNuzmrRACfegubEtetouQpUkiKkuuLOfSkH/vSJaz2WvDEiiF6m1Gczln5jD3OyIFGZMhiCy/zke8yItikGWDq2FejooyH4iCAeQkIZpVgJEWuLEC7RVTrXfsds7KxQJsyltrQbt0BUvJFez3GCVkUyu2ncVg9PClVALjyPj+ISE1s1jXgSXj3bMvt62BKlaCwsSJ4W2FxS8+T7DGqZj77Lse9HMSvgfaIlan0jvxy+PJs4TAxoEWgO3mTDWQkIppwZyxWzJ2tkWHBSZutdoeIpZSu45pxTaN/IX1h5mPmwNS43EKB5PGCfXDMZLDbe2k0Z3HsVL1kzOqrfRNR8HPFuasVe5otm2D9aD2kD2IDuH869Ks7/p+U6kDu4hWGc7UwWIOd1m2Dhq/DlAQhlKxupZ6QWtrVjIkI5QqXSg00rkya+zZyIVOGfe4UxwQS6fonwT3jFnpSXzBMpi8D+Tpz9b37WhEwDRwDoRpWBSGNtzK2n3CwiuIMPdJFG15+Z4A+PXjvo9qPgp3Q/NBMaSowB+eHacZjcp9qdvZ4eNj8v3mAVzcdABOBf8k+Q0yUcBPfFG/l2fT79Vf0m9E9I8J+E+yzQbv3q2jTQelNkeSNWsN9nubZYV4eXbD52tH98SsDyobKuzl4KLrlpzMsS8wlaBE8wrpXtqxAV3FBofzfDZ956MsvP9X+oxX+uE3/DtP0lwIAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8e20268be51413107f44b9b2c90b0f13"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Owner found on campus">818e1a43e51413107f44b9b2c90b0f1d</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-06 15:02:46</sys_created_on>
+        <sys_id>1da0eacbe51413107f44b9b2c90b0f6c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-06 19:43:15</sys_updated_on>
+        <ui_id>c9857b8c-4368-42af-a1da-7e9544936f13</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Uy27bMBD8FYNnQZAsx0h8K2oY6KEJkBa5pClBkWubKEWqFOVHDf17lxJlu3kYRpC2KFCfzOXuzszuUPc7IgWZkGQokvQqHfMszbJhkgwvR2k+zvJ0KDIGACQimhWAmSumaqjw3P7BAJcOBHXmS50kmdjtnJWLBdiY19aCdrFZa7BN87XLK8FWRlO3LeFkQXyU2DQIJ2RVKra9+7OofCmVwHsyuX+ISMksDsGBJZPdoytfQRXLQSG5z1AgVweDjm109oz7BjMJSlTPDN3D4NkFALoKAMYKzypNkojAxoEWgJBzpiqISMG0YM7YLZk4W2PAAhM3Wm33GUupHbYlPndTyR+IkY6T9uez54A6OXQZ+yMNK+nCfGkkh5vSSaO7iGO5CjXcqLrQ150Yv0yYs1q5fpkYqSvsB6Un7ql0POeflmZ92+PNpG5FBs7KcKb2J+ZwoXntcEq4G1BQYB9asLKUekFLa1ayLUYqRbxQeIjnyqwRs5ILHTPuecc4JhbPMD5tw3fMSi/iI7bB4qYVT7/XHreTEQjTVnMrmLYrw9SKW1m6d9h4BYFmE4XnNoKTVkgPm7fAcbdHz+2pc9HizLN/7pm82sJTw2s/wsGHae/fM0j31bc968cqgn9F6E6lODbvW3l39N+1v8O1+cUpA/Crw76Peh6cu6HpMBtRdOA3r47ThPbWfWrc94ebV36DPYXBdUfhXPq/FL8gp/8EH8eCgy/ezMGXf8nBgdE/ZuGXjPvwE/F0bkjfCAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1da0eacbe51413107f44b9b2c90b0f6c"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Owner found on campus">818e1a43e51413107f44b9b2c90b0f1d</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-06 15:06:08</sys_created_on>
+        <sys_id>2e61a243e55413107f44b9b2c90b0f4b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-08 19:58:37</sys_updated_on>
+        <ui_id>247f8e5e-ba6b-478f-ab1d-5348998e30a7</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/8WV207jMBCGX6XKdVPl2CTcrRYhIbFFYlluELIce1ysdQ4kTqFb9d13nCZtUyggBLuXntjjf/6ZL75dWZJbJ1bAY84T4TrCdV3HdULXc2OIIWXRNAIvtsZWTjPAnRWwouK4XlDVmMBqpSs5n0M1YU1VQa4nTGqqZZGv17iNy7pUdHnT7cYIu5eK40br5PZubJW0wsQaKutkdfBJL0sgiqag8OBpwZoMs4/OTzHHe0X3p6961YdVmDtwzbvsRJogfjJ63LEFTxpyDniboKqGsZXRnFNdVMttpALKL3O1C9zLXG8qzehTLf9gft8z+wRgaaxzYbsknUO9OYVkcFka/zYRTVPVO1eoJstnmxKMtyBoo/Set02N+aA0mo0IXTUoSPy8Lx6v+vvOZN5W16lVBaNqu6Iam5k2GmrTjkZeoz0XL3YAFLSGZbQsZT4nZVUsZJsYZWaTucLFRKjiEfXUcp5PKDM1TdA9OjnD+GkbvqGVNAX+wDR4eNzd+awljfyVy4cGzk3juetEfuIwO/JC3w4cRu005qlNU0+EQTCNp6lrrVuPyUNjytu41flCWmtbX0k7D7i1ZpUs9TfUuIDOjfW4gyN2X5sz39uN1V7OHSBPxPX8gOCg/zZGMeKQnpDnfHzfffkYJ9dGwmi2kfBe+YPDR8rpSBnEOlC8TwMldv4PKJ2iTyJl0IMvB2XQkQEnLE1TkUJiuyljdhBBbMcejWwIHeYLz3ecSLzJyVt0BK+P197TkRdaCsn6+e75YCGjTpxMeRg6oY9oiyCIAz9K0yRKgiQ6DsnovK4b4KMZJmbwYWS2Dd8+LG+X1J+dDWt6udIOnWrvno4c/3VyNv/vj7ww9bKGhekhZFQqspmpIzQd1HCcrGNJB7hRIYBp4ERIUBxniLRn/sFzNXAducBsW04uXuj1l5O53/AaNOkMICYBEUWVUdPGtpZDdIPEhcj3YjuZeogu+KGdct+3XUQZgILw+Gc8cXd/AeqDIUwBCgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2e61a243e55413107f44b9b2c90b0f4b"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Owner found on campus">818e1a43e51413107f44b9b2c90b0f1d</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-08 19:57:41</sys_created_on>
+        <sys_id>2057fdb3a89813107f44b1cb13a110fe</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-08 19:58:37</sys_updated_on>
+        <ui_id>15fd6091-9035-4aeb-ab22-608c254ca825</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1TXWvbMBT9K0HPIdhxGtq8jYbAoGugLXnpOqNI16moLHn6aJOF/Pdd2bKTha6k0IcV5rf7qXOO77nfEsHJhIyAJ+lFOmZZmmXDJBmej9LlOFumQ55RgJT0iaIlYKcBpg3H+JlKHxLbrTNitQIzYN4YUG63wyoXtpJ0s4hNmGGPQnKsk8n9Q59U1OA+B4ZMtkelUwFJugSJrTctomOEblOFmGvmS8SVizZ5FSensdL7OsUKDgU4adInsHagOCCQgkoLfVJSxanTZkMmznhMGKB8ruSm63gUyjVES7q24he+PEpCXwHIjEURujCPAjXpYkodvcXNzHnT6aUFA9towqGgXrrLw1zTMK+c0KoZcXQp22ktfamuG0VIt+Dgf3iLIKAKPAPyhlZx+6hfblqQM6FqSSJFqRmVXUQd/veldwHOloCEWuOSVpVQq7wy+lnUwwilHKwkBoNC6hd804qVGlAWcA9QVTqYYX5apxfUiEDiG67B4V2f2I29lNTaPRXUMP/pA5KGWKSQ1yrUEuT1JYRhZkTlvuBTzxCB7/rx5JPhmxcG+4OqL90enLx11MF3nyQZz37oFwUmL7RXvElt6t4jA5wy8j6HnIC/dchMgOT2FULRIQ5KxOogbwj+aZK7WOwtYrHzyYcZJR0n9fffLv+uXZZnb50bu9hf18HOvWXWeTrMRjke9VPgy/Ikb1wgtX7y1SuOmYdy76orv88dJ8Bt3XFXn8Hr8FuDHOeuDmd7100hGuPsw3xx/pkcEWl8ekv8zQgPvwE48jJdLAkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2057fdb3a89813107f44b1cb13a110fe"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=818e1a43e51413107f44b9b2c90b0f1d"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=818e1a43e51413107f44b9b2c90b0f1d"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=818e1a43e51413107f44b9b2c90b0f1d"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=818e1a43e51413107f44b9b2c90b0f1d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_818e1a43e51413107f44b9b2c90b0f1d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-06 14:53:53</sys_created_on>
+        <sys_id>8f9ede43e51413107f44b9b2c90b0fcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-06 14:53:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_818e1a43e51413107f44b9b2c90b0f1d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-06 14:53:52</sys_created_on>
+        <sys_id>b69ede43e51413107f44b9b2c90b0f76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-06 14:53:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_818e1a43e51413107f44b9b2c90b0f1d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-06 14:53:52</sys_created_on>
+        <sys_id>f29ede43e51413107f44b9b2c90b0f9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-06 14:53:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_818e1a43e51413107f44b9b2c90b0f1d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_818e1a43e51413107f44b9b2c90b0f1d"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=818e1a43e51413107f44b9b2c90b0f1d"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=818e1a43e51413107f44b9b2c90b0f1d"/>
+</record_update>

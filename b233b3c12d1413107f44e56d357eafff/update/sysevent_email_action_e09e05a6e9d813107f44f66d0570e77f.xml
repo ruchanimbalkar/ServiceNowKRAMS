@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>false</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Targeted Communication" name="Targeted Communication">4a789ea27f3032005f58108c3ffa91af</category>
+        <collection>x_1234_parking_c_0_appeal</collection>
+        <condition table="x_1234_parking_c_0_appeal">decision=cncelled^EQ<item display_value="Cncelled" endquery="false" field="decision" goto="false" newquery="false" operator="=" or="false" value="cncelled"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_digest>false</default_digest>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digest_type>single</digest_type>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><span style="font-size: 12pt;">Hi <em>${appellant_name}.</em></span></p>
+<p><span style="font-size: 12pt;">Your citation ${citation_number} was voided&nbsp; because ${decision_reason}.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 12pt;">Best Regards,</span></p>
+<p><span style="font-size: 12pt;">Campus Safety Team</span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Citation Vioded Notice</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>appellant_email</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Citation ${citation_number} Voided</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-04 19:55:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e09e05a6e9d813107f44f66d0570e77f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Citation Vioded Notice</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sysevent_email_action_e09e05a6e9d813107f44f66d0570e77f</sys_update_name>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-04 20:01:37</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>e09e05a6e9d813107f44f66d0570e77f</id>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-04 19:59:34</sys_created_on>
+        <sys_id>0561d12ee9d813107f44f66d0570e7fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-04 19:59:34</sys_updated_on>
+        <table>sysevent_email_action</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

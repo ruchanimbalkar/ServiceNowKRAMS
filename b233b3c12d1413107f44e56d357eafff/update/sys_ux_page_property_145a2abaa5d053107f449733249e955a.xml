@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>auto_expand_now_alert_message</name>
+        <page display_value="Campus Safety WS">32c3e6baa59053107f449733249e95ea</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-05 21:06:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>145a2abaa5d053107f449733249e955a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>auto_expand_now_alert_message</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sys_ux_page_property_145a2abaa5d053107f449733249e955a</sys_update_name>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-05 21:06:33</sys_updated_on>
+        <type>boolean</type>
+        <unique_name>x_1234_parking_c_0.32c3e6baa59053107f449733249e95ea.root.global.auto_expand_now_alert_message</unique_name>
+        <value>false</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=145a2abaa5d053107f449733249e955a"/>
+</record_update>

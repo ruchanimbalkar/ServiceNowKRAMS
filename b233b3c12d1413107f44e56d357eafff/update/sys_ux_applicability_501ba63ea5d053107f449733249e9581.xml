@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_1234_parking_c_0.Campus Safety Users</api_name>
+        <description/>
+        <name>Campus Safety Users</name>
+        <role_names>x_1234_parking_c_0.admin,x_1234_parking_c_0.director,x_1234_parking_c_0.manager,x_1234_parking_c_0.team</role_names>
+        <roles/>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-05 21:10:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>501ba63ea5d053107f449733249e9581</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Campus Safety Users</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sys_ux_applicability_501ba63ea5d053107f449733249e9581</sys_update_name>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-05 21:10:55</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

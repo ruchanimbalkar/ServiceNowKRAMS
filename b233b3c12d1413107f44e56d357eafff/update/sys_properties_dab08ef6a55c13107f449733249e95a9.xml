@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Min and max value of picture/image attachments per citation.</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_1234_parking_c_0.photos.per.citation</name>
+        <read_roles>x_1234_parking_c_0.admin</read_roles>
+        <suffix>photos.per.citation</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-05 18:07:21</sys_created_on>
+        <sys_id>dab08ef6a55c13107f449733249e95a9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_1234_parking_c_0.photos.per.citation</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sys_properties_dab08ef6a55c13107f449733249e95a9</sys_update_name>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-05 18:28:08</sys_updated_on>
+        <type>integer</type>
+        <value>2</value>
+        <write_roles>x_1234_parking_c_0.admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=dab08ef6a55c13107f449733249e95a9"/>
+</record_update>
