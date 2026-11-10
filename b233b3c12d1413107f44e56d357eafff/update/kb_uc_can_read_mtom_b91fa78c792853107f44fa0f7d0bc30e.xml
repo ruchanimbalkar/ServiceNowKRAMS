@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_can_read_mtom">
+    <kb_uc_can_read_mtom action="INSERT_OR_UPDATE">
+        <kb_knowledge_base display_value="Parking and Citations Knowledge Base">6138b6c4792053107f44fa0f7d0bc385</kb_knowledge_base>
+        <sys_class_name>kb_uc_can_read_mtom</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-09 23:19:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b91fa78c792853107f44fa0f7d0bc30e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Parking and Citations Knowledge Base.Parking Services</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>kb_uc_can_read_mtom_b91fa78c792853107f44fa0f7d0bc30e</sys_update_name>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-09 23:19:27</sys_updated_on>
+        <user_criteria display_value="Parking Services">6da5b90079e013107f44fa0f7d0bc373</user_criteria>
+    </kb_uc_can_read_mtom>
+</record_update>

@@ -7,7 +7,9 @@
         <affected_field_on_event/>
         <category display_value="Targeted Communication" name="Targeted Communication">4a789ea27f3032005f58108c3ffa91af</category>
         <collection>x_1234_parking_c_0_citation</collection>
-        <condition/>
+        <condition table="x_1234_parking_c_0_citation">cited_toISNOTEMPTY^EQ<item endquery="false" field="cited_to" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
         <content_type>text/html</content_type>
         <default_digest>false</default_digest>
         <default_interval/>
@@ -31,26 +33,29 @@
         <exclude_delegates>false</exclude_delegates>
         <force_delivery>false</force_delivery>
         <from/>
-        <generation_type>engine</generation_type>
+        <generation_type>triggered</generation_type>
         <importance/>
         <include_attachments>false</include_attachments>
         <item>event.parm1</item>
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Hi ${cited_to}!</p>
-<p>You have received a citation for ${violation_type}.</p>
-<p>Please pay the fine amount ${fine_amount} as soon as possible.</p>
-<p>If you want to appeal this citation within 14 days after receiving the citation.</p>
+        <message_html><![CDATA[<p><span style="font-size: 12pt;">Hi ${cited_to.person.first_name}!</span></p>
+<p><span style="font-size: 12pt;">You have received a citation ${number} for ${violation_type}.</span></p>
+<p><span style="font-size: 12pt;">Please pay the fine amount ${fine_amount} as soon as possible.</span></p>
+<p><span style="font-size: 12pt;">If you want to appeal this citation within 14 days after receiving the citation.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 12pt;">Sincerely,</span></p>
+<p><span style="font-size: 12pt;">Campus Safety Team</span></p>
 <p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>Citation Notice</name>
+        <name>Citation Issued Notice</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>cited_to</recipient_fields>
-        <recipient_groups name="Student">2d0ef386d5dc13107f448437bb9794b3</recipient_groups>
+        <recipient_fields>cited_to.person</recipient_fields>
+        <recipient_groups/>
         <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
@@ -64,15 +69,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c5ca0896d55053107f448437bb979497</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Citation Notice</sys_name>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Citation Issued Notice</sys_name>
         <sys_overrides/>
         <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
         <sys_policy/>
         <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
         <sys_update_name>sysevent_email_action_c5ca0896d55053107f448437bb979497</sys_update_name>
         <sys_updated_by>ruchan</sys_updated_by>
-        <sys_updated_on>2026-11-03 20:23:50</sys_updated_on>
+        <sys_updated_on>2026-11-10 14:53:47</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

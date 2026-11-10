@@ -7,7 +7,7 @@
         <element label="Appellant name" max_length="40" name="appellant_name" type="string"/>
         <element choice="3" label="Decision" max_length="40" name="decision" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Cncelled" sequence="2" value="cncelled"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="2" value="cancelled"/>
                 <element inactive_on_update="false" label="Upheld" sequence="0" value="upheld"/>
                 <element inactive_on_update="false" label="Reduced" sequence="1" value="reduced"/>
             </choice>
@@ -21,7 +21,7 @@
         <element label="Citation Number" max_length="40" name="citation_number" type="string"/>
         <element label="Applied by" max_length="40" name="applied_by" type="string"/>
         <element label="New Amont" max_length="40" name="new_amont" type="string"/>
-        <element label="Reason" mandatory="true" max_length="40" name="reason" type="string"/>
+        <element label="Reason" mandatory="true" max_length="200" name="reason" type="string"/>
         <element label="Decided by" max_length="40" name="decided_by" type="string"/>
         <element label="Evidence" max_length="40" name="evidence" type="file_attachment"/>
         <element label="Decided on" max_length="40" name="decided_on" type="glide_date_time"/>

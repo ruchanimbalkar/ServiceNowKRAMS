@@ -38,10 +38,9 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p><span style="font-size: 12pt;">Hi ${cited_to.person.first_name}.</span></p>
-<p>&nbsp;</p>
-<p><span style="font-size: 12pt;">You have 3 days before the appeal deadline to file an appeal for the citation ${number}. Your appeal deadline date is ${appeal_deadline}</span></p>
-<p><span style="font-size: 12pt;">Please file an appeal for your citation before ${appeal_deadline}.</span></p>
+        <message_html><![CDATA[<p><span style="font-size: 12pt;">Hi ${cited_to.person.first_name},</span></p>
+<p><span style="font-size: 12pt;">You have 3 days before the appeal deadline to file an appeal for the citation ${number}. Your appeal deadline date is ${appeal_deadline}.</span></p>
+<p><span style="font-size: 12pt;">After the appeal deadline date, the fine is final.</span></p>
 <p>&nbsp;</p>
 <p><span style="font-size: 12pt;">Best regards,</span></p>
 <p><span style="font-size: 12pt;">Campus Safety Team</span></p>]]></message_html>
@@ -66,7 +65,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3f00517ea51413107f449733249e95e8</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Appeal Deadline Reminder</sys_name>
         <sys_overrides/>
         <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
@@ -74,7 +73,7 @@
         <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
         <sys_update_name>sysevent_email_action_3f00517ea51413107f449733249e95e8</sys_update_name>
         <sys_updated_by>ruchan</sys_updated_by>
-        <sys_updated_on>2026-11-06 16:03:22</sys_updated_on>
+        <sys_updated_on>2026-11-10 14:46:40</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

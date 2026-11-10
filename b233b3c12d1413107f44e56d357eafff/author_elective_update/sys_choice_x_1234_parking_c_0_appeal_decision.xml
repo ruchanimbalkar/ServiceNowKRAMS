@@ -58,19 +58,19 @@
             <element>decision</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Cncelled</label>
+            <label>Cancelled</label>
             <language>en</language>
             <name>x_1234_parking_c_0_appeal</name>
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>ruchan</sys_created_by>
-            <sys_created_on>2026-11-02 19:27:26</sys_created_on>
+            <sys_created_on>2026-11-09 18:06:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>ruchan</sys_updated_by>
-            <sys_updated_on>2026-11-02 19:27:26</sys_updated_on>
-            <value>cncelled</value>
+            <sys_updated_on>2026-11-09 18:06:33</sys_updated_on>
+            <value>cancelled</value>
         </sys_choice>
     </sys_choice>
 </record_update>

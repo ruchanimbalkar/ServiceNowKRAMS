@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_can_read_mtom">
+    <kb_uc_can_read_mtom action="DELETE">
+        <kb_knowledge_base display_value="Citation Appeals Knowledge Base">79725748792453107f44fa0f7d0bc3a4</kb_knowledge_base>
+        <sys_class_name>kb_uc_can_read_mtom</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-09 21:17:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>98335f88792453107f44fa0f7d0bc302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Citation Appeals Knowledge Base.Any User</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>kb_uc_can_read_mtom_98335f88792453107f44fa0f7d0bc302</sys_update_name>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-09 21:17:33</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </kb_uc_can_read_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</application>
+        <file_path/>
+        <instance_id>11b399e8971097945382ff671153af6b</instance_id>
+        <instance_name>sya-oct-6371-0004</instance_name>
+        <name>kb_uc_can_read_mtom_98335f88792453107f44fa0f7d0bc302</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_can_read_mtom"><kb_uc_can_read_mtom action="INSERT_OR_UPDATE"><kb_knowledge_base display_value="Citation Appeals Knowledge Base">79725748792453107f44fa0f7d0bc3a4</kb_knowledge_base><sys_class_name>kb_uc_can_read_mtom</sys_class_name><sys_created_by>ruchan</sys_created_by><sys_created_on>2026-11-09 21:17:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>98335f88792453107f44fa0f7d0bc302</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Citation Appeals Knowledge Base.Any User</sys_name><sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package><sys_policy/><sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope><sys_update_name>kb_uc_can_read_mtom_98335f88792453107f44fa0f7d0bc302</sys_update_name><sys_updated_by>ruchan</sys_updated_by><sys_updated_on>2026-11-09 21:17:33</sys_updated_on><user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria></kb_uc_can_read_mtom></record_update>]]></payload>
+        <payload_hash>-498440665</payload_hash>
+        <record_name>Citation Appeals Knowledge Base.Any User</record_name>
+        <reverted_from/>
+        <source>cc1d22b1f19c13107f446e35e74164be</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-09 21:17:33</sys_created_on>
+        <sys_id>dc335f88792453107f44fa0f7d0bc305</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1c22c6b450000001</sys_recorded_at>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-09 21:17:33</sys_updated_on>
+        <type>Who Can Read Knowledge Base</type>
+        <update_guid>9c335f8858245310bb73256541208e04</update_guid>
+        <update_guid_history>9c335f8858245310bb73256541208e04:-498440665</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Citation Appeals Knowledge Base.Any User">d82eafc8792853107f44fa0f7d0bc354</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-09 23:15:15</sys_created_on>
+        <sys_db_object display_value="" name="kb_uc_can_read_mtom">kb_uc_can_read_mtom</sys_db_object>
+        <sys_id>542c59eb35014ac284ce6b8fd5fd79e4</sys_id>
+        <sys_metadata>98335f88792453107f44fa0f7d0bc302</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Citation Appeals Knowledge Base.Any User</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_scope_delete display_value="">262add6e65a2409db2b8906c824ca431</sys_scope_delete>
+        <sys_update_name>kb_uc_can_read_mtom_98335f88792453107f44fa0f7d0bc302</sys_update_name>
+        <sys_update_version display_value="kb_uc_can_read_mtom_98335f88792453107f44fa0f7d0bc302">dc335f88792453107f44fa0f7d0bc305</sys_update_version>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-09 23:15:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
