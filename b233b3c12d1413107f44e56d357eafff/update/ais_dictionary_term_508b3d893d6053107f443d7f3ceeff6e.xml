@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_dictionary_term">
+    <ais_dictionary_term action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <dictionary display_value="x_1234_parking_c_0_parking_synonyms">d73bb5893d6053107f443d7f3ceeffdd</dictionary>
+        <marked_for_deletion>false</marked_for_deletion>
+        <payload>["parking rules", "prevent ticket", "park safely", "parking regulations"]</payload>
+        <state>PUBLISHED</state>
+        <sys_class_name>ais_dictionary_term</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-12 17:29:46</sys_created_on>
+        <sys_id>508b3d893d6053107f443d7f3ceeff6e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>avoid citations</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>ais_dictionary_term_508b3d893d6053107f443d7f3ceeff6e</sys_update_name>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-12 17:30:32</sys_updated_on>
+        <term>avoid citations</term>
+    </ais_dictionary_term>
+</record_update>

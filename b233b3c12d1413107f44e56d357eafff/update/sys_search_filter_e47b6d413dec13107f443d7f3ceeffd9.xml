@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="KRAMS Search Source">50a829893dac13107f443d7f3ceeffe5</ais_search_source>
+        <label>Knowledge</label>
+        <name>KRAMS Search Source</name>
+        <order>100</order>
+        <search_context_config display_value="Virtual Agent Default Search Application">2963a5fa530020103296ddeeff7b129f</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-12 16:18:12</sys_created_on>
+        <sys_id>e47b6d413dec13107f443d7f3ceeffd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KRAMS Search Source</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sys_search_filter_e47b6d413dec13107f443d7f3ceeffd9</sys_update_name>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-12 16:18:12</sys_updated_on>
+    </sys_search_filter>
+</record_update>

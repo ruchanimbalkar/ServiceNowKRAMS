@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_source">
+    <ais_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="kb_knowledge">author=db917bcad55c13107f448437bb979498^ORkb_knowledge_base=6138b6c4792053107f44fa0f7d0bc385^ORkb_knowledge_base=79725748792453107f44fa0f7d0bc3a4<item display_table="sys_user" display_value="Sadie James" endquery="false" field="author" goto="false" newquery="false" operator="=" or="false" value="db917bcad55c13107f448437bb979498"/>
+            <item display_table="kb_knowledge_base" display_value="Parking and Citations Knowledge Base" endquery="false" field="kb_knowledge_base" goto="false" newquery="false" operator="=" or="true" value="6138b6c4792053107f44fa0f7d0bc385"/>
+            <item display_table="kb_knowledge_base" display_value="Appeals Knowledge Base" endquery="false" field="kb_knowledge_base" goto="false" newquery="false" operator="=" or="true" value="79725748792453107f44fa0f7d0bc3a4"/>
+        </condition>
+        <datasource display_value="">kb_knowledge</datasource>
+        <has_dynamic_filters>false</has_dynamic_filters>
+        <name>KRAMS Search Source</name>
+        <sys_class_name>ais_search_source</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-12 16:08:30</sys_created_on>
+        <sys_id>50a829893dac13107f443d7f3ceeffe5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>KRAMS Search Source</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>ais_search_source_50a829893dac13107f443d7f3ceeffe5</sys_update_name>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-12 16:59:13</sys_updated_on>
+    </ais_search_source>
+</record_update>
