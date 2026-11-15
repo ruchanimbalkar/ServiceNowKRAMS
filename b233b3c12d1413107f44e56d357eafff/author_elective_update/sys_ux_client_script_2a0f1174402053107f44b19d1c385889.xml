@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Parking Services | Appeals Director Dashboard">260f5534402053107f44b19d1c385817</macroponent>
+        <name>Open dashboard in new tab</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event}) {
+    api.emit('NAV_ITEM_SELECTED', {
+        route: 'dashboards',
+        title: event.payload.dashboardName,
+        params: {
+            sysId: event.payload.dashboardSysId,
+        },
+        navigationOptions: {
+            navigateExternal: true,
+            target: '_blank',
+        },
+    });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>M.Burgos</sys_created_by>
+        <sys_created_on>2026-11-11 20:45:31</sys_created_on>
+        <sys_id>2a0f1174402053107f44b19d1c385889</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open dashboard in new tab</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sys_ux_client_script_2a0f1174402053107f44b19d1c385889</sys_update_name>
+        <sys_updated_by>M.Burgos</sys_updated_by>
+        <sys_updated_on>2026-11-11 20:45:31</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</application>
+        <file_path/>
+        <instance_id>11b399e8971097945382ff671153af6b</instance_id>
+        <instance_name>sya-oct-6371-0004</instance_name>
+        <name>sys_ux_client_script_2a0f1174402053107f44b19d1c385889</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Parking Services | Appeals Director Dashboard"&gt;260f5534402053107f44b19d1c385817&lt;/macroponent&gt;&lt;name&gt;Open dashboard in new tab&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event}) {
+    api.emit('NAV_ITEM_SELECTED', {
+        route: 'dashboards',
+        title: event.payload.dashboardName,
+        params: {
+            sysId: event.payload.dashboardSysId,
+        },
+        navigationOptions: {
+            navigateExternal: true,
+            target: '_blank',
+        },
+    });
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;M.Burgos&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-11 20:45:31&lt;/sys_created_on&gt;&lt;sys_id&gt;2a0f1174402053107f44b19d1c385889&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Open dashboard in new tab&lt;/sys_name&gt;&lt;sys_package display_value="Parking Citations" source="x_1234_parking_c_0"&gt;b233b3c12d1413107f44e56d357eafff&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Parking Citations"&gt;b233b3c12d1413107f44e56d357eafff&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_2a0f1174402053107f44b19d1c385889&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;M.Burgos&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-11 20:45:31&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-315811528</payload_hash>
+        <record_name>Open dashboard in new tab</record_name>
+        <reverted_from/>
+        <source>7bccae7df15c13107f446e35e74164b2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>M.Burgos</sys_created_by>
+        <sys_created_on>2026-11-11 20:45:31</sys_created_on>
+        <sys_id>b20f1174402053107f44b19d1c38588e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1cc5bd13a0000001</sys_recorded_at>
+        <sys_updated_by>M.Burgos</sys_updated_by>
+        <sys_updated_on>2026-11-11 20:45:31</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>360f11747e2053104acfc1f305b2948d</update_guid>
+        <update_guid_history>360f11747e2053104acfc1f305b2948d:-315811528</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>M.Burgos</sys_created_by>
+        <sys_created_on>2026-11-11 22:37:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>cf27ffed1fe843c2ad023433cd233521</sys_id>
+        <sys_metadata>2a0f1174402053107f44b19d1c385889</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open dashboard in new tab</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_scope_delete display_value="">262add6e65a2409db2b8906c824ca431</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_2a0f1174402053107f44b19d1c385889</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_2a0f1174402053107f44b19d1c385889">b20f1174402053107f44b19d1c38588e</sys_update_version>
+        <sys_updated_by>M.Burgos</sys_updated_by>
+        <sys_updated_on>2026-11-11 22:37:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

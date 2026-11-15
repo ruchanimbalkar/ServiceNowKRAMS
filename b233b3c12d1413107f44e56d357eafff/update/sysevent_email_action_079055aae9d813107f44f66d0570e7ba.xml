@@ -17,7 +17,7 @@
         <digest_from/>
         <digest_html/>
         <digest_reply_to/>
-        <digest_separator_html><![CDATA[<p>Citation Number: ${citation_number}Citation Number: ${citation_number}</p>
+        <digest_separator_html><![CDATA[<p>Citation Number: ${citation.number}Citation Number: ${citation.number}Citation Number: ${citation_number}Citation Number: ${citation_number}</p>
 <hr>
 <p>&nbsp;</p>]]></digest_separator_html>
         <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
@@ -33,19 +33,19 @@
         <exclude_delegates>false</exclude_delegates>
         <force_delivery>false</force_delivery>
         <from/>
-        <generation_type>engine</generation_type>
+        <generation_type>triggered</generation_type>
         <importance/>
         <include_attachments>false</include_attachments>
         <item>event.parm1</item>
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p><span style="font-size: 12pt;">Hi <em>${appellant_name}</em>.</span></p>
-<p><span style="font-size: 12pt;">The decision for your parking citation ${citation_number} has been made. The decision is ${decision}.</span></p>
+        <message_html><![CDATA[<p><span style="font-size: 12pt;">Hi<em> ${applied_by.first_name},</em></span></p>
+<p><span style="font-size: 12pt;">The decision for your appeal ${number} filed for parking citation ${citation.number} has been made. The decision is ${decision}.</span></p>
 <p><span style="font-size: 12pt;">Please take appropriate action if necessary.</span></p>
 <p>&nbsp;</p>
 <p><span style="font-size: 12pt;">Sincerely,</span></p>
-<p><span style="font-size: 12pt;">Campus Safety team.</span></p>]]></message_html>
+<p><span style="font-size: 12pt;">Campus Safety team</span></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Appeal Decision Notification</name>
@@ -59,7 +59,7 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Appeal Decision for Citation ${citation_number}</subject>
+        <subject>Appeal : ${number} Decision for Citation ${citation.number}</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>ruchan</sys_created_by>
@@ -67,17 +67,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>079055aae9d813107f44f66d0570e7ba</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Appeal Decision Notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
         <sys_policy/>
         <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
         <sys_update_name>sysevent_email_action_079055aae9d813107f44f66d0570e7ba</sys_update_name>
-        <sys_updated_by>ruchan</sys_updated_by>
-        <sys_updated_on>2026-11-09 14:57:01</sys_updated_on>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-13 21:10:36</sys_updated_on>
         <sys_version>2</sys_version>
-        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <template display_value="Campus Safety Email Template">df2de715a96453107f440744910c156f</template>
         <type>email</type>
         <weight>0</weight>
     </sysevent_email_action>

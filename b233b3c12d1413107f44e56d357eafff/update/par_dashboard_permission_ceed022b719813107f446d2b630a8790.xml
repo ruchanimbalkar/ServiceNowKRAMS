@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Parking Citations Analytics Dashboard">7a0e3527711813107f446d2b630a8786</dashboard>
+        <group/>
+        <owner>false</owner>
+        <role/>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>M.Burgos</sys_created_by>
+        <sys_created_on>2026-11-08 02:57:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ceed022b719813107f446d2b630a8790</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7a0e3527711813107f446d2b630a8786</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>par_dashboard_permission_ceed022b719813107f446d2b630a8790</sys_update_name>
+        <sys_updated_by>M.Burgos</sys_updated_by>
+        <sys_updated_on>2026-11-08 02:57:53</sys_updated_on>
+        <user display_value="Rucha Nimbalkar">e8d942b1f15813107f446e35e7416466</user>
+    </par_dashboard_permission>
+</record_update>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">430e3527711813107f446d2b630a87a8</canvas>
+        <component display_value="Horizontal bar">85855283b7e03010097cb81cde11a91d</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","chartVariation":"stacked","yAxisPosition":"bottom","yAxisShowGrid":true,"xAxisTitle":"Parking Locations","xAxisWrapLabels":false,"xAxisMaxLabelSize":100,"showClosestSeriesOnHover":true,"xAxisTruncationType":"end","yAxisStyle":"clean","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"showDataLabels":false,"dataLabelPosition":"middle","showStackedValues":"none","showOverlappingLabels":false,"showPercentageOfTotalInTooltip":true,"yAxisHidden":false,"xAxisHidden":false,"colorConfig":{"type":"default"},"newReporting":false,"enableAddZerosAtApi":true,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Parking Lot","sourceType":"table","tableOrViewName":"x_1234_parking_c_0_parking_lot","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzEyMzRfcGFya2luZ19jXzBfcGFya2luZ19sb3QxNzk0MDk5MjAzMDk3","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"lineClamp":1,"headerTitleAlignment":"start","wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"headerTitle":"Citations by Parking Location","headingLevel":2,"description":"Which parking locations have the highest citations activity?","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"metrics":[{"dataSource":"dGFibGV4XzEyMzRfcGFya2luZ19jXzBfcGFya2luZ19sb3QxNzk0MDk5MjAzMDk3","id":"ZEdGaWJHVjRYekV5TXpSZmNHRnlhMmx1WjE5alh6QmZjR0Z5YTJsdVoxOXNiM1F4TnprME1EazVNakF6TURrMzE3OTQwOTkyMDU2MDM=","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzEyMzRfcGFya2luZ19jXzBfcGFya2luZ19sb3QxNzk0MDk5MjAzMDk3","groupByField":"code","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false}],"headerColor":{"themeVariable":"--now-color_alert--info-1","value":"#5eabdf"},"titleColor":{"themeVariable":"--now-color_text--primary","value":"#172b31"},"sortBy":"value","sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":true,"enableCustomEmptyState":false,"componentId":"2iyda675","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"autoAggregatePeriods":false,"showChangeFrom":"previous","useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showExportOptions":true,"showFilterAsSeparateSeries":false,"userInfo":"@context.session.user"}</component_props>
+        <h>23</h>
+        <name/>
+        <required_translations>[{"comment":"","message":"Parking Locations","code":"PAR_DASHBOARD.430e3527711813107f446d2b630a87a8.5b0e3527711813107f446d2b630a87d9"},{"comment":"","message":"Parking Lot","code":"PAR_DASHBOARD.430e3527711813107f446d2b630a87a8.5b0e3527711813107f446d2b630a87d9"},{"comment":"","message":"Citations by Parking Location","code":"PAR_DASHBOARD.430e3527711813107f446d2b630a87a8.5b0e3527711813107f446d2b630a87d9"},{"comment":"","message":"Which parking locations have the highest citations activity?","code":"PAR_DASHBOARD.430e3527711813107f446d2b630a87a8.5b0e3527711813107f446d2b630a87d9"},{"comment":"","message":"No data available.","code":"PAR_DASHBOARD.430e3527711813107f446d2b630a87a8.5b0e3527711813107f446d2b630a87d9"},{"comment":"","message":"There are no scores available for the selected criteria. Contact your admin for more info.","code":"PAR_DASHBOARD.430e3527711813107f446d2b630a87a8.5b0e3527711813107f446d2b630a87d9"}]</required_translations>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>M.Burgos</sys_created_by>
+        <sys_created_on>2026-11-08 01:48:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5b0e3527711813107f446d2b630a87d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>par_dashboard_widget_5b0e3527711813107f446d2b630a87d9</sys_update_name>
+        <sys_updated_by>M.Burgos</sys_updated_by>
+        <sys_updated_on>2026-11-08 01:48:36</sys_updated_on>
+        <visualization/>
+        <w>14</w>
+        <widget_props/>
+        <x>0</x>
+        <y>13</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</application>
+        <file_path/>
+        <instance_id>11b399e8971097945382ff671153af6b</instance_id>
+        <instance_name>sya-oct-6371-0004</instance_name>
+        <name>par_dashboard_widget_5b0e3527711813107f446d2b630a87d9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">430e3527711813107f446d2b630a87a8</canvas><component display_value="Horizontal bar">85855283b7e03010097cb81cde11a91d</component><component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","chartVariation":"stacked","yAxisPosition":"bottom","yAxisShowGrid":true,"xAxisTitle":"Parking Locations","xAxisWrapLabels":false,"xAxisMaxLabelSize":100,"showClosestSeriesOnHover":true,"xAxisTruncationType":"end","yAxisStyle":"clean","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"showDataLabels":false,"dataLabelPosition":"middle","showStackedValues":"none","showOverlappingLabels":false,"showPercentageOfTotalInTooltip":true,"yAxisHidden":false,"xAxisHidden":false,"colorConfig":{"type":"default"},"newReporting":false,"enableAddZerosAtApi":true,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Parking Lot","sourceType":"table","tableOrViewName":"x_1234_parking_c_0_parking_lot","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzEyMzRfcGFya2luZ19jXzBfcGFya2luZ19sb3QxNzk0MDk5MjAzMDk3","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"lineClamp":1,"headerTitleAlignment":"start","wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"headerTitle":"Citations by Parking Location","headingLevel":2,"description":"Which parking locations have the highest citations activity?","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"metrics":[{"dataSource":"dGFibGV4XzEyMzRfcGFya2luZ19jXzBfcGFya2luZ19sb3QxNzk0MDk5MjAzMDk3","id":"ZEdGaWJHVjRYekV5TXpSZmNHRnlhMmx1WjE5alh6QmZjR0Z5YTJsdVoxOXNiM1F4TnprME1EazVNakF6TURrMzE3OTQwOTkyMDU2MDM=","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzEyMzRfcGFya2luZ19jXzBfcGFya2luZ19sb3QxNzk0MDk5MjAzMDk3","groupByField":"code","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false}],"headerColor":{"themeVariable":"--now-color_alert--info-1","value":"#5eabdf"},"titleColor":{"themeVariable":"--now-color_text--primary","value":"#172b31"},"sortBy":"value","sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":true,"enableCustomEmptyState":false,"componentId":"2iyda675","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"autoAggregatePeriods":false,"showChangeFrom":"previous","useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showExportOptions":true,"showFilterAsSeparateSeries":false,"userInfo":"@context.session.user"}</component_props><h>23</h><name/><required_translations>[{"comment":"","message":"Parking Locations","code":"PAR_DASHBOARD.430e3527711813107f446d2b630a87a8.5b0e3527711813107f446d2b630a87d9"},{"comment":"","message":"Parking Lot","code":"PAR_DASHBOARD.430e3527711813107f446d2b630a87a8.5b0e3527711813107f446d2b630a87d9"},{"comment":"","message":"Citations by Parking Location","code":"PAR_DASHBOARD.430e3527711813107f446d2b630a87a8.5b0e3527711813107f446d2b630a87d9"},{"comment":"","message":"Which parking locations have the highest citations activity?","code":"PAR_DASHBOARD.430e3527711813107f446d2b630a87a8.5b0e3527711813107f446d2b630a87d9"},{"comment":"","message":"No data available.","code":"PAR_DASHBOARD.430e3527711813107f446d2b630a87a8.5b0e3527711813107f446d2b630a87d9"},{"comment":"","message":"There are no scores available for the selected criteria. Contact your admin for more info.","code":"PAR_DASHBOARD.430e3527711813107f446d2b630a87a8.5b0e3527711813107f446d2b630a87d9"}]</required_translations><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>M.Burgos</sys_created_by><sys_created_on>2026-11-08 01:48:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5b0e3527711813107f446d2b630a87d9</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package><sys_policy/><sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope><sys_update_name>par_dashboard_widget_5b0e3527711813107f446d2b630a87d9</sys_update_name><sys_updated_by>M.Burgos</sys_updated_by><sys_updated_on>2026-11-08 01:48:36</sys_updated_on><visualization/><w>14</w><widget_props/><x>0</x><y>13</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-749184253</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>7bccae7df15c13107f446e35e74164b2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>M.Burgos</sys_created_by>
+        <sys_created_on>2026-11-08 01:48:36</sys_created_on>
+        <sys_id>d70e3527711813107f446d2b630a87e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1b8d7dc130000001</sys_recorded_at>
+        <sys_updated_by>M.Burgos</sys_updated_by>
+        <sys_updated_on>2026-11-08 01:48:36</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>db0e35271d1813102437997110fe98e7</update_guid>
+        <update_guid_history>db0e35271d1813102437997110fe98e7:-749184253</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">6b0e7527711813107f446d2b630a8760</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>M.Burgos</sys_created_by>
+        <sys_created_on>2026-11-08 01:48:37</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>16df890ab34d4a049c81c0eb47390a59</sys_id>
+        <sys_metadata>5b0e3527711813107f446d2b630a87d9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_scope_delete display_value="">262add6e65a2409db2b8906c824ca431</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_5b0e3527711813107f446d2b630a87d9</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_5b0e3527711813107f446d2b630a87d9">d70e3527711813107f446d2b630a87e8</sys_update_version>
+        <sys_updated_by>M.Burgos</sys_updated_by>
+        <sys_updated_on>2026-11-08 01:48:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>1200</order>
+        <published_ref/>
+        <question display_value="Visitor State">120fe622e91853107f44f66d0570e761</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>adetola</sys_created_by>
+        <sys_created_on>2026-11-10 16:17:26</sys_created_on>
+        <sys_id>3d181b5ca46813107f444c153b1d0e13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HI</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>question_choice_3d181b5ca46813107f444c153b1d0e13</sys_update_name>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-10 16:17:26</sys_updated_on>
+        <text>HI</text>
+        <value>HI</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=3d181b5ca46813107f444c153b1d0e13"/>
+</record_update>

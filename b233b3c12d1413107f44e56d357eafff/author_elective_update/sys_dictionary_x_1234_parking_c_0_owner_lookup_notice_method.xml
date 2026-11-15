@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="notice_method" table="x_1234_parking_c_0_owner_lookup">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>1</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Notice method</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>notice_method</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Choice">choice</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_1234_parking_c_0_owner_lookup</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>abdullah</sys_created_by>
+        <sys_created_on>2026-11-02 19:17:13</sys_created_on>
+        <sys_id>6984baf1f1dc13107f446e35e7416418</sys_id>
+        <sys_name>Notice method</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sys_dictionary_x_1234_parking_c_0_owner_lookup_notice_method</sys_update_name>
+        <sys_updated_by>abdullah</sys_updated_by>
+        <sys_updated_on>2026-11-02 19:17:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</application>
+        <file_path/>
+        <instance_id>11b399e8971097945382ff671153af6b</instance_id>
+        <instance_name>sya-oct-6371-0004</instance_name>
+        <name>sys_dictionary_x_1234_parking_c_0_owner_lookup_notice_method</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="DELETE" element="notice_method" table="x_1234_parking_c_0_owner_lookup"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>1</choice><choice_field/><choice_table/><column_label>Notice method</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>notice_method</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Choice">choice</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_1234_parking_c_0_owner_lookup</name><next_element/><primary>false</primary><read_only>false</read_only><read_only_option/><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>abdullah</sys_created_by><sys_created_on>2026-11-02 19:17:13</sys_created_on><sys_id>6984baf1f1dc13107f446e35e7416418</sys_id><sys_name>Notice method</sys_name><sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package><sys_policy/><sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope><sys_update_name>sys_dictionary_x_1234_parking_c_0_owner_lookup_notice_method</sys_update_name><sys_updated_by>abdullah</sys_updated_by><sys_updated_on>2026-11-02 19:17:15</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>1858730779</payload_hash>
+        <record_name>Owner Lookup.Notice method</record_name>
+        <reverted_from/>
+        <source>f709a639f15c13107f446e35e7416474</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>adetola</sys_created_by>
+        <sys_created_on>2026-11-04 19:12:09</sys_created_on>
+        <sys_id>aa8685e2e99813107f44f66d0570e76e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1a7f9d0c30000001</sys_recorded_at>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-04 19:12:09</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>ae8685e29d981310991901f6af6d266d</update_guid>
+        <update_guid_history>ae8685e29d981310991901f6af6d266d:1858730779,8e84baf188dc1310f8f5d757c1625dee:340140135,bd84baf1cbdc13109701bd0f43d97157:-718583484</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>abdullah</sys_created_by>
+        <sys_created_on>2026-11-04 19:12:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>4388ee7d0fc545689cef89b960fe9331</sys_id>
+        <sys_metadata>6984baf1f1dc13107f446e35e7416418</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notice method</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_parent display_value="">f4de6e75f19c13107f446e35e741648f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_scope_delete display_value="">262add6e65a2409db2b8906c824ca431</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1234_parking_c_0_owner_lookup_notice_method</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1234_parking_c_0_owner_lookup_notice_method">aa8685e2e99813107f44f66d0570e76e</sys_update_version>
+        <sys_updated_by>abdullah</sys_updated_by>
+        <sys_updated_on>2026-11-04 19:12:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

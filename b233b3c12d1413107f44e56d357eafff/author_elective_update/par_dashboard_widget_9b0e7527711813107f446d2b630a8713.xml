@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">430e3527711813107f446d2b630a87a8</canvas>
+        <component display_value="Donut">a2b0596cec6b9d49dd1ff9bf76b5084b</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","showDataLabels":false,"dataLabelsType":"both","truncationType":"end","showRegister":true,"registerPosition":"bottom","registerOrientation":"horizontal","showRegisterOnSameLine":false,"showRegisterValue":false,"legendHorizontalAlignment":"center","legendExpandToFit":false,"showRegisterPercentage":false,"showPercentageOfTotalInTooltip":true,"colorConfig":{"type":"default"},"newReporting":false,"enableAddZerosAtApi":true,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Appeal","sourceType":"table","tableOrViewName":"x_1234_parking_c_0_appeal","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzEyMzRfcGFya2luZ19jXzBfYXBwZWFsMTc5NDA5ODg3Njc0Mw==","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"lineClamp":1,"headerTitleAlignment":"start","wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"headerTitle":"Appeals Status Overview","headingLevel":2,"description":"How many appeals are Pending, Approved, or Denied?","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"metrics":[{"dataSource":"dGFibGV4XzEyMzRfcGFya2luZ19jXzBfYXBwZWFsMTc5NDA5ODg3Njc0Mw==","id":"ZEdGaWJHVjRYekV5TXpSZmNHRnlhMmx1WjE5alh6QmZZWEJ3WldGc01UYzVOREE1T0RnM05qYzBNdz09MTc5NDA5ODg3OTM3Mw==","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzEyMzRfcGFya2luZ19jXzBfYXBwZWFsMTc5NDA5ODg3Njc0Mw==","groupByField":"state","isRange":false,"isChoice":true,"isPaBucket":false}],"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false}],"headerColor":{"value":"#e1616f"},"titleColor":{"themeVariable":"--now-color_text--primary","value":"#172b31"},"sortBy":"value","sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"showTotalValue":true,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"3ik4wlmk","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"autoAggregatePeriods":false,"showChangeFrom":"previous","useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showExportOptions":true,"showFilterAsSeparateSeries":false,"userInfo":"@context.session.user","scoreType":null,"filterPerMetric":[]}</component_props>
+        <h>14</h>
+        <name>Appeals Status </name>
+        <required_translations>[{"comment":"","message":"Appeal","code":"PAR_DASHBOARD.430e3527711813107f446d2b630a87a8.9b0e7527711813107f446d2b630a8713"},{"comment":"","message":"Appeals Status Overview","code":"PAR_DASHBOARD.430e3527711813107f446d2b630a87a8.9b0e7527711813107f446d2b630a8713"},{"comment":"","message":"How many appeals are Pending, Approved, or Denied?","code":"PAR_DASHBOARD.430e3527711813107f446d2b630a87a8.9b0e7527711813107f446d2b630a8713"},{"comment":"","message":"No data available.","code":"PAR_DASHBOARD.430e3527711813107f446d2b630a87a8.9b0e7527711813107f446d2b630a8713"},{"comment":"","message":"There are no scores available for the selected criteria. Contact your admin for more info.","code":"PAR_DASHBOARD.430e3527711813107f446d2b630a87a8.9b0e7527711813107f446d2b630a8713"}]</required_translations>
+        <stored_component display_value="Appeals Status ">f4aacf10a4a413107f444c153b1d0e42</stored_component>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>M.Burgos</sys_created_by>
+        <sys_created_on>2026-11-08 01:48:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9b0e7527711813107f446d2b630a8713</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Appeals Status </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>par_dashboard_widget_9b0e7527711813107f446d2b630a8713</sys_update_name>
+        <sys_updated_by>M.Burgos</sys_updated_by>
+        <sys_updated_on>2026-11-10 15:21:44</sys_updated_on>
+        <visualization/>
+        <w>9</w>
+        <widget_props/>
+        <x>38</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</application>
+        <file_path/>
+        <instance_id>11b399e8971097945382ff671153af6b</instance_id>
+        <instance_name>sya-oct-6371-0004</instance_name>
+        <name>par_dashboard_widget_9b0e7527711813107f446d2b630a8713</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">430e3527711813107f446d2b630a87a8</canvas><component display_value="Donut">a2b0596cec6b9d49dd1ff9bf76b5084b</component><component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","showDataLabels":false,"dataLabelsType":"both","truncationType":"end","showRegister":true,"registerPosition":"bottom","registerOrientation":"horizontal","showRegisterOnSameLine":false,"showRegisterValue":false,"legendHorizontalAlignment":"center","legendExpandToFit":false,"showRegisterPercentage":false,"showPercentageOfTotalInTooltip":true,"colorConfig":{"type":"default"},"newReporting":false,"enableAddZerosAtApi":true,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Appeal","sourceType":"table","tableOrViewName":"x_1234_parking_c_0_appeal","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzEyMzRfcGFya2luZ19jXzBfYXBwZWFsMTc5NDA5ODg3Njc0Mw==","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"lineClamp":1,"headerTitleAlignment":"start","wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"headerTitle":"Appeals Status Overview","headingLevel":2,"description":"How many appeals are Pending, Approved, or Denied?","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"metrics":[{"dataSource":"dGFibGV4XzEyMzRfcGFya2luZ19jXzBfYXBwZWFsMTc5NDA5ODg3Njc0Mw==","id":"ZEdGaWJHVjRYekV5TXpSZmNHRnlhMmx1WjE5alh6QmZZWEJ3WldGc01UYzVOREE1T0RnM05qYzBNdz09MTc5NDA5ODg3OTM3Mw==","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzEyMzRfcGFya2luZ19jXzBfYXBwZWFsMTc5NDA5ODg3Njc0Mw==","groupByField":"state","isRange":false,"isChoice":true,"isPaBucket":false}],"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false}],"headerColor":{"value":"#e1616f"},"titleColor":{"themeVariable":"--now-color_text--primary","value":"#172b31"},"sortBy":"value","sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"showTotalValue":true,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"3ik4wlmk","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"autoAggregatePeriods":false,"showChangeFrom":"previous","useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showExportOptions":true,"showFilterAsSeparateSeries":false,"userInfo":"@context.session.user","scoreType":null,"filterPerMetric":[]}</component_props><h>14</h><name>Appeals Status </name><required_translations>[{"comment":"","message":"Appeal","code":"PAR_DASHBOARD.430e3527711813107f446d2b630a87a8.9b0e7527711813107f446d2b630a8713"},{"comment":"","message":"Appeals Status Overview","code":"PAR_DASHBOARD.430e3527711813107f446d2b630a87a8.9b0e7527711813107f446d2b630a8713"},{"comment":"","message":"How many appeals are Pending, Approved, or Denied?","code":"PAR_DASHBOARD.430e3527711813107f446d2b630a87a8.9b0e7527711813107f446d2b630a8713"},{"comment":"","message":"No data available.","code":"PAR_DASHBOARD.430e3527711813107f446d2b630a87a8.9b0e7527711813107f446d2b630a8713"},{"comment":"","message":"There are no scores available for the selected criteria. Contact your admin for more info.","code":"PAR_DASHBOARD.430e3527711813107f446d2b630a87a8.9b0e7527711813107f446d2b630a8713"}]</required_translations><stored_component display_value="Appeals Status ">f4aacf10a4a413107f444c153b1d0e42</stored_component><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>M.Burgos</sys_created_by><sys_created_on>2026-11-08 01:48:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9b0e7527711813107f446d2b630a8713</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Appeals Status </sys_name><sys_overrides/><sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package><sys_policy/><sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope><sys_update_name>par_dashboard_widget_9b0e7527711813107f446d2b630a8713</sys_update_name><sys_updated_by>M.Burgos</sys_updated_by><sys_updated_on>2026-11-10 15:21:44</sys_updated_on><visualization/><w>9</w><widget_props/><x>38</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-1317373457</payload_hash>
+        <record_name>Appeals Status </record_name>
+        <reverted_from/>
+        <source>7bccae7df15c13107f446e35e74164b2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>M.Burgos</sys_created_by>
+        <sys_created_on>2026-11-10 15:21:44</sys_created_on>
+        <sys_id>7d5bc354a4a413107f444c153b1d0ee8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1c60d04620000001</sys_recorded_at>
+        <sys_updated_by>M.Burgos</sys_updated_by>
+        <sys_updated_on>2026-11-10 15:21:44</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>315bc35467a413104b4f7e3080851be8</update_guid>
+        <update_guid_history>315bc35467a413104b4f7e3080851be8:-1317373457,0f3fbda74f1813107ff5e2c33d5ff543:-1328747342,170e7527a618131004029393104fcb15:-929800775</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Appeals Status ">0a32d69da9e013107f440744910c15b7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>M.Burgos</sys_created_by>
+        <sys_created_on>2026-11-13 13:46:05</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>6e9acaf524d5489ca75d12c8b7969910</sys_id>
+        <sys_metadata>9b0e7527711813107f446d2b630a8713</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Appeals Status </sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_scope_delete display_value="">262add6e65a2409db2b8906c824ca431</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_9b0e7527711813107f446d2b630a8713</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_9b0e7527711813107f446d2b630a8713">7d5bc354a4a413107f444c153b1d0ee8</sys_update_version>
+        <sys_updated_by>M.Burgos</sys_updated_by>
+        <sys_updated_on>2026-11-13 13:46:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Parking Lot</name>
+        <order>100</order>
+        <roles>x_1234_parking_c_0.parking_lot_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>abdullah</sys_created_by>
+        <sys_created_on>2026-11-02 16:51:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9423d2f5f19813107f446e35e741642e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Parking Lot</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sys_app_application_9423d2f5f19813107f446e35e741642e</sys_update_name>
+        <sys_updated_by>abdullah</sys_updated_by>
+        <sys_updated_on>2026-11-02 16:51:19</sys_updated_on>
+        <title>Parking Lot</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</application>
+        <file_path/>
+        <instance_id>11b399e8971097945382ff671153af6b</instance_id>
+        <instance_name>sya-oct-6371-0004</instance_name>
+        <name>sys_app_application_9423d2f5f19813107f446e35e741642e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Parking Lot</name><order>100</order><roles>x_1234_parking_c_0.parking_lot_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>abdullah</sys_created_by><sys_created_on>2026-11-02 16:51:19</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9423d2f5f19813107f446e35e741642e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Parking Lot</sys_name><sys_overrides/><sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package><sys_policy/><sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope><sys_update_name>sys_app_application_9423d2f5f19813107f446e35e741642e</sys_update_name><sys_updated_by>abdullah</sys_updated_by><sys_updated_on>2026-11-02 16:51:19</sys_updated_on><title>Parking Lot</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-1013300598</payload_hash>
+        <record_name>Parking Lot</record_name>
+        <reverted_from/>
+        <source>4f33f3c12d1413107f44e56d357eaf5b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>abdullah</sys_created_by>
+        <sys_created_on>2026-11-02 16:51:20</sys_created_on>
+        <sys_id>9423d2f5f19813107f446e35e7416431</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a19d2c2b560000001</sys_recorded_at>
+        <sys_updated_by>abdullah</sys_updated_by>
+        <sys_updated_on>2026-11-02 16:51:20</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>9823d2f554981310d7e3f24dd7f77f30</update_guid>
+        <update_guid_history>9823d2f554981310d7e3f24dd7f77f30:-1013300598</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Parking Lot">bce46ddad55c53107f448437bb9794cc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>abdullah</sys_created_by>
+        <sys_created_on>2026-11-04 02:46:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>44d35fb2758f468eb14b8c12ca4e5289</sys_id>
+        <sys_metadata>9423d2f5f19813107f446e35e741642e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Parking Lot</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_scope_delete display_value="">262add6e65a2409db2b8906c824ca431</sys_scope_delete>
+        <sys_update_name>sys_app_application_9423d2f5f19813107f446e35e741642e</sys_update_name>
+        <sys_update_version display_value="sys_app_application_9423d2f5f19813107f446e35e741642e">9423d2f5f19813107f446e35e7416431</sys_update_version>
+        <sys_updated_by>abdullah</sys_updated_by>
+        <sys_updated_on>2026-11-04 02:46:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

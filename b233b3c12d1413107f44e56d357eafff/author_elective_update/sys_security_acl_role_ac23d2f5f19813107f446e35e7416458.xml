@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>abdullah</sys_created_by>
+        <sys_created_on>2026-11-02 16:51:20</sys_created_on>
+        <sys_id>ac23d2f5f19813107f446e35e7416458</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1234_parking_c_0_parking_lot.x_1234_parking_c_0.parking_lot_user</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_security_acl display_value="x_1234_parking_c_0_parking_lot">2423d2f5f19813107f446e35e7416454</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ac23d2f5f19813107f446e35e7416458</sys_update_name>
+        <sys_updated_by>abdullah</sys_updated_by>
+        <sys_updated_on>2026-11-02 16:51:20</sys_updated_on>
+        <sys_user_role display_value="x_1234_parking_c_0.parking_lot_user" name="x_1234_parking_c_0.parking_lot_user">9c23d2f5f19813107f446e35e7416415</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</application>
+        <file_path/>
+        <instance_id>11b399e8971097945382ff671153af6b</instance_id>
+        <instance_name>sya-oct-6371-0004</instance_name>
+        <name>sys_security_acl_role_ac23d2f5f19813107f446e35e7416458</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>abdullah</sys_created_by><sys_created_on>2026-11-02 16:51:20</sys_created_on><sys_id>ac23d2f5f19813107f446e35e7416458</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1234_parking_c_0_parking_lot.x_1234_parking_c_0.parking_lot_user</sys_name><sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package><sys_policy/><sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope><sys_security_acl display_value="x_1234_parking_c_0_parking_lot">2423d2f5f19813107f446e35e7416454</sys_security_acl><sys_update_name>sys_security_acl_role_ac23d2f5f19813107f446e35e7416458</sys_update_name><sys_updated_by>abdullah</sys_updated_by><sys_updated_on>2026-11-02 16:51:20</sys_updated_on><sys_user_role display_value="x_1234_parking_c_0.parking_lot_user" name="x_1234_parking_c_0.parking_lot_user">9c23d2f5f19813107f446e35e7416415</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-2126346952</payload_hash>
+        <record_name>x_1234_parking_c_0_parking_lot.x_1234_parking_c_0.parking_lot_user</record_name>
+        <reverted_from/>
+        <source>4f33f3c12d1413107f44e56d357eaf5b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>abdullah</sys_created_by>
+        <sys_created_on>2026-11-02 16:51:20</sys_created_on>
+        <sys_id>6823d2f5f19813107f446e35e741645f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a19d2c2da90000001</sys_recorded_at>
+        <sys_updated_by>abdullah</sys_updated_by>
+        <sys_updated_on>2026-11-02 16:51:20</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>6c23d2f5e0981310ca31c55dd53c075e</update_guid>
+        <update_guid_history>6c23d2f5e0981310ca31c55dd53c075e:-2126346952</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1234_parking_c_0_parking_lot.x_1234_parking_c_0.parking_lot_user">32d2afb7559013107f44b10bf8a5db62</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>abdullah</sys_created_by>
+        <sys_created_on>2026-11-09 03:47:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>31e909e163c64048a432efe7a736cab9</sys_id>
+        <sys_metadata>ac23d2f5f19813107f446e35e7416458</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1234_parking_c_0_parking_lot.x_1234_parking_c_0.parking_lot_user</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_parent display_value="x_1234_parking_c_0_parking_lot">2423d2f5f19813107f446e35e7416454</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_scope_delete display_value="">262add6e65a2409db2b8906c824ca431</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_ac23d2f5f19813107f446e35e7416458</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_ac23d2f5f19813107f446e35e7416458">6823d2f5f19813107f446e35e741645f</sys_update_version>
+        <sys_updated_by>abdullah</sys_updated_by>
+        <sys_updated_on>2026-11-09 03:47:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

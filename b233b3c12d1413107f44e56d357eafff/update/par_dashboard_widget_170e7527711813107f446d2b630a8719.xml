@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">430e3527711813107f446d2b630a87a8</canvas>
+        <component display_value="Line">18ac962264404bcc0039359d184b15f3</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","showDataLabels":false,"disableTooltip":false,"showClosestSeriesOnHover":false,"showXGrid":true,"showDateRangeByDefault":false,"showYGrid":true,"xAxisTitle":"Date","hideYAxis0":false,"yAxis0Title":"Number of Citations","yAxis0Position":"left","hideYAxis1":false,"yAxis1Position":"right","hideYAxis2":false,"yAxis2Position":"right","hideYAxis3":false,"yAxis3Position":"right","hideYAxis4":false,"yAxis4Position":"right","showLegend":false,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"yAxisStyle":"default","lineStrokeWidth":"2","chartVariation":"stacked","showPercentageOfTotalInTooltip":true,"extensionType":"line","showContinuousLine":true,"showMarkers":false,"colorConfig":{"type":"default"},"newReporting":false,"enableAddZerosAtApi":true,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Citation","sourceType":"table","tableOrViewName":"x_1234_parking_c_0_citation","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzEyMzRfcGFya2luZ19jXzBfY2l0YXRpb24xNzk0MDk5NDQ3MzEz","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"lineClamp":1,"headerTitleAlignment":"center","wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"headerTitle":"Citation Activity Over Time","headingLevel":2,"showBorder":true,"bareBorder":false,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":true,"metrics":[{"dataSource":"dGFibGV4XzEyMzRfcGFya2luZ19jXzBfY2l0YXRpb24xNzk0MDk5NDQ3MzEz","id":"ZEdGaWJHVjRYekV5TXpSZmNHRnlhMmx1WjE5alh6QmZZMmwwWVhScGIyNHhOemswTURrNU5EUTNNekV6MTc5NDA5OTQ1MDQ1Nw==","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"headerColor":{"themeVariable":"--now-color_alert--info-1","value":"#5eabdf"},"titleColor":{"themeVariable":"--now-color_text--primary","value":"#172b31"},"trendBy":{"trendByCalendar":"standard","trendByFrequency":"auto","trendByMinuteInterval":null,"trendByFields":[{"field":"sys_created_on","metric":"ZEdGaWJHVjRYekV5TXpSZmNHRnlhMmx1WjE5alh6QmZZMmwwWVhScGIyNHhOemswTURrNU5EUTNNekV6MTc5NDA5OTQ1MDQ1Nw=="}]},"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"elebe1yj","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"showMaximumRange":false,"allowChangeDateRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"autoAggregatePeriods":false,"scoreType":"latest","useCurrentDateForEnd":false,"useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showExportOptions":true,"showFilterAsSeparateSeries":false,"userInfo":"@context.session.user","filterConfigurations":"@state.parFilters","filterPerMetric":[],"sortBy":"","sortByOrder":"","period":null,"showChangeFrom":null,"description":""}</component_props>
+        <h>19</h>
+        <name>City Activity Trends</name>
+        <required_translations>[{"comment":"","message":"Date","code":"PAR_DASHBOARD.430e3527711813107f446d2b630a87a8.170e7527711813107f446d2b630a8719"},{"comment":"","message":"Number of Citations","code":"PAR_DASHBOARD.430e3527711813107f446d2b630a87a8.170e7527711813107f446d2b630a8719"},{"comment":"","message":"Citation","code":"PAR_DASHBOARD.430e3527711813107f446d2b630a87a8.170e7527711813107f446d2b630a8719"},{"comment":"","message":"Citation Activity Over Time","code":"PAR_DASHBOARD.430e3527711813107f446d2b630a87a8.170e7527711813107f446d2b630a8719"},{"comment":"","message":"No data available.","code":"PAR_DASHBOARD.430e3527711813107f446d2b630a87a8.170e7527711813107f446d2b630a8719"},{"comment":"","message":"There are no scores available for the selected criteria. Contact your admin for more info.","code":"PAR_DASHBOARD.430e3527711813107f446d2b630a87a8.170e7527711813107f446d2b630a8719"}]</required_translations>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>M.Burgos</sys_created_by>
+        <sys_created_on>2026-11-08 01:48:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>170e7527711813107f446d2b630a8719</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>City Activity Trends</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>par_dashboard_widget_170e7527711813107f446d2b630a8719</sys_update_name>
+        <sys_updated_by>M.Burgos</sys_updated_by>
+        <sys_updated_on>2026-11-13 14:17:12</sys_updated_on>
+        <visualization/>
+        <w>12</w>
+        <widget_props/>
+        <x>1</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>

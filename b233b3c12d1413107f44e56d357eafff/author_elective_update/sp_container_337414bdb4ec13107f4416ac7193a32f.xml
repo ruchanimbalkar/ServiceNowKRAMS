@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <aria_label/>
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Knowledge Bases - Container 4</name>
+        <order>4</order>
+        <semantic_tag/>
+        <sp_page display_value="copy_of_knowledge_base_1">137498f9b4ec13107f4416ac7193a318</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>abdullah</sys_created_by>
+        <sys_created_on>2026-11-14 17:53:46</sys_created_on>
+        <sys_id>337414bdb4ec13107f4416ac7193a32f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Knowledge Bases - Container 4</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sp_container_337414bdb4ec13107f4416ac7193a32f</sys_update_name>
+        <sys_updated_by>abdullah</sys_updated_by>
+        <sys_updated_on>2026-11-14 17:54:19</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</application>
+        <file_path/>
+        <instance_id>11b399e8971097945382ff671153af6b</instance_id>
+        <instance_name>sya-oct-6371-0004</instance_name>
+        <name>sp_container_337414bdb4ec13107f4416ac7193a32f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><aria_label/><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Knowledge Bases - Container 4</name><order>4</order><semantic_tag/><sp_page display_value="copy_of_knowledge_base_1">137498f9b4ec13107f4416ac7193a318</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>abdullah</sys_created_by><sys_created_on>2026-11-14 17:53:46</sys_created_on><sys_id>337414bdb4ec13107f4416ac7193a32f</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Knowledge Bases - Container 4</sys_name><sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package><sys_policy/><sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope><sys_update_name>sp_container_337414bdb4ec13107f4416ac7193a32f</sys_update_name><sys_updated_by>abdullah</sys_updated_by><sys_updated_on>2026-11-14 17:54:19</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>326076093</payload_hash>
+        <record_name>Knowledge Bases - Container 4</record_name>
+        <reverted_from/>
+        <source>028f22f5f19c13107f446e35e7416476</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>abdullah</sys_created_by>
+        <sys_created_on>2026-11-14 17:54:19</sys_created_on>
+        <sys_id>48a4d4bdb4ec13107f4416ac7193a3f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1db3226b30000001</sys_recorded_at>
+        <sys_updated_by>abdullah</sys_updated_by>
+        <sys_updated_on>2026-11-14 17:54:19</sys_updated_on>
+        <type>Container</type>
+        <update_guid>0ca4d4bd7eec131065c6a9541c7f16f1</update_guid>
+        <update_guid_history>0ca4d4bd7eec131065c6a9541c7f16f1:326076093,bb7414bd3eec13107e54f65c0385a730:-1764917413</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Knowledge Bases - Container 4">8dd8d479b42053107f4416ac7193a32b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>abdullah</sys_created_by>
+        <sys_created_on>2026-11-14 18:12:41</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>253a5c7c96b24e74ba31315e95f239e4</sys_id>
+        <sys_metadata>337414bdb4ec13107f4416ac7193a32f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Knowledge Bases - Container 4</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_scope_delete display_value="">262add6e65a2409db2b8906c824ca431</sys_scope_delete>
+        <sys_update_name>sp_container_337414bdb4ec13107f4416ac7193a32f</sys_update_name>
+        <sys_update_version display_value="sp_container_337414bdb4ec13107f4416ac7193a32f">48a4d4bdb4ec13107f4416ac7193a3f2</sys_update_version>
+        <sys_updated_by>abdullah</sys_updated_by>
+        <sys_updated_on>2026-11-14 18:12:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

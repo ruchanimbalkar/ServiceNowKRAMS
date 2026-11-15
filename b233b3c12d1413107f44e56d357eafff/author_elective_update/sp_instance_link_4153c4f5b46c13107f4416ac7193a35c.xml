@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <advanced_placeholder_dimensions>false</advanced_placeholder_dimensions>
+        <async_load>false</async_load>
+        <async_load_device_type>desktop,tablet,mobile</async_load_device_type>
+        <async_load_trigger>viewport</async_load_trigger>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <glyph>book</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>4</order>
+        <placeholder_dimensions>{&#13;	"mobile": {&#13;		"height": "250px",&#13;		"width": "100%"&#13;	},&#13;	"desktop": {&#13;		"height": "250px",&#13;		"width": "100%"&#13;	},&#13;	"tablet": {&#13;		"height": "250px",&#13;		"width": "100%"&#13;	}&#13;}</placeholder_dimensions>
+        <placeholder_dimensions_script><![CDATA[function evaluateConfig(options) { return {	"mobile": {		"height": "250px",		"width": "100%"	},	"desktop": {		"height": "250px",		"width": "100%"	},	"tablet": {		"height": "250px",		"width": "100%"	}}; }]]></placeholder_dimensions_script>
+        <placeholder_template>&lt;!-- 
+	AngularJS template with configurable options.
+	Use the `options` object to control dynamic behavior.
+	Example: Display an element when max row count is 10:
+	&lt;div ng-if="options.maxRowCount === 10"&gt;&lt;/div&gt;
+	The `skeleton-container` class is used for loading placeholders.
+--&gt;
+	&lt;div class="skeleton-container"&gt;
+	&lt;!-- Header Skeleton --&gt;
+	&lt;div class="skeleton-box skeleton-header"&gt;&lt;/div&gt;
+	&lt;!-- Body Skeleton --&gt;
+	&lt;div class="skeleton-box skeleton-line"&gt;&lt;/div&gt;
+	&lt;div class="skeleton-box skeleton-line small"&gt;&lt;/div&gt;
+	&lt;div class="skeleton-box skeleton-line medium"&gt;&lt;/div&gt;
+&lt;/div&gt;</placeholder_template>
+        <preserve_placeholder_size>false</preserve_placeholder_size>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>Browse and search for articles, rate, or submit feedback.</short_description>
+        <size>md</size>
+        <sp_column display_value="1">8ca72b95a92453107f440744910c1518</sp_column>
+        <sp_page display_value="knowledge_base">8a9ba834402813107f44b19d1c385867</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>abdullah</sys_created_by>
+        <sys_created_on>2026-11-14 16:38:45</sys_created_on>
+        <sys_id>4153c4f5b46c13107f4416ac7193a35c</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Knowledge Base</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sp_instance_link_4153c4f5b46c13107f4416ac7193a35c</sys_update_name>
+        <sys_updated_by>abdullah</sys_updated_by>
+        <sys_updated_on>2026-11-14 16:45:53</sys_updated_on>
+        <title>Knowledge Base</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=4153c4f5b46c13107f4416ac7193a35c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</application>
+        <file_path/>
+        <instance_id>11b399e8971097945382ff671153af6b</instance_id>
+        <instance_name>sya-oct-6371-0004</instance_name>
+        <name>sp_instance_link_4153c4f5b46c13107f4416ac7193a35c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_placeholder_dimensions&gt;false&lt;/advanced_placeholder_dimensions&gt;&lt;async_load&gt;false&lt;/async_load&gt;&lt;async_load_device_type&gt;desktop,tablet,mobile&lt;/async_load_device_type&gt;&lt;async_load_trigger&gt;viewport&lt;/async_load_trigger&gt;&lt;class_name/&gt;&lt;color&gt;primary&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;book&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;4&lt;/order&gt;&lt;placeholder_dimensions&gt;{&amp;#13;	"mobile": {&amp;#13;		"height": "250px",&amp;#13;		"width": "100%"&amp;#13;	},&amp;#13;	"desktop": {&amp;#13;		"height": "250px",&amp;#13;		"width": "100%"&amp;#13;	},&amp;#13;	"tablet": {&amp;#13;		"height": "250px",&amp;#13;		"width": "100%"&amp;#13;	}&amp;#13;}&lt;/placeholder_dimensions&gt;&lt;placeholder_dimensions_script&gt;&lt;![CDATA[function evaluateConfig(options) { return {	"mobile": {		"height": "250px",		"width": "100%"	},	"desktop": {		"height": "250px",		"width": "100%"	},	"tablet": {		"height": "250px",		"width": "100%"	}}; }]]&gt;&lt;/placeholder_dimensions_script&gt;&lt;placeholder_template&gt;&amp;lt;!-- 
+	AngularJS template with configurable options.
+	Use the `options` object to control dynamic behavior.
+	Example: Display an element when max row count is 10:
+	&amp;lt;div ng-if="options.maxRowCount === 10"&amp;gt;&amp;lt;/div&amp;gt;
+	The `skeleton-container` class is used for loading placeholders.
+--&amp;gt;
+	&amp;lt;div class="skeleton-container"&amp;gt;
+	&amp;lt;!-- Header Skeleton --&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-header"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;!-- Body Skeleton --&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line small"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line medium"&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;&lt;/placeholder_template&gt;&lt;preserve_placeholder_size&gt;false&lt;/preserve_placeholder_size&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description&gt;Browse and search for articles, rate, or submit feedback.&lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;8ca72b95a92453107f440744910c1518&lt;/sp_column&gt;&lt;sp_page display_value="knowledge_base"&gt;8a9ba834402813107f44b19d1c385867&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;abdullah&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 16:38:45&lt;/sys_created_on&gt;&lt;sys_id&gt;4153c4f5b46c13107f4416ac7193a35c&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;Knowledge Base&lt;/sys_name&gt;&lt;sys_package display_value="Parking Citations" source="x_1234_parking_c_0"&gt;b233b3c12d1413107f44e56d357eafff&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Parking Citations"&gt;b233b3c12d1413107f44e56d357eafff&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_4153c4f5b46c13107f4416ac7193a35c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;abdullah&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 16:45:53&lt;/sys_updated_on&gt;&lt;title&gt;Knowledge Base&lt;/title&gt;&lt;type&gt;page&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=4153c4f5b46c13107f4416ac7193a35c"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2012948215</payload_hash>
+        <record_name>Knowledge Base</record_name>
+        <reverted_from/>
+        <source>028f22f5f19c13107f446e35e7416476</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>abdullah</sys_created_by>
+        <sys_created_on>2026-11-14 16:45:53</sys_created_on>
+        <sys_id>a1f400f9b46c13107f4416ac7193a30b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1daf37ebe0000001</sys_recorded_at>
+        <sys_updated_by>abdullah</sys_updated_by>
+        <sys_updated_on>2026-11-14 16:45:53</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>a5f400f9d06c13106c10f891fc411a0a</update_guid>
+        <update_guid_history>a5f400f9d06c13106c10f891fc411a0a:-2012948215,63e48cb99d6c1310bd83656ab7213efc:-668326456,cda444b9fc6c131079bbde62f0c2f72a:-2012948215,88748879436c131021c36bbef3f0429f:-668326456,09344479156c1310444d4803795066fb:293680188,a414c0358a6c13103b006b558f12e07b:1644284029,c3e38839836c1310223f2b8ac596388a:-447080931,92c3c439eb6c1310377cc3047aa58615:1270524475,0f7388f57e6c13103551d505cef886b5:-1837508910,8153c4f51a6c1310bde7ab2967ced55e:1341958359</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Knowledge Base">053508f9b46c13107f4416ac7193a328</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>abdullah</sys_created_by>
+        <sys_created_on>2026-11-14 16:46:56</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>29e8aaf027fd4188aab47fa62f901440</sys_id>
+        <sys_metadata>4153c4f5b46c13107f4416ac7193a35c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Knowledge Base</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_scope_delete display_value="">262add6e65a2409db2b8906c824ca431</sys_scope_delete>
+        <sys_update_name>sp_instance_link_4153c4f5b46c13107f4416ac7193a35c</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_4153c4f5b46c13107f4416ac7193a35c">a1f400f9b46c13107f4416ac7193a30b</sys_update_version>
+        <sys_updated_by>abdullah</sys_updated_by>
+        <sys_updated_on>2026-11-14 16:46:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

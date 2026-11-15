@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Submit Parking Citation">2e0664caf19c53107f446e35e74164a4</catalog_item>
+        <catalog_variable>IO:01449386d55813107f448437bb979495</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>abdullah</sys_created_by>
+        <sys_created_on>2026-11-03 19:08:50</sys_created_on>
+        <sys_id>883c7306d5dc13107f448437bb9794b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>license_plate_state</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_883c7306d5dc13107f448437bb9794b9</sys_update_name>
+        <sys_updated_by>abdullah</sys_updated_by>
+        <sys_updated_on>2026-11-03 19:08:50</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show License Plate details for Visitor">5a23bf8ed55c13107f448437bb979444</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>license_plate_state</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=883c7306d5dc13107f448437bb9794b9"/>
+</record_update>

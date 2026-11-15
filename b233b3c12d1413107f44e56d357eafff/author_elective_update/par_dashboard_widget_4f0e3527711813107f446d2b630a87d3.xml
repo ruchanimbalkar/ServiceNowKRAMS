@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">430e3527711813107f446d2b630a87a8</canvas>
+        <component display_value="Heading">1f6e0643eca7a637e36bd7833549ec9e</component>
+        <component_props>{"variant":"title-tertiary","label":"Centralized oversight of parking citations, violation trends, appeals, and service inquiries to support informed decision-making and campus safety operations.","wontWrap":false,"hasNoMargin":false,"level":"1","align":"start","showBorder":true,"bareBorder":false,"showHeader":true,"headerTitle":" Parking Operations | Management Dashboard","headingLevel":1,"headerTitleAlignment":"start","description":"","headerColor":{"themeVariable":"--now-color_alert--info-1","value":"#5eabdf"},"titleColor":{"themeVariable":"--now-color_text--primary","value":"#172b31"}}</component_props>
+        <h>13</h>
+        <name/>
+        <required_translations>[{"comment":"","message":"Centralized oversight of parking citations, violation trends, appeals, and service inquiries to support informed decision-making and campus safety operations.","code":"PAR_DASHBOARD.430e3527711813107f446d2b630a87a8.4f0e3527711813107f446d2b630a87d3"}]</required_translations>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>M.Burgos</sys_created_by>
+        <sys_created_on>2026-11-08 01:48:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4f0e3527711813107f446d2b630a87d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>par_dashboard_widget_4f0e3527711813107f446d2b630a87d3</sys_update_name>
+        <sys_updated_by>M.Burgos</sys_updated_by>
+        <sys_updated_on>2026-11-08 01:48:36</sys_updated_on>
+        <visualization/>
+        <w>14</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</application>
+        <file_path/>
+        <instance_id>11b399e8971097945382ff671153af6b</instance_id>
+        <instance_name>sya-oct-6371-0004</instance_name>
+        <name>par_dashboard_widget_4f0e3527711813107f446d2b630a87d3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">430e3527711813107f446d2b630a87a8</canvas><component display_value="Heading">1f6e0643eca7a637e36bd7833549ec9e</component><component_props>{"variant":"title-tertiary","label":"Centralized oversight of parking citations, violation trends, appeals, and service inquiries to support informed decision-making and campus safety operations.","wontWrap":false,"hasNoMargin":false,"level":"1","align":"start","showBorder":true,"bareBorder":false,"showHeader":true,"headerTitle":" Parking Operations | Management Dashboard","headingLevel":1,"headerTitleAlignment":"start","description":"","headerColor":{"themeVariable":"--now-color_alert--info-1","value":"#5eabdf"},"titleColor":{"themeVariable":"--now-color_text--primary","value":"#172b31"}}</component_props><h>13</h><name/><required_translations>[{"comment":"","message":"Centralized oversight of parking citations, violation trends, appeals, and service inquiries to support informed decision-making and campus safety operations.","code":"PAR_DASHBOARD.430e3527711813107f446d2b630a87a8.4f0e3527711813107f446d2b630a87d3"}]</required_translations><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>M.Burgos</sys_created_by><sys_created_on>2026-11-08 01:48:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4f0e3527711813107f446d2b630a87d3</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package><sys_policy/><sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope><sys_update_name>par_dashboard_widget_4f0e3527711813107f446d2b630a87d3</sys_update_name><sys_updated_by>M.Burgos</sys_updated_by><sys_updated_on>2026-11-08 01:48:36</sys_updated_on><visualization/><w>14</w><widget_props/><x>0</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-1428232733</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>7bccae7df15c13107f446e35e74164b2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>M.Burgos</sys_created_by>
+        <sys_created_on>2026-11-08 01:48:36</sys_created_on>
+        <sys_id>170e3527711813107f446d2b630a87d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1b8d7dbc50000001</sys_recorded_at>
+        <sys_updated_by>M.Burgos</sys_updated_by>
+        <sys_updated_on>2026-11-08 01:48:36</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>1b0e3527b6181310b139f0d016b564d5</update_guid>
+        <update_guid_history>1b0e3527b6181310b139f0d016b564d5:-1428232733</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">630e7527711813107f446d2b630a8757</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>M.Burgos</sys_created_by>
+        <sys_created_on>2026-11-08 01:48:37</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>30c250d58d0f4e78b35db6127c0b4f04</sys_id>
+        <sys_metadata>4f0e3527711813107f446d2b630a87d3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_scope_delete display_value="">262add6e65a2409db2b8906c824ca431</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_4f0e3527711813107f446d2b630a87d3</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_4f0e3527711813107f446d2b630a87d3">170e3527711813107f446d2b630a87d6</sys_update_version>
+        <sys_updated_by>M.Burgos</sys_updated_by>
+        <sys_updated_on>2026-11-08 01:48:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -3,17 +3,92 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_created_on</element>
-            <list_id display_value="x_1234_parking_c_0_campus_person" element="NULL" name="x_1234_parking_c_0_campus_person" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6d83d239f19813107f446e35e7416413</list_id>
+            <list_id display_value="x_1234_parking_c_0_campus_person" element="NULL" name="x_1234_parking_c_0_campus_person" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4ea669ded55c53107f448437bb9794d1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>adetola</sys_created_by>
-            <sys_created_on>2026-11-02 16:53:03</sys_created_on>
-            <sys_id>ed83d239f19813107f446e35e7416414</sys_id>
+            <sys_created_on>2026-11-04 02:54:00</sys_created_on>
+            <sys_id>4aa669ded55c53107f448437bb9794d2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>adetola</sys_updated_by>
-            <sys_updated_on>2026-11-02 16:53:03</sys_updated_on>
+            <sys_updated_on>2026-11-04 02:54:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>person</element>
+            <list_id display_value="x_1234_parking_c_0_campus_person" element="NULL" name="x_1234_parking_c_0_campus_person" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4ea669ded55c53107f448437bb9794d1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>adetola</sys_created_by>
+            <sys_created_on>2026-11-04 02:54:00</sys_created_on>
+            <sys_id>cea669ded55c53107f448437bb9794d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>adetola</sys_updated_by>
+            <sys_updated_on>2026-11-04 02:54:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>person_type</element>
+            <list_id display_value="x_1234_parking_c_0_campus_person" element="NULL" name="x_1234_parking_c_0_campus_person" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4ea669ded55c53107f448437bb9794d1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>adetola</sys_created_by>
+            <sys_created_on>2026-11-04 02:54:00</sys_created_on>
+            <sys_id>46a669ded55c53107f448437bb9794d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>adetola</sys_updated_by>
+            <sys_updated_on>2026-11-04 02:54:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>student_id</element>
+            <list_id display_value="x_1234_parking_c_0_campus_person" element="NULL" name="x_1234_parking_c_0_campus_person" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4ea669ded55c53107f448437bb9794d1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>adetola</sys_created_by>
+            <sys_created_on>2026-11-04 02:54:00</sys_created_on>
+            <sys_id>caa669ded55c53107f448437bb9794d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>adetola</sys_updated_by>
+            <sys_updated_on>2026-11-04 02:54:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>person.email</element>
+            <list_id display_value="x_1234_parking_c_0_campus_person" element="NULL" name="x_1234_parking_c_0_campus_person" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4ea669ded55c53107f448437bb9794d1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>adetola</sys_created_by>
+            <sys_created_on>2026-11-04 02:54:00</sys_created_on>
+            <sys_id>42a669ded55c53107f448437bb9794d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>adetola</sys_updated_by>
+            <sys_updated_on>2026-11-04 02:54:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>person.employee_number</element>
+            <list_id display_value="x_1234_parking_c_0_campus_person" element="NULL" name="x_1234_parking_c_0_campus_person" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4ea669ded55c53107f448437bb9794d1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>adetola</sys_created_by>
+            <sys_created_on>2026-11-04 02:54:00</sys_created_on>
+            <sys_id>c6a669ded55c53107f448437bb9794d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>adetola</sys_updated_by>
+            <sys_updated_on>2026-11-04 02:54:00</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -27,10 +102,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>adetola</sys_created_by>
-            <sys_created_on>2026-11-02 16:53:03</sys_created_on>
+            <sys_created_on>2026-11-04 02:54:00</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>6d83d239f19813107f446e35e7416413</sys_id>
+            <sys_id>4ea669ded55c53107f448437bb9794d1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1234_parking_c_0_campus_person</sys_name>
             <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
@@ -38,7 +113,7 @@
             <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
             <sys_update_name>sys_ui_list_x_1234_parking_c_0_campus_person_null</sys_update_name>
             <sys_updated_by>adetola</sys_updated_by>
-            <sys_updated_on>2026-11-02 16:53:03</sys_updated_on>
+            <sys_updated_on>2026-11-04 02:54:00</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

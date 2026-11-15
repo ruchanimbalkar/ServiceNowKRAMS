@@ -5,7 +5,7 @@
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>1</choice>
+        <choice>3</choice>
         <choice_field/>
         <choice_table/>
         <column_label>Code</column_label>
@@ -28,7 +28,7 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="Choice">choice</internal_type>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>40</max_length>
         <name>x_1234_parking_c_0_violation_type</name>
         <next_element/>
@@ -53,8 +53,8 @@
         <sys_policy/>
         <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
         <sys_update_name>sys_dictionary_x_1234_parking_c_0_violation_type_code</sys_update_name>
-        <sys_updated_by>ruchan</sys_updated_by>
-        <sys_updated_on>2026-11-02 17:54:07</sys_updated_on>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-02 19:33:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

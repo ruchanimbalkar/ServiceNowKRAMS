@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>ea8d1291a92813107f440744910c15fa</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
+        <path>parking-services-workspace</path>
+        <root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>M.Burgos</sys_created_by>
+        <sys_created_on>2026-11-13 14:35:32</sys_created_on>
+        <sys_id>aa8d9291a92813107f440744910c1574</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Parking Services Workspace</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sys_ux_page_registry_aa8d9291a92813107f440744910c1574</sys_update_name>
+        <sys_updated_by>M.Burgos</sys_updated_by>
+        <sys_updated_on>2026-11-13 14:35:32</sys_updated_on>
+        <title>Parking Services Workspace</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</application>
+        <file_path/>
+        <instance_id>11b399e8971097945382ff671153af6b</instance_id>
+        <instance_name>sya-oct-6371-0004</instance_name>
+        <name>sys_ux_page_registry_aa8d9291a92813107f440744910c1574</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>ea8d1291a92813107f440744910c15fa</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app><path>parking-services-workspace</path><root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>M.Burgos</sys_created_by><sys_created_on>2026-11-13 14:35:32</sys_created_on><sys_id>aa8d9291a92813107f440744910c1574</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Parking Services Workspace</sys_name><sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package><sys_policy/><sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope><sys_update_name>sys_ux_page_registry_aa8d9291a92813107f440744910c1574</sys_update_name><sys_updated_by>M.Burgos</sys_updated_by><sys_updated_on>2026-11-13 14:35:32</sys_updated_on><title>Parking Services Workspace</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>-1739736116</payload_hash>
+        <record_name>Parking Services Workspace</record_name>
+        <reverted_from/>
+        <source>7bccae7df15c13107f446e35e74164b2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>M.Burgos</sys_created_by>
+        <sys_created_on>2026-11-13 14:35:33</sys_created_on>
+        <sys_id>e68d9291a92813107f440744910c1579</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1d555cf280000001</sys_recorded_at>
+        <sys_updated_by>M.Burgos</sys_updated_by>
+        <sys_updated_on>2026-11-13 14:35:33</sys_updated_on>
+        <type>UX Application</type>
+        <update_guid>e68d92911128131055732a5e073d2978</update_guid>
+        <update_guid_history>e68d92911128131055732a5e073d2978:-1739736116</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>M.Burgos</sys_created_by>
+        <sys_created_on>2026-11-13 18:40:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>1a2074fd10b545809b7e63868d8f6100</sys_id>
+        <sys_metadata>aa8d9291a92813107f440744910c1574</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Parking Services Workspace</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_scope_delete display_value="">262add6e65a2409db2b8906c824ca431</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_aa8d9291a92813107f440744910c1574</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_aa8d9291a92813107f440744910c1574">e68d9291a92813107f440744910c1579</sys_update_version>
+        <sys_updated_by>M.Burgos</sys_updated_by>
+        <sys_updated_on>2026-11-13 18:40:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

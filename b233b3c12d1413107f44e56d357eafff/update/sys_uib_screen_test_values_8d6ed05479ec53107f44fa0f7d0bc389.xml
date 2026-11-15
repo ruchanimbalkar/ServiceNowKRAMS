@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent/>
+        <macroponent_config>{
+    "sysId": "b233b3c12d1413107f44e56d357eafff",
+    "tabSysId": null,
+    "filter": null,
+    "edit": null,
+    "element": null
+}</macroponent_config>
+        <screen display_value="Parking Services | Appeals Director Dashboard">cd6ed05479ec53107f44fa0f7d0bc384</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>M.Burgos</sys_created_by>
+        <sys_created_on>2026-11-10 02:46:06</sys_created_on>
+        <sys_id>8d6ed05479ec53107f44fa0f7d0bc389</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_8d6ed05479ec53107f44fa0f7d0bc389</sys_update_name>
+        <sys_updated_by>M.Burgos</sys_updated_by>
+        <sys_updated_on>2026-11-10 03:14:46</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

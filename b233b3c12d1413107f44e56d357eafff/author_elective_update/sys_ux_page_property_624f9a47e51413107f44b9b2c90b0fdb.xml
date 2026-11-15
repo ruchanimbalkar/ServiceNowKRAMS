@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_footer</name>
+        <page display_value="Parking Citations Workspace">4a3f9a83e51413107f44b9b2c90b0f4e</page>
+        <required_translations>[ ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>adetola</sys_created_by>
+        <sys_created_on>2026-11-06 14:56:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>624f9a47e51413107f44b9b2c90b0fdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_footer</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sys_ux_page_property_624f9a47e51413107f44b9b2c90b0fdb</sys_update_name>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-06 14:56:51</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1234_parking_c_0.4a3f9a83e51413107f44b9b2c90b0f4e.root.global.chrome_footer</unique_name>
+        <value>{
+    "public_page": {
+        "enable_footer_topbar": false,
+        "footer_topbar_options": {},
+        "enable_footer_bar": false,
+        "footer_bar_options": {}
+    }
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=624f9a47e51413107f44b9b2c90b0fdb"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</application>
+        <file_path/>
+        <instance_id>11b399e8971097945382ff671153af6b</instance_id>
+        <instance_name>sya-oct-6371-0004</instance_name>
+        <name>sys_ux_page_property_624f9a47e51413107f44b9b2c90b0fdb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_footer</name><page display_value="Parking Citations Workspace">4a3f9a83e51413107f44b9b2c90b0f4e</page><required_translations>[ ]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>adetola</sys_created_by><sys_created_on>2026-11-06 14:56:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>624f9a47e51413107f44b9b2c90b0fdb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_footer</sys_name><sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package><sys_policy/><sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope><sys_update_name>sys_ux_page_property_624f9a47e51413107f44b9b2c90b0fdb</sys_update_name><sys_updated_by>adetola</sys_updated_by><sys_updated_on>2026-11-06 14:56:51</sys_updated_on><type>json</type><unique_name>x_1234_parking_c_0.4a3f9a83e51413107f44b9b2c90b0f4e.root.global.chrome_footer</unique_name><value>{
+    "public_page": {
+        "enable_footer_topbar": false,
+        "footer_topbar_options": {},
+        "enable_footer_bar": false,
+        "footer_bar_options": {}
+    }
+}</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=624f9a47e51413107f44b9b2c90b0fdb"/></record_update>]]></payload>
+        <payload_hash>-484408321</payload_hash>
+        <record_name>chrome_footer</record_name>
+        <reverted_from/>
+        <source>f709a639f15c13107f446e35e7416474</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>adetola</sys_created_by>
+        <sys_created_on>2026-11-06 14:56:51</sys_created_on>
+        <sys_id>624fda47e51413107f44b9b2c90b0f28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1b15ccefe0000001</sys_recorded_at>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-06 14:56:51</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>664fda47311413104ece20ab46a5ed27</update_guid>
+        <update_guid_history>664fda47311413104ece20ab46a5ed27:-484408321</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>adetola</sys_created_by>
+        <sys_created_on>2026-11-06 15:32:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>642b4fd803fa4380afcf519caa876400</sys_id>
+        <sys_metadata>624f9a47e51413107f44b9b2c90b0fdb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_footer</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_scope_delete display_value="">262add6e65a2409db2b8906c824ca431</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_624f9a47e51413107f44b9b2c90b0fdb</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_624f9a47e51413107f44b9b2c90b0fdb">624fda47e51413107f44b9b2c90b0f28</sys_update_version>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-06 15:32:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

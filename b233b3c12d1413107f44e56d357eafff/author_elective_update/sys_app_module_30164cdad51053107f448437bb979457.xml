@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Parking Citation">2f662e71f15c13107f446e35e7416430</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>NEW</link_type>
+        <map_page/>
+        <mobile_title>Create New</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1234_parking_c_0_violation_type</name>
+        <order>320</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1234_parking_c_0.manager</roles>
+        <route/>
+        <screen/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-03 19:53:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>30164cdad51053107f448437bb979457</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sys_app_module_30164cdad51053107f448437bb979457</sys_update_name>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-03 21:40:38</sys_updated_on>
+        <timeline_page/>
+        <title>Create New</title>
+        <uncancelable>false</uncancelable>
+        <ux_list/>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</application>
+        <file_path/>
+        <instance_id>11b399e8971097945382ff671153af6b</instance_id>
+        <instance_name>sya-oct-6371-0004</instance_name>
+        <name>sys_app_module_30164cdad51053107f448437bb979457</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Parking Citation">2f662e71f15c13107f446e35e7416430</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>NEW</link_type><map_page/><mobile_title>Create New</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1234_parking_c_0_violation_type</name><order>320</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_1234_parking_c_0.manager</roles><route/><screen/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>ruchan</sys_created_by><sys_created_on>2026-11-03 19:53:08</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>30164cdad51053107f448437bb979457</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Create New</sys_name><sys_overrides/><sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package><sys_policy/><sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope><sys_update_name>sys_app_module_30164cdad51053107f448437bb979457</sys_update_name><sys_updated_by>ruchan</sys_updated_by><sys_updated_on>2026-11-03 21:40:38</sys_updated_on><timeline_page/><title>Create New</title><uncancelable>false</uncancelable><ux_list/><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>614634341</payload_hash>
+        <record_name>Create New</record_name>
+        <reverted_from/>
+        <source>cc1d22b1f19c13107f446e35e74164be</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-03 21:40:38</sys_created_on>
+        <sys_id>f7ee985ad51453107f448437bb9794eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1a35b65a50000001</sys_recorded_at>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-03 21:40:38</sys_updated_on>
+        <type>Module</type>
+        <update_guid>3bee985a30145310b00da8c919ad7cea</update_guid>
+        <update_guid_history>3bee985a30145310b00da8c919ad7cea:614634341,68ae9c1a21145310760d78c5d9fcac94:-434855418,841e54d647145310b5cce96957514d1a:-1661530009,fcbc1016db145310924f4e4ef9d6d946:-934584022,2a3c18920e1453105bea02fd90b0bc2e:-762282420,9956409a77105310413d309a1cc5f6fb:761562577</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Create New">b2c265d6d55c53107f448437bb9794af</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-04 02:37:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>16913c4cbc794479976fbe4c5f8e8691</sys_id>
+        <sys_metadata>30164cdad51053107f448437bb979457</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_scope_delete display_value="">262add6e65a2409db2b8906c824ca431</sys_scope_delete>
+        <sys_update_name>sys_app_module_30164cdad51053107f448437bb979457</sys_update_name>
+        <sys_update_version display_value="sys_app_module_30164cdad51053107f448437bb979457">f7ee985ad51453107f448437bb9794eb</sys_update_version>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-04 02:37:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

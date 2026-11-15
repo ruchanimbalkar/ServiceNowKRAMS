@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_diagnostic_rule_dismiss">
+    <sys_ux_diagnostic_rule_dismiss action="INSERT_OR_UPDATE">
+        <dismiss_targets>{
+  "a49d1884ff156210763dffffffffff8b": [
+    {
+      "f86ed05479ec53107f44fa0f7d0bc365": {
+        "queryId": "",
+        "dismissTimestamp": "2026-11-10T03:15:23.112Z",
+        "dismissedBy": "885fe5b1f19013107f446e35e74164d1"
+      }
+    },
+    {
+      "b86ed05479ec53107f44fa0f7d0bc35e": {
+        "queryId": "",
+        "dismissTimestamp": "2026-11-10T03:15:26.586Z",
+        "dismissedBy": "885fe5b1f19013107f446e35e74164d1"
+      }
+    },
+    {
+      "746ed05479ec53107f44fa0f7d0bc362": {
+        "queryId": "",
+        "dismissTimestamp": "2026-11-10T03:15:41.292Z",
+        "dismissedBy": "885fe5b1f19013107f446e35e74164d1"
+      }
+    },
+    {
+      "706ed05479ec53107f44fa0f7d0bc369": {
+        "queryId": "",
+        "dismissTimestamp": "2026-11-10T03:15:52.707Z",
+        "dismissedBy": "885fe5b1f19013107f446e35e74164d1"
+      }
+    }
+  ],
+  "945ff4359f3b1210763d485bf90a1ccb": [
+    {
+      "presentational_list_1": {
+        "queryId": "",
+        "dismissTimestamp": "2026-11-10T19:13:33.603Z",
+        "dismissedBy": "885fe5b1f19013107f446e35e74164d1"
+      }
+    },
+    {
+      "record_list_footer_container_1": {
+        "queryId": "",
+        "dismissTimestamp": "2026-11-10T19:13:38.077Z",
+        "dismissedBy": "885fe5b1f19013107f446e35e74164d1"
+      }
+    },
+    {
+      "list_bundle": {
+        "queryId": "",
+        "dismissTimestamp": "2026-11-10T19:13:45.814Z",
+        "dismissedBy": "885fe5b1f19013107f446e35e74164d1"
+      }
+    },
+    {
+      "view_all_link_1": {
+        "queryId": "",
+        "dismissTimestamp": "2026-11-10T19:13:47.265Z",
+        "dismissedBy": "885fe5b1f19013107f446e35e74164d1"
+      }
+    },
+    {
+      "list_bundle_2": {
+        "queryId": "",
+        "dismissTimestamp": "2026-11-10T19:13:48.888Z",
+        "dismissedBy": "885fe5b1f19013107f446e35e74164d1"
+      }
+    },
+    {
+      "presentational_list_2": {
+        "queryId": "",
+        "dismissTimestamp": "2026-11-10T19:13:50.718Z",
+        "dismissedBy": "885fe5b1f19013107f446e35e74164d1"
+      }
+    },
+    {
+      "record_list_footer_container_2": {
+        "queryId": "",
+        "dismissTimestamp": "2026-11-10T19:13:51.848Z",
+        "dismissedBy": "885fe5b1f19013107f446e35e74164d1"
+      }
+    },
+    {
+      "resizable_panes_3": {
+        "queryId": "",
+        "dismissTimestamp": "2026-11-12T02:44:47.652Z",
+        "dismissedBy": "885fe5b1f19013107f446e35e74164d1"
+      }
+    },
+    {
+      "record_list_footer_container_3": {
+        "queryId": "",
+        "dismissTimestamp": "2026-11-12T02:44:49.988Z",
+        "dismissedBy": "885fe5b1f19013107f446e35e74164d1"
+      }
+    },
+    {
+      "horizontal_bar_1": {
+        "queryId": "",
+        "dismissTimestamp": "2026-11-12T02:44:51.788Z",
+        "dismissedBy": "885fe5b1f19013107f446e35e74164d1"
+      }
+    }
+  ],
+  "fad8b86e9fcc6210763d485bf90a1c2d": [
+    {
+      "list_panel_viewport_4": {
+        "queryId": "",
+        "dismissTimestamp": "2026-11-12T02:44:43.139Z",
+        "dismissedBy": "885fe5b1f19013107f446e35e74164d1"
+      }
+    }
+  ],
+  "688969159f23d210763d485bf90a1c3c": [
+    {
+      "presentational_list_4": {
+        "queryId": "",
+        "dismissTimestamp": "2026-11-12T02:45:13.031Z",
+        "dismissedBy": "885fe5b1f19013107f446e35e74164d1"
+      }
+    }
+  ]
+}</dismiss_targets>
+        <sys_class_name>sys_ux_diagnostic_rule_dismiss</sys_class_name>
+        <sys_created_by>M.Burgos</sys_created_by>
+        <sys_created_on>2026-11-10 03:15:53</sys_created_on>
+        <sys_id>9935289c79ec53107f44fa0f7d0bc315</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sys_ux_diagnostic_rule_dismiss_9935289c79ec53107f44fa0f7d0bc315</sys_update_name>
+        <sys_updated_by>M.Burgos</sys_updated_by>
+        <sys_updated_on>2026-11-12 02:52:41</sys_updated_on>
+        <table_name>sys_ux_macroponent</table_name>
+        <target_id>3c6ed05479ec53107f44fa0f7d0bc358</target_id>
+    </sys_ux_diagnostic_rule_dismiss>
+</record_update>

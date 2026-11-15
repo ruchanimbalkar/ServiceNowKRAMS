@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="DELETE">
+        <applicability/>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>M.Burgos</sys_created_by>
+        <sys_created_on>2026-11-11 22:14:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4153f97440e053107f44b19d1c3858b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>m2m_app_config_theme_4153f97440e053107f44b19d1c3858b4</sys_update_name>
+        <sys_updated_by>M.Burgos</sys_updated_by>
+        <sys_updated_on>2026-11-11 22:14:10</sys_updated_on>
+        <theme/>
+        <ux_app_configuration display_value="Parking Services Admin Dashboard">62699c1879ac53107f44fa0f7d0bc3e4</ux_app_configuration>
+    </m2m_app_config_theme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</application>
+        <file_path/>
+        <instance_id>11b399e8971097945382ff671153af6b</instance_id>
+        <instance_name>sya-oct-6371-0004</instance_name>
+        <name>m2m_app_config_theme_4153f97440e053107f44b19d1c3858b4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme"><m2m_app_config_theme action="INSERT_OR_UPDATE"><applicability/><order>0</order><sys_class_name>m2m_app_config_theme</sys_class_name><sys_created_by>M.Burgos</sys_created_by><sys_created_on>2026-11-11 22:14:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4153f97440e053107f44b19d1c3858b4</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package><sys_policy/><sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope><sys_update_name>m2m_app_config_theme_4153f97440e053107f44b19d1c3858b4</sys_update_name><sys_updated_by>M.Burgos</sys_updated_by><sys_updated_on>2026-11-11 22:14:10</sys_updated_on><theme/><ux_app_configuration display_value="Parking Services Admin Dashboard">62699c1879ac53107f44fa0f7d0bc3e4</ux_app_configuration></m2m_app_config_theme></record_update>]]></payload>
+        <payload_hash>211554520</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>7bccae7df15c13107f446e35e74164b2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>M.Burgos</sys_created_by>
+        <sys_created_on>2026-11-11 22:14:10</sys_created_on>
+        <sys_id>01537d7440e053107f44b19d1c3858cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1ccacf9100000001</sys_recorded_at>
+        <sys_updated_by>M.Burgos</sys_updated_by>
+        <sys_updated_on>2026-11-11 22:14:10</sys_updated_on>
+        <type>UX App Theme</type>
+        <update_guid>81537d7449e05310c69acf39f2a977ce</update_guid>
+        <update_guid_history>81537d7449e05310c69acf39f2a977ce:211554520</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">e693f5b440e053107f44b19d1c3858e2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>M.Burgos</sys_created_by>
+        <sys_created_on>2026-11-11 22:15:21</sys_created_on>
+        <sys_db_object display_value="" name="m2m_app_config_theme">m2m_app_config_theme</sys_db_object>
+        <sys_id>64d90160da884adca9cc33ff4295bcd9</sys_id>
+        <sys_metadata>4153f97440e053107f44b19d1c3858b4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_scope_delete display_value="">262add6e65a2409db2b8906c824ca431</sys_scope_delete>
+        <sys_update_name>m2m_app_config_theme_4153f97440e053107f44b19d1c3858b4</sys_update_name>
+        <sys_update_version display_value="m2m_app_config_theme_4153f97440e053107f44b19d1c3858b4">01537d7440e053107f44b19d1c3858cf</sys_update_version>
+        <sys_updated_by>M.Burgos</sys_updated_by>
+        <sys_updated_on>2026-11-11 22:15:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

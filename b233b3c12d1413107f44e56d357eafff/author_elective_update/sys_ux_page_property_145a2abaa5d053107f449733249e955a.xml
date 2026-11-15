@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>auto_expand_now_alert_message</name>
+        <page display_value="Campus Safety WS">32c3e6baa59053107f449733249e95ea</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-05 21:06:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>145a2abaa5d053107f449733249e955a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>auto_expand_now_alert_message</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sys_ux_page_property_145a2abaa5d053107f449733249e955a</sys_update_name>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-05 21:06:33</sys_updated_on>
+        <type>boolean</type>
+        <unique_name>x_1234_parking_c_0.32c3e6baa59053107f449733249e95ea.root.global.auto_expand_now_alert_message</unique_name>
+        <value>false</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=145a2abaa5d053107f449733249e955a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</application>
+        <file_path/>
+        <instance_id>11b399e8971097945382ff671153af6b</instance_id>
+        <instance_name>sya-oct-6371-0004</instance_name>
+        <name>sys_ux_page_property_145a2abaa5d053107f449733249e955a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>auto_expand_now_alert_message</name><page display_value="Campus Safety WS">32c3e6baa59053107f449733249e95ea</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>ruchan</sys_created_by><sys_created_on>2026-11-05 21:06:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>145a2abaa5d053107f449733249e955a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>auto_expand_now_alert_message</sys_name><sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package><sys_policy/><sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope><sys_update_name>sys_ux_page_property_145a2abaa5d053107f449733249e955a</sys_update_name><sys_updated_by>ruchan</sys_updated_by><sys_updated_on>2026-11-05 21:06:33</sys_updated_on><type>boolean</type><unique_name>x_1234_parking_c_0.32c3e6baa59053107f449733249e95ea.root.global.auto_expand_now_alert_message</unique_name><value>false</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=145a2abaa5d053107f449733249e955a"/></record_update>]]></payload>
+        <payload_hash>1116642157</payload_hash>
+        <record_name>auto_expand_now_alert_message</record_name>
+        <reverted_from/>
+        <source>cc1d22b1f19c13107f446e35e74164be</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-05 21:06:33</sys_created_on>
+        <sys_id>985a2abaa5d053107f449733249e955c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1ad88ea9f0000001</sys_recorded_at>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-05 21:06:33</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>9c5a2aba85d05310fd36cf4e71d0825b</update_guid>
+        <update_guid_history>9c5a2aba85d05310fd36cf4e71d0825b:1116642157</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-10 00:01:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>01a82667f8a44808815e0bfa8676c781</sys_id>
+        <sys_metadata>145a2abaa5d053107f449733249e955a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>auto_expand_now_alert_message</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_scope_delete display_value="">262add6e65a2409db2b8906c824ca431</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_145a2abaa5d053107f449733249e955a</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_145a2abaa5d053107f449733249e955a">985a2abaa5d053107f449733249e955c</sys_update_version>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-10 00:01:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

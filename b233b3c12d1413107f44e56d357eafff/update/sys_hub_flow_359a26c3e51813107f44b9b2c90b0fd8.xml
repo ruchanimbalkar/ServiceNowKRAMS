@@ -2,14 +2,13 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>false</active>
+        <active>true</active>
         <allow_high_security_roles>false</allow_high_security_roles>
         <annotation/>
-        <attributes>labelCacheCleanUpExecuted=true</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=275002000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>29000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -17,21 +16,20 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>close_expired_citations</internal_name>
-        <label_cache>[{"name":"d859ec18-7829-48cb-a9ec-149991ed3b0b.Records","label":"1➛Citation Records","reference":"x_1234_parking_c_0_citation","reference_display":"Citation Records","type":"records","base_type":"records","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"42db4f7b-eda3-4562-ac87-d22fcc5b4773.item","label":"2➛Citation Record","reference":"x_1234_parking_c_0_citation","reference_display":"Citation Record","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{},"attributes":{"pills_draggable_outside_block":"false","pills_draggable_inside_block":"true"}}]</label_cache>
-        <latest_snapshot/>
-        <master_snapshot/>
+        <label_cache>[{"name":"42db4f7b-eda3-4562-ac87-d22fcc5b4773.item","label":"2 - For Each➛Citation Record","reference":"x_1234_parking_c_0_citation","reference_display":"Citation","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"d859ec18-7829-48cb-a9ec-149991ed3b0b.Records","label":"1 - Look Up Records➛Citation Records","reference":"x_1234_parking_c_0_citation","reference_display":"Citation","type":"records","base_type":"records","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>01a3c74479a053107f44fa0f7d0bc3c6</master_snapshot>
         <master_snapshot_digest/>
         <name>Close Expired Citations</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id/>
-        <run_as>user</run_as>
+        <remote_trigger_id>89a3c74479a053107f44fa0f7d0bc3e3</remote_trigger_id>
+        <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>draft</status>
+        <status>published</status>
         <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>ruchan</sys_created_by>
@@ -39,22 +37,90 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>359a26c3e51813107f44b9b2c90b0fd8</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Close Expired Citations</sys_name>
         <sys_overrides/>
         <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
         <sys_policy/>
         <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
         <sys_update_name>sys_hub_flow_359a26c3e51813107f44b9b2c90b0fd8</sys_update_name>
-        <sys_updated_by>ruchan</sys_updated_by>
-        <sys_updated_on>2026-11-06 15:49:27</sys_updated_on>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-09 20:09:37</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
-        <version_record>724b6247e51813107f44b9b2c90b0f91</version_record>
+        <version_record>99a30b4479a053107f44fa0f7d0bc336</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=359a26c3e51813107f44b9b2c90b0fd8"/>
     <sys_variable_value action="delete_multiple" query="document_key=359a26c3e51813107f44b9b2c90b0fd8"/>
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <published_version/>
+        <run_period/>
+        <run_start>2026-11-09 20:09:37</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>adetola</sys_created_by>
+        <sys_created_on>2026-11-09 20:09:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>89a3c74479a053107f44fa0f7d0bc3e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-09 20:09:37</sys_updated_on>
+        <time>1970-01-01 00:30:00</time>
+        <timer_type>11</timer_type>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="delete_multiple" query="name=Trigger:89a3c74479a053107f44fa0f7d0bc3e3^sys_idNOT IN41a3c74479a053107f44fa0f7d0bc3e4"/>
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_run_end/>
+        <entered_run_start/>
+        <entered_time/>
+        <max_drift/>
+        <name>Trigger:89a3c74479a053107f44fa0f7d0bc3e3</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <repeat_every/>
+        <run_as display_value="Adetola Adeniran">120faf892d9013107f44e56d357eaf12</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_daysofweek/>
+        <run_end/>
+        <run_month/>
+        <run_period/>
+        <run_start>2026-11-09 20:09:37</run_start>
+        <run_time>1970-01-01 00:30:00</run_time>
+        <run_type>daily</run_type>
+        <run_weekinmonth/>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('89a3c74479a053107f44fa0f7d0bc3e3');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>adetola</sys_created_by>
+        <sys_created_on>2026-11-09 20:09:37</sys_created_on>
+        <sys_id>41a3c74479a053107f44fa0f7d0bc3e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-09 20:09:37</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">89a3c74479a053107f44fa0f7d0bc3e3</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=359a26c3e51813107f44b9b2c90b0fd8"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=359a26c3e51813107f44b9b2c90b0fd8"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=359a26c3e51813107f44b9b2c90b0fd8^sys_idNOT INf19a26c3e51813107f44b9b2c90b0fd9"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -84,12 +150,12 @@
         <sys_created_by>ruchan</sys_created_by>
         <sys_created_on>2026-11-06 15:46:22</sys_created_on>
         <sys_id>379ae6c3e51813107f44b9b2c90b0fab</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope/>
-        <sys_updated_by>ruchan</sys_updated_by>
-        <sys_updated_on>2026-11-06 15:46:50</sys_updated_on>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-09 20:09:36</sys_updated_on>
         <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
-        <trigger_inputs>H4sIAAAAAAAA/22Sy27bMBBFf6XgWhUoK31pVyQwUCBtgNrIJgiEkTiyifKhkpQT1fC/dyjKitPG0IbzuLz3mA9HpqBBxSq2lRpZxqQJ6Ayo7dgjVXdKCqxD6mkwAoJ1I6uCGzBjnbN6i7pXEGi4A+WpaJ1Ax6qC84wdQA24Gf03QVqkYEBH1Vlv6tKx+PKJv+cFfe84r0pecU5dIT0Jj/fzEFXavVTCoWHVw2PGenCkFuJdx8X2rTS/3hqW0UAJ4gpFy9tyRT/OV5+viuZj2RQrUQLiB9r6h8Zrv+ENJrF2+3rpEgA+BzQCxULnP4YOQdwZNS4Te8qSImh49vIPzlIOO6Q87QxjOdYzqFTubiDAhqTbMLiFm5Ut+kRCYAeDCteXtTRw1wdpTVoJ0KjztlWDNj8SCbYIXPwvgycT2Meg0fqco9vs7dPPs8u1NBOVualsC2o5QQhONkOIfo4MFWoSqjX0vTS7unf2IKdl8qLzCX/eKftEl3q5Mzm00XhOXCFfU/1mKt+DkzHFd5Kh5VPG/OivFXj/koUg1r+H6CQlmzPUCcNpeYRriWp+wr51sg9f6crD+c2fHv8CsB3YeUgDAAA=</trigger_inputs>
+        <trigger_inputs>H4sIAAAAAAAA/21Sy27bMBD8lYJnV6Cs9KVbgcJAD22AxsglCISVuLIJLB+lKCdq4H/vUqKFxK3Ay75mZ0b78CIIWiRRi702KDZC24jBAu0nj5w9kFbYxKVmwCqILkyijmHEjeiDM3s0niBycw80cNIFhUHUpZQbcQIa8W4avivGYgQLJqFmvLnKYfnlk3wvS37vpKwrWUvJVaUHBp7ucxNnuqMmFdCK+uFxIzwERotp18tVKTL55lpYolCBukHVya7a8ifl9vNN2X6s2nKrKkD8wH1XY28Zx/+48lovPke0CtVqxj+WBQR1a2laO47s+CLPwPOg/2CGCtgjC+qy9jVssi8XS5zu8NZH7eySidDSxS9Ho7E/FwXJUexhpPjK0XFgPPSJc2KRKfV3R/f067Jwp+0sMBfJdUBrBDEG3Y4Rh/QXkNAwUGPAe20PjQ/upOdh5mKK2baiJ/fESwd9sAV0iXjBFkGx4/y3OX0PQScVPxiGh8+z+ub3mPYuOjLjZhF9Xo9lp5HyqQ1d0D5+5QWny22eH/8Cx8HJvvACAAA=</trigger_inputs>
         <trigger_outputs/>
         <trigger_type>daily</trigger_type>
         <updation_source/>
@@ -100,7 +166,7 @@
         <action_type_parent/>
         <attributes/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Close Expired Citations">359a26c3e51813107f44b9b2c90b0fd8</flow>
         <generation_source/>
@@ -110,10 +176,10 @@
         <sys_created_by>ruchan</sys_created_by>
         <sys_created_on>2026-11-06 15:48:11</sys_created_on>
         <sys_id>6e0b2a07e51813107f44b9b2c90b0f7d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
-        <sys_updated_by>ruchan</sys_updated_by>
-        <sys_updated_on>2026-11-06 15:49:17</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-11-10 00:30:04</sys_updated_on>
         <ui_id>cfd4586a-dee7-4da6-bf1d-f15d7dbd14d9</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Vy2rjMBT9laC1Y/zKo9mVhMJAp4W2ZNMpRpauEzHyY2Q5TSbk3+fKlpOQZkoKXUxhvLLOfficq3vw85YITibEC7jnX/lDFvphGHheMI78ZBgmfsBDCgDEITnNADNXVNZQ4bl5QaDSVMOP2vNCHiLMRVVKupmfj7KlkFxBTibPLw4pqcKmGhSZbE9Cl7KSNAGJqTcCJK/O0NSb0pw1ZEhLQ9zSbvFbW/xkg725DRaKG1K+5zkE1hpyDsgnpbICh2Q051QXakMmWtUIKKD8PpebfcZS5BrbEpO7rsRvJOAPveYx2SmgTAZtxv4Y28m1cDqjmj5if6ZrZVPZshAMRTUD4pDSWurpMdYm3JdaFHlbomkiu+pC1ll+146H7Bt0F4VIXSEJKI1aw78Vlz4ui9eHjuSNyJvJWKGyYFTuT1RrJZJaGzpbAhIy7BNntCxFvohLVaxEU4xUMnch8eCmsnjFb1ZikbuUGd4uzpa6N4jPGnhOlTAivmMbLN45pNpUU0mr6iAFZxj/qg2TVpiVEDdTaEYQN2thipkSpb7GT63AEt851gQRvLtu/mG7FDBckSMTbLdRwJMoHSV94DTsR4Nh0KdsPOrzIEgZGyTRaBS6Atdwt3vrkg874wKqnTMeOq6n3K0zeMHq5qIEP7HFzEZ632bHnvgsS0T/zfAPmyEZvLdh7OqwUEc9D4ZYx34QRjHu8U+jl8VezAT+C8xlvFn/6SHyMRtcQLKzwVNz+edJd/+IU+z2uLZ31wasDwaf5oPxV/KBlfHljfC39X/5A8ofNkQSCQAA</values>
@@ -124,7 +190,7 @@
         <action_type_parent/>
         <attributes/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
         <display_text/>
         <flow display_value="Close Expired Citations">359a26c3e51813107f44b9b2c90b0fd8</flow>
         <generation_source/>
@@ -134,13 +200,13 @@
         <sys_created_by>ruchan</sys_created_by>
         <sys_created_on>2026-11-06 15:47:03</sys_created_on>
         <sys_id>b5caaec3e51813107f44b9b2c90b0f48</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
-        <sys_updated_by>ruchan</sys_updated_by>
-        <sys_updated_on>2026-11-06 15:47:45</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-11-10 00:30:04</sys_updated_on>
         <ui_id>d859ec18-7829-48cb-a9ec-149991ed3b0b</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+VWXU/bMBT9K1WeNqmqHFoK69tUhDQJqASIF8asm9gpHm6SxU5LQfz3Xdv56NpQ2ikPnfYU5V7b9/jcc2zfv3qCeSOPRANCwD8+PSGk3ydkOOyH4AdBfxgGJDj+4nW9GGYcR6ok01QvU46hOci8ioEKMcSESiUs74oMdHTSecF4+Cgky3jsje4ful4KGa6meeaNXtdSu8KREHCJQ2+wdufW4WmAaD8jrJGIsPy/KKaOy2CSMQOl3/X4s+Yx44ghAql415tBzEAn2bKKZBzYJJZ14FHEGlfzzOBnJV6wXv/IjIs47irkLlf90oIiF47OQMONzvJQ51kx1IFVyMdrtc2KyAbOC/jkrVuPfzHjYX0846sT/Dfkm/EIcqnHf1fT37fmkanpNjhJtUiw617f9AUCWW4/kfksvnK99CqEdw1ic5mzdzSXKySbp6ahpkNFu6Kbx2RxXXbjXMQWV5GUSQiy+gOtMxHk2vDy6kWMRoJLRkUsRWwqYduMfLjkM6xAZ5CmIp7SNEvmwq6Ke5n1phJ/epFMFoYLMY17EJqd91BY0DvH+JkN30EmDAuXuAxO7pqCjzi1qEdVmIlU04VgU67r6uUolugFyKemfKE4WjbKbs9763pqqcYSlKrJRpnSX7nhwFFfsEdto+wUi+Ir7mDOC6KMBqxtw5Ottj1es6hr9IpeNs+PvU+OHSCULEyMIjvB8j1UxdHhem5H/Hl8nJtE58olSnm3doScknaOkCaLb1pwLwduWstI7d9x1v7Cd9x8oP7B1ktr6Nc6wybTjCukVK2o3yeEbDrA77rwfjbYAUtpg0t47lxXYBoRFk5AkfKpPZlWbfCtihYeGLTmgcHheqBsVuMNVPas5QvoUNzwkRFOt7/eSC2zMImZMBhXfaA0aP49x7nMH/4wIEHijoCZs8HGw58wB4dgNFW9gE9FHCMjk+g2YbD89HnTRu0sup8Jd+ChNOF4lYgmcsp37HrsommB8nHWohHJ4Vqx9evoUHy2062zXWSDoNaTW6722TP1j/oDiip+MrsMKaGhQJuYFmz4Z1xn2jSBxVea4LYAuIa3kL79bXqH2Wlr7zDyf77DDvOGQUBCokKoa6FK8sxSOaehzJVNZBArt1aL99HDb1nAVpfeEAAA</values>
+        <values>H4sIAAAAAAAA/+VWXU/bMBT9K1WeNqmqHFoK69tUhDQJqASIF8asm9gpHm6SxU4/QPz3Xdv56NrA2i1ITHuKcq/te3zuObZvnzzBvJFHogEh4B8eHxHS7xMyHPZD8IOgPwwDEhx+8rpeDDOOI1WSaapXKcfQHGRexUCFGGJCpRJWN0UGOjrpPGI8vBeSZTz2Rrd3XS+FDFfTPPNGTxupXeFICLjEoVdYu3Pt8DRAtJ8R1khEWP6fFVPHZTDJmIHS73p8qXnMOGKIQCre9WYQM9BJtqoiGQc2iWUduBexxtU8M3ipxCPW6x+YcRHHXYXc5apfWlDkwtEJaLjSWR7qPCuGOrAK+XiqtlkR2cB5AZ88d+vxj2Y8bI5nfH2C/4x8Mx5BLvX4z2r6+9Y8MDXdBiepFgl23eubvkAgy+0nMp/FF66XXoXwpkFsLnPyguZyhWTz1DTUdKhoV3R1nywuy26citjiKpIyCUFWf6B1JoJcG16evIjRSHDJqIiliE0lbJuRD5d8hhXoDNJUxFOaZslc2FVxL7PeVOJPL5LJwnAhpnEPQrPzHgoLeqcYP7HhG8iEYeEcl8HJXVPwHqcW9agKM5FquhBsynVdvRzFEr0A+dCULxRHy0bZ7XnPXU+t1FiCUjXZKFP6IzccOOoL9qhtlJ1iUXzGHcx5QZTRgLVtePSqbQ83LOoavaaX7fNj75NjBwglCxOjyE6weglVcXS4ntsRvx4fpybRuXCJUt6tHSHHpJ0jpMni2xbcy4Hb1jJS+wtnvaGBmhy7v/AdN79R/+DVS2vo1zrDJtOMK6RUranfJ4RsO8DvuvB+NtgBS2mDc1h2LiswjQgLJ6BI+dQSu26DL1W08MCgNQ8M3q8HymY13kBlz1q+gN7GJu1fA8evv95ILbMwiZkwGNd9oDRo/jXHucwffjMgQeKOgBkP23j4HebgEIymqhfwqYhjZGQSXScMVh8+btuonUX3M+EOPJQmHK8T0URO+Y7djJ01LVA+zlo0Inm/VvxHrqM3unVeF9kgqPXklqt9tqT+QX9AUcUPZpchJTQUaBPTgi3/jOtMmyaw+EoTXBcAN/AW0re/Te8wO23jHUb+z3fY+7xhEJCQqBDqWqiSPLNUzmkoc2UTGcTKrdXifXT3ExmbalDeEAAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=b5caaec3e51813107f44b9b2c90b0f48"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=359a26c3e51813107f44b9b2c90b0fd8"/>
@@ -163,19 +229,209 @@
         <sys_created_by>ruchan</sys_created_by>
         <sys_created_on>2026-11-06 15:47:49</sys_created_on>
         <sys_id>c9fa6607e51813107f44b9b2c90b0f98</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
-        <sys_updated_by>ruchan</sys_updated_by>
-        <sys_updated_on>2026-11-06 15:48:11</sys_updated_on>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-09 20:09:36</sys_updated_on>
         <ui_id>42db4f7b-eda3-4562-ac87-d22fcc5b4773</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/51TTW+bQBD9L3vGiA/XBd+iRJEitY3kRLlUkTXsDvaqyy7dXexQxH/vrMEkyqnqCebN13uPYWCm823n3bO5cU4eNNv+fI2Y1AGj94FJwbYsLUVdpknJ82yTZ0mSFeu02uRVmokcUGxYxDQ0SJXSY+MoPIHqQjwMovhSIk+L1dciK1frglcrIGCVrsuyTFHkVVLFO+TGCjeO1CqkaxX0L/8/gR+lEhZnMS1Y4ubRsu3wKfWv4hRUqKj0YVb3Sazv2xDaicIMfJt7dgtKj0AiSyKGbx61QFpfg3IYsQa0AG9sz7bedgRYBPGoVb9UHKX2NI6F2jcn/9DGNElCYY0kiOOUXML97OME13fg4YlGc9/ZuZQfjeToJisE1tApf/sRmwoeWy+Nnlo8VOrabVTX6B+TE2wZcP1shHSOSGAbhAbqs4766WjOuyvLe6kvpsxJZTioJQLvraw6H/gMDBU2NGjfQNtKfdi31pzkpZm4NPFBURDXypxpaTjlGHggHpOvEN8TfneBX8DKoOI7jaHmMWKud7cKnHvXQibuf3eByaRs1rCfbAgt3MrW39CCE850x9dw9dPsxVMuHVF4DtjD9Z8KiZ4uSPKP0NnYX4H8Ozb+BXnHe96dAwAA</values>
+        <values>H4sIAAAAAAAA/51STW/bMAz9Lzonhj+yzM6twFCgh65AW/RSFAYt0YlQWVIlOaln+L+Xip1s6HEnm4/k43siR2b6YPvgn82N93Kv2e71bcWkjhj9j0xDh2zHZMDOsxU7gupjPI6i/FEhz8r1zzKv1puSN2sgYJ1tqqrKUBRN2iSPyI0TfpqoVUhvFQwv/8/AD1IJh4tIC460BXRsN35LhcFiraBBRYMWBuqXgsKsEm2VpRUv8m2Rp2lebrJmWzRZLgpAsaW6S+fdYvrbG0R2Ct2Vlz5RRZ6uGH4G1AJpUAvK44p1oAUE4wa2C64nwCGIB62Ga8VB6kB0LNZ+evmHuLM0jYUtkiOOc/Ia1stDzjA/GMnxwQZp9IwEaNTSw43qO/17lh9XgC30KlxWQEjviQ9t1BxVLJLap4M5PV4G3kp99rckleGgrhGE4GTTB/RxDaiwI6K6A2ul3tfWmaM8N5OWLtkrCpJWmRMNjeeWAI/CE3oiSG4J/3WGX8DJ6OKeaKh5OruvP/o4d/axKK5n01TguZM23BDdERdx01u815nJz4chkEtPA58jdne58pgYaMmS/wudjHuPUv9i0xci+zcaLwMAAA==</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=359a26c3e51813107f44b9b2c90b0fd8"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=359a26c3e51813107f44b9b2c90b0fd8"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_359a26c3e51813107f44b9b2c90b0fd8"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_359a26c3e51813107f44b9b2c90b0fd8"/>
-    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=359a26c3e51813107f44b9b2c90b0fd8"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>close_expired_citations</internal_name>
+        <label_cache>[{"name":"42db4f7b-eda3-4562-ac87-d22fcc5b4773.item","label":"2 - For Each➛Citation Record","reference":"x_1234_parking_c_0_citation","reference_display":"Citation","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"d859ec18-7829-48cb-a9ec-149991ed3b0b.Records","label":"1 - Look Up Records➛Citation Records","reference":"x_1234_parking_c_0_citation","reference_display":"Citation","type":"records","base_type":"records","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Close Expired Citations</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Close Expired Citations">359a26c3e51813107f44b9b2c90b0fd8</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>adetola</sys_created_by>
+        <sys_created_on>2026-11-09 20:09:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>01a3c74479a053107f44fa0f7d0bc3c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-09 20:09:37</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=01a3c74479a053107f44fa0f7d0bc3c6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=01a3c74479a053107f44fa0f7d0bc3c6"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=01a3c74479a053107f44fa0f7d0bc3c6"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=01a3c74479a053107f44fa0f7d0bc3c6^sys_idNOT IN01a3c74479a053107f44fa0f7d0bc3c7"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>01a3c74479a053107f44fa0f7d0bc3c6</id>
+        <name>Close Expired Citations</name>
+        <sys_created_by>adetola</sys_created_by>
+        <sys_created_on>2026-11-09 20:09:37</sys_created_on>
+        <sys_id>01a3c74479a053107f44fa0f7d0bc3c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-09 20:09:37</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=01a3c74479a053107f44fa0f7d0bc3c7"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=01a3c74479a053107f44fa0f7d0bc3c6"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=01a3c74479a053107f44fa0f7d0bc3c6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=01a3c74479a053107f44fa0f7d0bc3c6"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=01a3c74479a053107f44fa0f7d0bc3c6^sys_idNOT IN09a3c74479a053107f44fa0f7d0bc3d3"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Close Expired Citations">01a3c74479a053107f44fa0f7d0bc3c6</flow>
+        <generation_source/>
+        <name>Daily</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>adetola</sys_created_by>
+        <sys_created_on>2026-11-09 20:09:37</sys_created_on>
+        <sys_id>09a3c74479a053107f44fa0f7d0bc3d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-09 20:09:37</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/21Sy27bMBD8lYJnV6Cs9KVbgcJAD22AxsglCISVuLIJLB+lKCdq4H/vUqKFxK3Ay75mZ0b78CIIWiRRi702KDZC24jBAu0nj5w9kFbYxKVmwCqILkyijmHEjeiDM3s0niBycw80cNIFhUHUpZQbcQIa8W4avivGYgQLJqFmvLnKYfnlk3wvS37vpKwrWUvJVaUHBp7ucxNnuqMmFdCK+uFxIzwERotp18tVKTL55lpYolCBukHVya7a8ifl9vNN2X6s2nKrKkD8wH1XY28Zx/+48lovPke0CtVqxj+WBQR1a2laO47s+CLPwPOg/2CGCtgjC+qy9jVssi8XS5zu8NZH7eySidDSxS9Ho7E/FwXJUexhpPjK0XFgPPSJc2KRKfV3R/f067Jwp+0sMBfJdUBrBDEG3Y4Rh/QXkNAwUGPAe20PjQ/upOdh5mKK2baiJ/fESwd9sAV0iXjBFkGx4/y3OX0PQScVPxiGh8+z+ub3mPYuOjLjZhF9Xo9lp5HyqQ1d0D5+5QWny22eH/8Cx8HJvvACAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=01a3c74479a053107f44fa0f7d0bc3c6^sys_idNOT IN09a3c74479a053107f44fa0f7d0bc3d1,09a3c74479a053107f44fa0f7d0bc3d2"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Close Expired Citations">01a3c74479a053107f44fa0f7d0bc3c6</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>adetola</sys_created_by>
+        <sys_created_on>2026-11-09 20:09:37</sys_created_on>
+        <sys_id>09a3c74479a053107f44fa0f7d0bc3d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-09 20:09:37</sys_updated_on>
+        <ui_id>d859ec18-7829-48cb-a9ec-149991ed3b0b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VWXU/bMBT9K1WeNqmqHFoK69tUhDQJqASIF8asm9gpHm6SxU4/QPz3Xdv56NrA2i1ITHuKcq/te3zuObZvnzzBvJFHogEh4B8eHxHS7xMyHPZD8IOgPwwDEhx+8rpeDDOOI1WSaapXKcfQHGRexUCFGGJCpRJWN0UGOjrpPGI8vBeSZTz2Rrd3XS+FDFfTPPNGTxupXeFICLjEoVdYu3Pt8DRAtJ8R1khEWP6fFVPHZTDJmIHS73p8qXnMOGKIQCre9WYQM9BJtqoiGQc2iWUduBexxtU8M3ipxCPW6x+YcRHHXYXc5apfWlDkwtEJaLjSWR7qPCuGOrAK+XiqtlkR2cB5AZ88d+vxj2Y8bI5nfH2C/4x8Mx5BLvX4z2r6+9Y8MDXdBiepFgl23eubvkAgy+0nMp/FF66XXoXwpkFsLnPyguZyhWTz1DTUdKhoV3R1nywuy26citjiKpIyCUFWf6B1JoJcG16evIjRSHDJqIiliE0lbJuRD5d8hhXoDNJUxFOaZslc2FVxL7PeVOJPL5LJwnAhpnEPQrPzHgoLeqcYP7HhG8iEYeEcl8HJXVPwHqcW9agKM5FquhBsynVdvRzFEr0A+dCULxRHy0bZ7XnPXU+t1FiCUjXZKFP6IzccOOoL9qhtlJ1iUXzGHcx5QZTRgLVtePSqbQ83LOoavaaX7fNj75NjBwglCxOjyE6weglVcXS4ntsRvx4fpybRuXCJUt6tHSHHpJ0jpMni2xbcy4Hb1jJS+wtnvaGBmhy7v/AdN79R/+DVS2vo1zrDJtOMK6RUranfJ4RsO8DvuvB+NtgBS2mDc1h2LiswjQgLJ6BI+dQSu26DL1W08MCgNQ8M3q8HymY13kBlz1q+gN7GJu1fA8evv95ILbMwiZkwGNd9oDRo/jXHucwffjMgQeKOgBkP23j4HebgEIymqhfwqYhjZGQSXScMVh8+btuonUX3M+EOPJQmHK8T0URO+Y7djJ01LVA+zlo0Inm/VvxHrqM3unVeF9kgqPXklqt9tqT+QX9AUcUPZpchJTQUaBPTgi3/jOtMmyaw+EoTXBcAN/AW0re/Te8wO23jHUb+z3fY+7xhEJCQqBDqWqiSPLNUzmkoc2UTGcTKrdXifXT3ExmbalDeEAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=09a3c74479a053107f44fa0f7d0bc3d1"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Close Expired Citations">01a3c74479a053107f44fa0f7d0bc3c6</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>42db4f7b-eda3-4562-ac87-d22fcc5b4773</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>adetola</sys_created_by>
+        <sys_created_on>2026-11-09 20:09:37</sys_created_on>
+        <sys_id>09a3c74479a053107f44fa0f7d0bc3d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-09 20:09:37</sys_updated_on>
+        <ui_id>cfd4586a-dee7-4da6-bf1d-f15d7dbd14d9</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy2rjMBT9laC1Y/zKo9mVhMJAp4W2ZNMpRpauEzHyY2Q5TSbk3+fKlpOQZkoKXUxhvLLOfficq3vw85YITibEC7jnX/lDFvphGHheMI78ZBgmfsBDCgDEITnNADNXVNZQ4bl5QaDSVMOP2vNCHiLMRVVKupmfj7KlkFxBTibPLw4pqcKmGhSZbE9Cl7KSNAGJqTcCJK/O0NSb0pw1ZEhLQ9zSbvFbW/xkg725DRaKG1K+5zkE1hpyDsgnpbICh2Q051QXakMmWtUIKKD8PpebfcZS5BrbEpO7rsRvJOAPveYx2SmgTAZtxv4Y28m1cDqjmj5if6ZrZVPZshAMRTUD4pDSWurpMdYm3JdaFHlbomkiu+pC1ll+146H7Bt0F4VIXSEJKI1aw78Vlz4ui9eHjuSNyJvJWKGyYFTuT1RrJZJaGzpbAhIy7BNntCxFvohLVaxEU4xUMnch8eCmsnjFb1ZikbuUGd4uzpa6N4jPGnhOlTAivmMbLN45pNpUU0mr6iAFZxj/qg2TVpiVEDdTaEYQN2thipkSpb7GT63AEt851gQRvLtu/mG7FDBckSMTbLdRwJMoHSV94DTsR4Nh0KdsPOrzIEgZGyTRaBS6Atdwt3vrkg874wKqnTMeOq6n3K0zeMHq5qIEP7HFzEZ632bHnvgsS0T/zfAPmyEZvLdh7OqwUEc9D4ZYx34QRjHu8U+jl8VezAT+C8xlvFn/6SHyMRtcQLKzwVNz+edJd/+IU+z2uLZ31wasDwaf5oPxV/KBlfHljfC39X/5A8ofNkQSCQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=09a3c74479a053107f44fa0f7d0bc3d2"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=01a3c74479a053107f44fa0f7d0bc3c6"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=01a3c74479a053107f44fa0f7d0bc3c6^sys_idNOT IN81a3c74479a053107f44fa0f7d0bc3d0"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">01fa6607e51813107f44b9b2c90b0f98</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Close Expired Citations">01a3c74479a053107f44fa0f7d0bc3c6</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>adetola</sys_created_by>
+        <sys_created_on>2026-11-09 20:09:37</sys_created_on>
+        <sys_id>81a3c74479a053107f44fa0f7d0bc3d0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-09 20:09:37</sys_updated_on>
+        <ui_id>42db4f7b-eda3-4562-ac87-d22fcc5b4773</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/51TXW+jMBD8L34miI9cDvJWtapU6e4qpVVfTlW02EtinbE52yTlEP/91oHQqo99gh3vzs4MZmCm823n3bO5cU4eNNv+fo2Y1AGj94FpaJBtmfTYOBaxE6gu1MMgim8l8rRYfS+ycrUueLUCAlbpuizLFEVeJVW8Q26scONIo0K6VkH/8nUGfpRKWJxFtmBJm0fLtsOnIyloQVqKukyTkufZJs+SJCvWabXJqzQTOaDYEKGCChW1PszuPpn1fRtKO0mYgR/zzG5B6RFEZEnE8M2jFkjra1AOI9aAFuCN7dnW244AiyAeteqXjqPUnuhY6H1z8h9tTJMkNNZIhjhOh0u5n3Oc4PoOPDwRNfednVv50UiObopCYA2d8rcfsanhsfXS6GnEQ6Wu00Z1jf41JcEWgutnI6RzJALbYDRIn33UT0dz3l1V3kt9CWU+VIaDWirw3sqq80HPwFBhQ0T7BtpW6sO+teYkL8OkpYkPioq4VuZMS8MVjYEH4THlCvE94XcX+AWsDC5+Eg0NjxFzvbtV4Ny7Fwpx/7cLSiZns4f9FEMY4Va2/oYWnHCWO76GWz9xL5ly6UjCc8Aerv9KOOjpBkn+ETob+yeIf8fG/wTTev11AwAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=01a3c74479a053107f44fa0f7d0bc3c6"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=01a3c74479a053107f44fa0f7d0bc3c6"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_01a3c74479a053107f44fa0f7d0bc3c6"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_01a3c74479a053107f44fa0f7d0bc3c6"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>359a26c3e51813107f44b9b2c90b0fd8</sys_id>
+        <latest_snapshot>01a3c74479a053107f44fa0f7d0bc3c6</latest_snapshot>
+        <compiler_build>glide-australia-02-11-2026__patch3-hotfix1-06-18-2026_06-19-2026_0938.zip</compiler_build>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=359a26c3e51813107f44b9b2c90b0fd8^sys_idNOT IN0da3c74479a053107f44fa0f7d0bc3e5"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"@class":"com.snc.process_flow.engine.serialization.plan_data.ChunkingPlanData","chunk_data":{"table":"sys_flow_trigger_plan","id":"0da3c74479a053107f44fa0f7d0bc3e5","name":"plan","plan_signature":null},"plan_data":"CHUNKING_PLAN"}</plan>
+        <plan_id>359a26c3e51813107f44b9b2c90b0fd8</plan_id>
+        <snapshot>804fb7c079e853107f44fa0f7d0bc3a9</snapshot>
+        <sys_created_by>adetola</sys_created_by>
+        <sys_created_on>2026-11-09 20:09:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0da3c74479a053107f44fa0f7d0bc3e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-09 20:09:37</sys_updated_on>
+        <trigger display_value="">89a3c74479a053107f44fa0f7d0bc3e3</trigger>
+    </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=359a26c3e51813107f44b9b2c90b0fd8"/>
 </record_update>

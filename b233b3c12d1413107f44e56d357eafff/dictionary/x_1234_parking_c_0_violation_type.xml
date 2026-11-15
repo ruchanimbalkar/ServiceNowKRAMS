@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="ed399e35f1d813107f446e35e741640f" label="Violation Type" max_length="40" name="x_1234_parking_c_0_violation_type" type="collection">
-        <element label="Active" max_length="40" name="active" type="boolean"/>
-        <element choice="1" label="Code" max_length="40" name="code" type="choice">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element choice="3" label="Code" mandatory="true" max_length="40" name="code" type="choice">
             <choice>
                 <element inactive_on_update="false" label="IP" sequence="4" value="IP"/>
                 <element inactive_on_update="false" label="DP/ADA" sequence="8" value="DP/ADA"/>
@@ -29,6 +29,6 @@
                 <element inactive_on_update="false" label="No Valid Permit Visible" sequence="0" value="NVPV"/>
             </choice>
         </element>
-        <element label="Fine Amount" max_length="40" name="fine_amount" type="currency"/>
+        <element label="Fine Amount" mandatory="true" max_length="38" name="fine_amount" type="currency"/>
     </element>
 </database>

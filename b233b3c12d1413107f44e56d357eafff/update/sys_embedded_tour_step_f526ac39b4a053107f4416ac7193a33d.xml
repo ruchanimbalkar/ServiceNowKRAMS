@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="INSERT_OR_UPDATE">
+        <action>false</action>
+        <action_event>next</action_event>
+        <action_target/>
+        <action_target_ref display_value="xpath">3d26ac39b4a053107f4416ac7193a33a</action_target_ref>
+        <active>true</active>
+        <content><![CDATA[Click Knowledge Base for step-by-step guides on how to file a citation.]]></content>
+        <guide display_value="Parking Portal Tour">568324b1b4a053107f4416ac7193a313</guide>
+        <implicit>false</implicit>
+        <link/>
+        <name/>
+        <options>{"url":"/parking?id=parking_landing"}</options>
+        <order>5</order>
+        <placement>top</placement>
+        <skippable>false</skippable>
+        <step_type>step</step_type>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>abdullah</sys_created_by>
+        <sys_created_on>2026-11-14 19:10:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f526ac39b4a053107f4416ac7193a33d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_f526ac39b4a053107f4416ac7193a33d</sys_update_name>
+        <sys_updated_by>abdullah</sys_updated_by>
+        <sys_updated_on>2026-11-14 19:10:53</sys_updated_on>
+        <target/>
+        <target_ref display_value="xpath">3d26ac39b4a053107f4416ac7193a33a</target_ref>
+        <title/>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window>parking</window>
+    </sys_embedded_tour_step>
+    <sys_translated_text action="delete_multiple" query="documentkey=f526ac39b4a053107f4416ac7193a33d"/>
+</record_update>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="b612da35f19813107f446e35e74164c2" label="Vehicle" max_length="40" name="x_1234_parking_c_0_vehicle" type="collection">
-        <element choice="3" label="Plate State" max_length="40" name="plate_state" type="choice">
+        <element choice="3" label="Plate State" mandatory="true" max_length="40" name="plate_state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="AK" sequence="2" value="AK"/>
                 <element inactive_on_update="false" label="AZ" sequence="3" value="AZ"/>
@@ -56,10 +56,10 @@
             </choice>
         </element>
         <element label="Active" max_length="40" name="active" type="boolean"/>
-        <element label="Owner" max_length="40" name="owner" type="string"/>
+        <element label="Owner" max_length="32" name="owner" reference="x_1234_parking_c_0_campus_person" type="reference"/>
         <element label="Color" max_length="40" name="color" type="string"/>
         <element label="Make" max_length="40" name="make" type="string"/>
-        <element label="Plate" max_length="40" name="plate" type="string"/>
+        <element display="true" label="Plate" mandatory="true" max_length="40" name="plate" type="string"/>
         <element label="Model" max_length="40" name="model" type="string"/>
     </element>
 </database>

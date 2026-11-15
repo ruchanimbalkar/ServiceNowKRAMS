@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="91b5e231f15c13107f446e35e7416406" extends="task" label="Citation" max_length="40" name="x_1234_parking_c_0_citation" type="collection">
+    <element attributes="enforce_dot_walk_cross_scope_access=true" audit="true" db_object_id="91b5e231f15c13107f446e35e7416406" extends="task" label="Citation" max_length="40" name="x_1234_parking_c_0_citation" type="collection">
         <element label="Cited to" max_length="32" name="cited_to" reference="x_1234_parking_c_0_campus_person" type="reference"/>
         <element label="Vehicle" max_length="32" name="vehicle" reference="x_1234_parking_c_0_vehicle" type="reference"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="90d1921e5f510100a9ad2572f2b477fe" label="Issued by" max_length="32" name="issued_by" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element label="Violation Type" max_length="32" name="violation_type" reference="x_1234_parking_c_0_violation_type" type="reference"/>
-        <element label="Issued on" max_length="40" name="issued_on" type="glide_date"/>
+        <element label="Appeal Reminder Date" max_length="255" name="appel_reminder_date" type="glide_date"/>
+        <element label="Void Reason" max_length="500" name="void_reason" type="string"/>
+        <element label="Fine Amount" max_length="40" name="fine_amount" type="currency"/>
+        <element label="Photos" max_length="255" name="photos" type="user_image"/>
+        <element default="javascript:new GlideDate().getDisplayValue();" label="Issued on" max_length="40" name="issued_on" type="glide_date"/>
+        <element choice="1" label="Cited Person Type" max_length="40" name="cited_person_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Student" sequence="0" value="student"/>
+                <element inactive_on_update="false" label="Guest" sequence="2" value="guest"/>
+                <element inactive_on_update="false" label="Employee" sequence="1" value="employee"/>
+            </choice>
+        </element>
+        <element label="Appeal Deadline" max_length="40" name="appeal_deadline" type="glide_date"/>
         <element default="False" label="Appeal Reminder Sent" max_length="40" name="appeal_reminder_sent" type="boolean"/>
+        <element label="Fine Amount Review Pending" max_length="40" name="fine_amount_review_pending" read_only="true" read_only_option="display_read_only" type="boolean"/>
+        <element label="Parking Lot" mandatory="true" max_length="32" name="parking_lot" reference="x_1234_parking_c_0_parking_lot" type="reference"/>
+        <element label="Appealed" max_length="40" name="appealed" type="boolean"/>
     </element>
 </database>

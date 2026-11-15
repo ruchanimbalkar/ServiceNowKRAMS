@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas">
+    <par_dashboard_canvas action="DELETE">
+        <dashboard display_value="Parking Citations Analytics Dashboard - Copy">7a0e3527711813107f446d2b630a8786</dashboard>
+        <dashboard_tab display_value="New Tab 72">760e3527711813107f446d2b630a8797</dashboard_tab>
+        <layout>[]</layout>
+        <sys_class_name>par_dashboard_canvas</sys_class_name>
+        <sys_created_by>M.Burgos</sys_created_by>
+        <sys_created_on>2026-11-08 01:48:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3a0e3527711813107f446d2b630a879a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>par_dashboard_canvas_3a0e3527711813107f446d2b630a879a</sys_update_name>
+        <sys_updated_by>M.Burgos</sys_updated_by>
+        <sys_updated_on>2026-11-08 01:48:35</sys_updated_on>
+    </par_dashboard_canvas>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</application>
+        <file_path/>
+        <instance_id>11b399e8971097945382ff671153af6b</instance_id>
+        <instance_name>sya-oct-6371-0004</instance_name>
+        <name>par_dashboard_canvas_3a0e3527711813107f446d2b630a879a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas"><par_dashboard_canvas action="INSERT_OR_UPDATE"><dashboard display_value="Parking Citations Analytics Dashboard - Copy">7a0e3527711813107f446d2b630a8786</dashboard><dashboard_tab display_value="New Tab 72">760e3527711813107f446d2b630a8797</dashboard_tab><layout>[]</layout><sys_class_name>par_dashboard_canvas</sys_class_name><sys_created_by>M.Burgos</sys_created_by><sys_created_on>2026-11-08 01:48:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3a0e3527711813107f446d2b630a879a</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package><sys_policy/><sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope><sys_update_name>par_dashboard_canvas_3a0e3527711813107f446d2b630a879a</sys_update_name><sys_updated_by>M.Burgos</sys_updated_by><sys_updated_on>2026-11-08 01:48:35</sys_updated_on></par_dashboard_canvas></record_update>]]></payload>
+        <payload_hash>-1269658545</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>7bccae7df15c13107f446e35e74164b2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>M.Burgos</sys_created_by>
+        <sys_created_on>2026-11-08 01:48:35</sys_created_on>
+        <sys_id>8f0e3527711813107f446d2b630a879c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1b8d7d7790000001</sys_recorded_at>
+        <sys_updated_by>M.Burgos</sys_updated_by>
+        <sys_updated_on>2026-11-08 01:48:35</sys_updated_on>
+        <type>PAR Dashboard Page Canvas</type>
+        <update_guid>720e35276f18131023b3fc805835e79c</update_guid>
+        <update_guid_history>720e35276f18131023b3fc805835e79c:-1269658545</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">1b0e3527711813107f446d2b630a87f6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>M.Burgos</sys_created_by>
+        <sys_created_on>2026-11-08 01:48:36</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_canvas">par_dashboard_canvas</sys_db_object>
+        <sys_id>0933fe7937294bb48a78270f00ffcf90</sys_id>
+        <sys_metadata>3a0e3527711813107f446d2b630a879a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_scope_delete display_value="">262add6e65a2409db2b8906c824ca431</sys_scope_delete>
+        <sys_update_name>par_dashboard_canvas_3a0e3527711813107f446d2b630a879a</sys_update_name>
+        <sys_update_version display_value="par_dashboard_canvas_3a0e3527711813107f446d2b630a879a">8f0e3527711813107f446d2b630a879c</sys_update_version>
+        <sys_updated_by>M.Burgos</sys_updated_by>
+        <sys_updated_on>2026-11-08 01:48:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

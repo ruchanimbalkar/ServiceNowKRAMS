@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>4886c743e51c13107f44b9b2c90b0f90</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
+        <path>parking-citations</path>
+        <root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>adetola</sys_created_by>
+        <sys_created_on>2026-11-06 17:48:11</sys_created_on>
+        <sys_id>1c864383e51c13107f44b9b2c90b0f7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Parking Citations Workspace</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sys_ux_page_registry_1c864383e51c13107f44b9b2c90b0f7d</sys_update_name>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-06 17:48:11</sys_updated_on>
+        <title>Parking Citations Workspace</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</application>
+        <file_path/>
+        <instance_id>11b399e8971097945382ff671153af6b</instance_id>
+        <instance_name>sya-oct-6371-0004</instance_name>
+        <name>sys_ux_page_registry_1c864383e51c13107f44b9b2c90b0f7d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>4886c743e51c13107f44b9b2c90b0f90</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app><path>parking-citations</path><root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>adetola</sys_created_by><sys_created_on>2026-11-06 17:48:11</sys_created_on><sys_id>1c864383e51c13107f44b9b2c90b0f7d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Parking Citations Workspace</sys_name><sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package><sys_policy/><sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope><sys_update_name>sys_ux_page_registry_1c864383e51c13107f44b9b2c90b0f7d</sys_update_name><sys_updated_by>adetola</sys_updated_by><sys_updated_on>2026-11-06 17:48:11</sys_updated_on><title>Parking Citations Workspace</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>611226083</payload_hash>
+        <record_name>Parking Citations Workspace</record_name>
+        <reverted_from/>
+        <source>f709a639f15c13107f446e35e7416474</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>adetola</sys_created_by>
+        <sys_created_on>2026-11-06 17:48:11</sys_created_on>
+        <sys_id>94864383e51c13107f44b9b2c90b0f81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1b1f9a8c50000001</sys_recorded_at>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-06 17:48:11</sys_updated_on>
+        <type>UX Application</type>
+        <update_guid>18864383821c131017c1de8a2f9dee80</update_guid>
+        <update_guid_history>18864383821c131017c1de8a2f9dee80:611226083</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>adetola</sys_created_by>
+        <sys_created_on>2026-11-10 00:00:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>953a40e3149d4e489c9b3e9b3fda19a4</sys_id>
+        <sys_metadata>1c864383e51c13107f44b9b2c90b0f7d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Parking Citations Workspace</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_scope_delete display_value="">262add6e65a2409db2b8906c824ca431</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_1c864383e51c13107f44b9b2c90b0f7d</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_1c864383e51c13107f44b9b2c90b0f7d">94864383e51c13107f44b9b2c90b0f81</sys_update_version>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-10 00:00:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

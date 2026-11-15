@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization">
+    <par_visualization action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <certified>false</certified>
+        <description>Tracks pending, approved, and denied appeals
+</description>
+        <macroponent display_value="Donut">a2b0596cec6b9d49dd1ff9bf76b5084b</macroponent>
+        <name>Appeals Status </name>
+        <properties>{"configVersion":"23.0.0-ci-SNAPSHOT","showDataLabels":false,"dataLabelsType":"both","truncationType":"end","showRegister":true,"registerPosition":"bottom","registerOrientation":"horizontal","showRegisterOnSameLine":false,"showRegisterValue":false,"legendHorizontalAlignment":"center","legendExpandToFit":false,"showRegisterPercentage":false,"showPercentageOfTotalInTooltip":true,"colorConfig":{"type":"default"},"newReporting":false,"enableAddZerosAtApi":true,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Appeal","sourceType":"table","tableOrViewName":"x_1234_parking_c_0_appeal","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzEyMzRfcGFya2luZ19jXzBfYXBwZWFsMTc5NDA5ODg3Njc0Mw==","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"lineClamp":1,"headerTitleAlignment":"start","wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"headerTitle":"Appeals Status Overview","headingLevel":2,"description":"How many appeals are Pending, Approved, or Denied?","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"metrics":[{"dataSource":"dGFibGV4XzEyMzRfcGFya2luZ19jXzBfYXBwZWFsMTc5NDA5ODg3Njc0Mw==","id":"ZEdGaWJHVjRYekV5TXpSZmNHRnlhMmx1WjE5alh6QmZZWEJ3WldGc01UYzVOREE1T0RnM05qYzBNdz09MTc5NDA5ODg3OTM3Mw==","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzEyMzRfcGFya2luZ19jXzBfYXBwZWFsMTc5NDA5ODg3Njc0Mw==","groupByField":"state","isRange":false,"isChoice":true,"isPaBucket":false}],"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false}],"headerColor":{"value":"#e1616f"},"titleColor":{"themeVariable":"--now-color_text--primary","value":"#172b31"},"sortBy":"value","sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"showTotalValue":true,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"3ik4wlmk","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"autoAggregatePeriods":false,"showChangeFrom":"previous","useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showExportOptions":true,"showFilterAsSeparateSeries":false,"userInfo":"@context.session.user","scoreType":null,"dataPassthrough":null,"sharedContext":null,"filterPerMetric":[]}</properties>
+        <requested_by/>
+        <required_translations>[{"comment":"","message":"Appeal","code":"PAR_COMPONENT.f4aacf10a4a413107f444c153b1d0e42"},{"comment":"","message":"Appeals Status Overview","code":"PAR_COMPONENT.f4aacf10a4a413107f444c153b1d0e42"},{"comment":"","message":"How many appeals are Pending, Approved, or Denied?","code":"PAR_COMPONENT.f4aacf10a4a413107f444c153b1d0e42"},{"comment":"","message":"No data available.","code":"PAR_COMPONENT.f4aacf10a4a413107f444c153b1d0e42"},{"comment":"","message":"There are no scores available for the selected criteria. Contact your admin for more info.","code":"PAR_COMPONENT.f4aacf10a4a413107f444c153b1d0e42"}]</required_translations>
+        <scheduled_count>0</scheduled_count>
+        <sys_class_name>par_visualization</sys_class_name>
+        <sys_created_by>M.Burgos</sys_created_by>
+        <sys_created_on>2026-11-10 15:18:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>f4aacf10a4a413107f444c153b1d0e42</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Appeals Status </sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>par_visualization_f4aacf10a4a413107f444c153b1d0e42</sys_update_name>
+        <sys_updated_by>M.Burgos</sys_updated_by>
+        <sys_updated_on>2026-11-10 15:18:39</sys_updated_on>
+        <type>donut</type>
+    </par_visualization>
+</record_update>

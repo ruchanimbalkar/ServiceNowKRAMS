@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="b1b0a783e51053107f44b9b2c90b0fb6" label="Parking Citation Inquiry" max_length="40" name="x_1234_parking_c_0_parking_inquiry" type="collection">
+        <element label="Message" mandatory="true" max_length="4000" name="message" type="string_full_utf8"/>
+        <element label="Email Address" mandatory="true" max_length="255" name="email_address" type="string"/>
+        <element label="Instructions" max_length="255" name="instructions" type="string_full_utf8"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice/>
+        </element>
+        <element label="Full Name" mandatory="true" max_length="40" name="full_name" type="string"/>
+        <element choice="1" label="Inquiry Type" mandatory="true" max_length="40" name="inquiry_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Citation Question" sequence="1" value="citation_question"/>
+                <element inactive_on_update="false" label="Other" sequence="2" value="other"/>
+                <element inactive_on_update="false" label="General Inquiry" sequence="0" value="general_inquiry"/>
+            </choice>
+        </element>
+    </element>
+</database>

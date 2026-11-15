@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="DELETE">
+        <aria_label/>
+        <class_name/>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_column/>
+        <sp_container display_value="Copy of Knowledge Base  (1) - Container 4">337414bdb4ec13107f4416ac7193a32f</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>abdullah</sys_created_by>
+        <sys_created_on>2026-11-14 17:53:46</sys_created_on>
+        <sys_id>737414bdb4ec13107f4416ac7193a332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sp_row_737414bdb4ec13107f4416ac7193a332</sys_update_name>
+        <sys_updated_by>abdullah</sys_updated_by>
+        <sys_updated_on>2026-11-14 17:53:46</sys_updated_on>
+    </sp_row>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</application>
+        <file_path/>
+        <instance_id>11b399e8971097945382ff671153af6b</instance_id>
+        <instance_name>sya-oct-6371-0004</instance_name>
+        <name>sp_row_737414bdb4ec13107f4416ac7193a332</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><aria_label/><class_name/><order>1</order><semantic_tag/><sp_column/><sp_container display_value="Copy of Knowledge Base  (1) - Container 4">337414bdb4ec13107f4416ac7193a32f</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>abdullah</sys_created_by><sys_created_on>2026-11-14 17:53:46</sys_created_on><sys_id>737414bdb4ec13107f4416ac7193a332</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package><sys_policy/><sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope><sys_update_name>sp_row_737414bdb4ec13107f4416ac7193a332</sys_update_name><sys_updated_by>abdullah</sys_updated_by><sys_updated_on>2026-11-14 17:53:46</sys_updated_on></sp_row></record_update>]]></payload>
+        <payload_hash>808177874</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>028f22f5f19c13107f446e35e7416476</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>abdullah</sys_created_by>
+        <sys_created_on>2026-11-14 17:53:46</sys_created_on>
+        <sys_id>f77414bdb4ec13107f4416ac7193a334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1db31a4380000001</sys_recorded_at>
+        <sys_updated_by>abdullah</sys_updated_by>
+        <sys_updated_on>2026-11-14 17:53:46</sys_updated_on>
+        <type>Row</type>
+        <update_guid>bb7414bd16ec13104b1adfe1a4b23c33</update_guid>
+        <update_guid_history>bb7414bd16ec13104b1adfe1a4b23c33:808177874</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">05d8d479b42053107f4416ac7193a32f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>abdullah</sys_created_by>
+        <sys_created_on>2026-11-14 18:12:41</sys_created_on>
+        <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
+        <sys_id>0469c2019be046388209cbcfde6ce109</sys_id>
+        <sys_metadata>737414bdb4ec13107f4416ac7193a332</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_scope_delete display_value="">262add6e65a2409db2b8906c824ca431</sys_scope_delete>
+        <sys_update_name>sp_row_737414bdb4ec13107f4416ac7193a332</sys_update_name>
+        <sys_update_version display_value="sp_row_737414bdb4ec13107f4416ac7193a332">f77414bdb4ec13107f4416ac7193a334</sys_update_version>
+        <sys_updated_by>abdullah</sys_updated_by>
+        <sys_updated_on>2026-11-14 18:12:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

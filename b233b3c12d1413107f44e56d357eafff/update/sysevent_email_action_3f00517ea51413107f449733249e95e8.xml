@@ -65,17 +65,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3f00517ea51413107f449733249e95e8</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Appeal Deadline Reminder</sys_name>
         <sys_overrides/>
         <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
         <sys_policy/>
         <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
         <sys_update_name>sysevent_email_action_3f00517ea51413107f449733249e95e8</sys_update_name>
-        <sys_updated_by>ruchan</sys_updated_by>
-        <sys_updated_on>2026-11-10 14:46:40</sys_updated_on>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-13 21:10:14</sys_updated_on>
         <sys_version>2</sys_version>
-        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <template display_value="Campus Safety Email Template">df2de715a96453107f440744910c156f</template>
         <type>email</type>
         <weight>0</weight>
     </sysevent_email_action>

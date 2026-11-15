@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="2475b2b5f1dc13107f446e35e74164ad" extends="task" label="Appeal" max_length="40" name="x_1234_parking_c_0_appeal" type="collection">
         <element label="Citation" max_length="32" name="citation" reference="x_1234_parking_c_0_citation" type="reference"/>
-        <element label="Applied on" max_length="40" name="applied_on" type="glide_date_time"/>
+        <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Appealed on" max_length="40" name="applied_on" type="glide_date_time" use_dynamic_default="true"/>
         <element label="Decision Reason" max_length="40" name="decision_reason" type="string"/>
         <element label="Appellant email" max_length="40" name="appellant_email" type="string"/>
         <element label="Appellant name" max_length="40" name="appellant_name" type="string"/>
@@ -19,11 +19,11 @@
             </choice>
         </element>
         <element label="Citation Number" max_length="40" name="citation_number" type="string"/>
-        <element label="Applied by" max_length="40" name="applied_by" type="string"/>
-        <element label="New Amont" max_length="40" name="new_amont" type="string"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="90d1921e5f510100a9ad2572f2b477fe" label="Appealed by" max_length="32" name="applied_by" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="New Amount" max_length="40" name="new_amont" type="string"/>
         <element label="Reason" mandatory="true" max_length="200" name="reason" type="string"/>
         <element label="Decided by" max_length="40" name="decided_by" type="string"/>
         <element label="Evidence" max_length="40" name="evidence" type="file_attachment"/>
-        <element label="Decided on" max_length="40" name="decided_on" type="glide_date_time"/>
+        <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Decided on" max_length="40" name="decided_on" type="glide_date_time" use_dynamic_default="true"/>
     </element>
 </database>

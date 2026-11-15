@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">430e3527711813107f446d2b630a87a8</canvas>
+        <component display_value="Heading">1f6e0643eca7a637e36bd7833549ec9e</component>
+        <component_props>{"variant":"title-primary","label":"Centralized oversight of parking citations, violation trends, appeals, and service inquiries to support informed decision-making and campus safety operations.","wontWrap":false,"hasNoMargin":false,"level":"1","align":"center","showBorder":true,"bareBorder":false,"showHeader":true,"headerTitle":" Parking Operations | Management Dashboard","headingLevel":1,"headerTitleAlignment":"center","description":"","headerColor":{"themeVariable":"--now-color_alert--info-1","value":"#5eabdf"},"titleColor":{"themeVariable":"--now-color_text--primary","value":"#172b31"},"showHeaderSeparator":true}</component_props>
+        <h>9</h>
+        <name/>
+        <required_translations>[{"comment":"","message":"Centralized oversight of parking citations, violation trends, appeals, and service inquiries to support informed decision-making and campus safety operations.","code":"PAR_DASHBOARD.430e3527711813107f446d2b630a87a8.130e7527711813107f446d2b630a870b"}]</required_translations>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>M.Burgos</sys_created_by>
+        <sys_created_on>2026-11-08 01:48:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>130e7527711813107f446d2b630a870b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>par_dashboard_widget_130e7527711813107f446d2b630a870b</sys_update_name>
+        <sys_updated_by>M.Burgos</sys_updated_by>
+        <sys_updated_on>2026-11-13 14:06:49</sys_updated_on>
+        <visualization/>
+        <w>20</w>
+        <widget_props/>
+        <x>18</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>

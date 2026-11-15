@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="DELETE">
+        <macroponent/>
+        <macroponent_config>{
+    "table": "task",
+    "sysId": "9f1fa642d51013107f448437bb979493",
+    "query": "",
+    "extraParams": "",
+    "views": "",
+    "selectedTabIndex": ""
+}</macroponent_config>
+        <screen display_value="Parking Services Leadership default">9fedda15a92813107f440744910c15be</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>M.Burgos</sys_created_by>
+        <sys_created_on>2026-11-13 14:37:14</sys_created_on>
+        <sys_id>53ed5e15a92813107f440744910c15f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_53ed5e15a92813107f440744910c15f4</sys_update_name>
+        <sys_updated_by>M.Burgos</sys_updated_by>
+        <sys_updated_on>2026-11-13 14:37:14</sys_updated_on>
+    </sys_uib_screen_test_values>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</application>
+        <file_path/>
+        <instance_id>11b399e8971097945382ff671153af6b</instance_id>
+        <instance_name>sya-oct-6371-0004</instance_name>
+        <name>sys_uib_screen_test_values_53ed5e15a92813107f440744910c15f4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values"><sys_uib_screen_test_values action="INSERT_OR_UPDATE"><macroponent/><macroponent_config>{
+    "table": "task",
+    "sysId": "9f1fa642d51013107f448437bb979493",
+    "query": "",
+    "extraParams": "",
+    "views": "",
+    "selectedTabIndex": ""
+}</macroponent_config><screen display_value="Parking Services Leadership default">9fedda15a92813107f440744910c15be</screen><sys_class_name>sys_uib_screen_test_values</sys_class_name><sys_created_by>M.Burgos</sys_created_by><sys_created_on>2026-11-13 14:37:14</sys_created_on><sys_id>53ed5e15a92813107f440744910c15f4</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package><sys_policy/><sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope><sys_update_name>sys_uib_screen_test_values_53ed5e15a92813107f440744910c15f4</sys_update_name><sys_updated_by>M.Burgos</sys_updated_by><sys_updated_on>2026-11-13 14:37:14</sys_updated_on></sys_uib_screen_test_values></record_update>]]></payload>
+        <payload_hash>914338010</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>7bccae7df15c13107f446e35e74164b2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>M.Burgos</sys_created_by>
+        <sys_created_on>2026-11-13 14:37:14</sys_created_on>
+        <sys_id>d7ed5e15a92813107f440744910c15f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1d5575b900000001</sys_recorded_at>
+        <sys_updated_by>M.Burgos</sys_updated_by>
+        <sys_updated_on>2026-11-13 14:37:14</sys_updated_on>
+        <type>UIB Test Values</type>
+        <update_guid>dbed5e159d2813104bab6d8aa10118f5</update_guid>
+        <update_guid_history>dbed5e159d2813104bab6d8aa10118f5:914338010</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>M.Burgos</sys_created_by>
+        <sys_created_on>2026-11-13 14:38:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_uib_screen_test_values">sys_uib_screen_test_values</sys_db_object>
+        <sys_id>482e0b96559b4cfc97a7038112a43690</sys_id>
+        <sys_metadata>53ed5e15a92813107f440744910c15f4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_scope_delete display_value="">262add6e65a2409db2b8906c824ca431</sys_scope_delete>
+        <sys_update_name>sys_uib_screen_test_values_53ed5e15a92813107f440744910c15f4</sys_update_name>
+        <sys_update_version display_value="sys_uib_screen_test_values_53ed5e15a92813107f440744910c15f4">d7ed5e15a92813107f440744910c15f6</sys_update_version>
+        <sys_updated_by>M.Burgos</sys_updated_by>
+        <sys_updated_on>2026-11-13 14:38:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

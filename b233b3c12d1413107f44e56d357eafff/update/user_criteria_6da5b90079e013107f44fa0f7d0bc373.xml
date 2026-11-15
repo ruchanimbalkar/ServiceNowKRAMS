@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="user_criteria">
+    <user_criteria action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <company/>
+        <department/>
+        <group name="Security Officers">c65d73c6d5dc13107f448437bb9794e1</group>
+        <location/>
+        <match_all>false</match_all>
+        <name>Parking Services</name>
+        <role name="x_1234_parking_c_0.security_officer">a058c8952d1813107f44e56d357eafa4</role>
+        <script/>
+        <short_description>This users have access to service catalog</short_description>
+        <sys_class_name>user_criteria</sys_class_name>
+        <sys_created_by>adetola</sys_created_by>
+        <sys_created_on>2026-11-09 14:30:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6da5b90079e013107f44fa0f7d0bc373</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Parking Services</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>user_criteria_6da5b90079e013107f44fa0f7d0bc373</sys_update_name>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-09 15:11:57</sys_updated_on>
+        <user/>
+    </user_criteria>
+    <sys_translated_text action="delete_multiple" query="documentkey=6da5b90079e013107f44fa0f7d0bc373"/>
+</record_update>
