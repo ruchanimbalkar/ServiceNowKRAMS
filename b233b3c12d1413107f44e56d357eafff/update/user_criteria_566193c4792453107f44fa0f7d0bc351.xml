@@ -8,7 +8,7 @@
         <location/>
         <match_all>false</match_all>
         <name>KRAMS Parking All</name>
-        <role/>
+        <role name="x_1234_parking_c_0.student">3d938856d51053107f448437bb9794b1</role>
         <script/>
         <short_description>These are the students and employees who get parking citations and who may need help in filing appeals for the citations.</short_description>
         <sys_class_name>user_criteria</sys_class_name>
@@ -17,14 +17,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>566193c4792453107f44fa0f7d0bc351</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>KRAMS Parking All</sys_name>
         <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
         <sys_policy/>
         <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
         <sys_update_name>user_criteria_566193c4792453107f44fa0f7d0bc351</sys_update_name>
         <sys_updated_by>ruchan</sys_updated_by>
-        <sys_updated_on>2026-11-09 21:56:49</sys_updated_on>
+        <sys_updated_on>2026-11-13 16:09:53</sys_updated_on>
         <user/>
     </user_criteria>
     <sys_translated_text action="delete_multiple" query="documentkey=566193c4792453107f44fa0f7d0bc351"/>

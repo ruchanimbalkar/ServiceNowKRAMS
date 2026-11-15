@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic_library_usage">
+    <sys_cs_topic_library_usage action="INSERT_OR_UPDATE">
+        <calling_cs_topic_id display_value="Get Article Link">173ee259a9e813107f440744910c1513</calling_cs_topic_id>
+        <library_cs_topic_id display_value="Data Collector">4c19933e4322211006650464dbb8f22d</library_cs_topic_id>
+        <library_usage>{"type":"LibraryCall","library_topic_name":"Data Collector","library_topic_id":"4c19933e4322211006650464dbb8f22d","library_topic_is_template":false,"parameter-mappings":[{"parameter-name":"definition","value":{"type":"String","mode":"script","value":"(function execute() {\n        var config = {\n            configuration: {\"purpose\":\"{{0}}\",\"inputs\":[{\"name\":\"article_choices\",\"type\":\"choice\",\"discoverable\":true,\"description\":\"Ask for article link\",\"skipMode\":\"'simple'\",\"skipCondition\":\"\\\"\\\"\",\"helpText\":\"false\",\"choices\":[{\"value\":\"park_safely_and_avoid_citations\",\"label\":\"Parking Safety &amp; Avoiding Citations\"},{\"value\":\"appeal_a_citation\",\"label\":\"Appeal a citation\"}],\"applicability\":\"\",\"validation\":\"\"}],\"instructions\":\"{{1}}\",\"advanced_parameters\":\"{{2}}\",\"callingTask\":\"{{3}}\",\"confirm_summary\":false,\"slots\":[],\"applicability\":\"\",\"classificationOverrides\":[]}\n        };\n        return JSON.stringify(config);\n    })()"},"metadata":{"type":"String","list":false,"items":[],"use_items":false}},{"parameter-name":"inputs","metadata":{"type":"String","list":true,"items":[{"type":"String","mode":"string","value":"Collect user input"},{"type":"String","mode":"string","value":"If the user asks for the link to a specific article, give them the link to the article."},{"type":"String","mode":"string","value":""},{"type":"String","mode":"script","value":"(function() { return vaSystem.getConversationTaskId()})()"}],"use_items":true}}],"return-value-mappings":[{"main_topic_variable_namespace":"vaInputs","library_topic_return_parameter_name":"outputs","main_topic_mapped_variable_name":"ai_data_collector_a2ba6a674c1a4b8abd421b2bbb70ec79_output"}],"header_card_fields":[],"input_parameters_mode":"dynamic","output_parameters_mode":"dynamic","id":"a2ba6a674c1a4b8abd421b2bbb70ec79","name":"Article Choices","goal_id":"primary","expert_mode":false,"variableIds":["72919e1160ee43c19429da28b39d49d0"]}</library_usage>
+        <node_id>a2ba6a674c1a4b8abd421b2bbb70ec79</node_id>
+        <sys_class_name>sys_cs_topic_library_usage</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-13 15:48:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>933ee259a9e813107f440744910c151b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sys_cs_topic_library_usage_933ee259a9e813107f440744910c151b</sys_update_name>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-13 15:52:57</sys_updated_on>
+    </sys_cs_topic_library_usage>
+</record_update>

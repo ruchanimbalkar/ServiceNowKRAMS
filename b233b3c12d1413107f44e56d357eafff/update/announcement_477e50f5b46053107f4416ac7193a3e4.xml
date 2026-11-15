@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="announcement">
+    <announcement action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <click_target/>
+        <details/>
+        <details_link_text/>
+        <details_page/>
+        <details_url/>
+        <dismiss_options>session_dismissible</dismiss_options>
+        <display_first>false</display_first>
+        <display_style display_value="Campus Safety Corporate">d2ddd875b46053107f4416ac7193a3eb</display_style>
+        <from>2026-11-13 18:38:12</from>
+        <glyph>twitter</glyph>
+        <glyph_alt_text/>
+        <name>Thanksgiving Holiday Days</name>
+        <public>true</public>
+        <roles/>
+        <show_for_unauthenticated_users_only>false</show_for_unauthenticated_users_only>
+        <summary>Attention : Campus Safety offices will be closed due to Thanksgiving holiday from November 25th to 29th 2026. Please be safe and have a happy Thanksgiving.</summary>
+        <sys_class_name>announcement</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-14 18:46:16</sys_created_on>
+        <sys_id>477e50f5b46053107f4416ac7193a3e4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Thanksgiving Holiday Days</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>announcement_477e50f5b46053107f4416ac7193a3e4</sys_update_name>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-14 18:54:33</sys_updated_on>
+        <title>Campus Safety Office will be Closed</title>
+        <to>2026-11-29 18:38:43</to>
+        <type>67eaf134e7a3320075c2a117c2f6a9d2,52fa79f8e763320075c2a117c2f6a991</type>
+    </announcement>
+    <sys_translated_text action="delete_multiple" query="documentkey=477e50f5b46053107f4416ac7193a3e4"/>
+</record_update>

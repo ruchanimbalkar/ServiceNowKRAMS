@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_theme">
+    <sp_theme action="INSERT_OR_UPDATE">
+        <css_variables>$brand-primary: #175CD3;&#13;
+$brand-danger: #B42318;&#13;
+$brand-warning: #B54708;&#13;
+$link-color: #175CD3;&#13;
+$body-bg: #F5F6F8;&#13;
+$text-color: #101828;&#13;
+$text-muted: #475467;&#13;
+$navbar-inverse-bg: #1B2A41;&#13;
+$navbar-inverse-link-color: #FFFFFF;&#13;
+$navbar-inverse-link-hover-color: #D0D5DD;&#13;
+$sp-navbar-divider-color: #1B2A41;&#13;
+$border-radius-base: 8px;&#13;
+$font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;&#13;
+</css_variables>
+        <footer/>
+        <footer_fixed>false</footer_fixed>
+        <header display_value="Stock Header">bf5ec2f2cb10120000f8d856634c9c0c</header>
+        <icon/>
+        <logo/>
+        <logo_alt_text/>
+        <matching_now_experience_theme/>
+        <name>Campus Safety</name>
+        <navbar_fixed>true</navbar_fixed>
+        <sys_class_name>sp_theme</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-13 19:09:55</sys_created_on>
+        <sys_id>b5fbdb1da9a053107f440744910c1560</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Campus Safety</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sp_theme_b5fbdb1da9a053107f440744910c1560</sys_update_name>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-13 19:09:55</sys_updated_on>
+        <turn_off_scss_compilation>false</turn_off_scss_compilation>
+    </sp_theme>
+    <sys_translated_text action="delete_multiple" query="documentkey=b5fbdb1da9a053107f440744910c1560"/>
+</record_update>

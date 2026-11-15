@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>// ---------- Palette (matches Phase 6 theme) ----------
+$plh-navy:  #1B2A41;
+$plh-navy-2:#22375A;
+$plh-blue:  #175CD3;
+$plh-bg:    #F5F6F8;
+$plh-text:  #101828;
+$plh-muted: #475467;
+$plh-line:  #E4E7EC;
+$plh-green: #067647;
+$plh-amber: #B54708;
+$plh-red:   #B42318;
+$plh-radius: 12px;
+
+// ---------- Base ----------
+.plh { color: $plh-text; background: $plh-bg; font-size: 16px; line-height: 1.55; }
+.plh-wrap { max-width: 1120px; margin: 0 auto; padding: 0 20px; }
+.plh-narrow { max-width: 760px; }
+.plh h1, .plh h2, .plh h3 { margin: 0 0 12px; font-weight: 700; color: $plh-text; }
+.plh h2 { font-size: 28px; letter-spacing: -0.01em; margin-bottom: 28px; }
+.plh h3 { font-size: 18px; }
+.plh p { margin: 0 0 12px; }
+.plh-section { padding: 72px 0; }
+.plh-section-white { background: #fff; }
+.plh-grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.plh a:focus-visible { outline: 3px solid #84ADFF; outline-offset: 2px; }
+
+// ---------- Icons ----------
+.plh-icon { width: 28px; height: 28px; fill: none; stroke: $plh-blue; stroke-width: 1.8;
+  stroke-linecap: round; stroke-linejoin: round; }
+.plh-icon-tile { width: 48px; height: 48px; padding: 10px; border-radius: 10px;
+  background: #EFF4FF; margin-bottom: 16px; }
+
+// ---------- 1. Hero ----------
+.plh-hero { background: linear-gradient(135deg, $plh-navy 0%, $plh-navy-2 55%, $plh-blue 130%);
+  color: #fff; padding: 80px 0 120px; }
+.plh-hero-grid { display: grid; grid-template-columns: 1.25fr 1fr; gap: 56px; align-items: center; }
+.plh-eyebrow { text-transform: uppercase; letter-spacing: 0.12em; font-size: 13px;
+  font-weight: 600; color: #B2CCFF; }
+.plh-hero h1 { color: #fff; font-size: 46px; line-height: 1.1; letter-spacing: -0.02em; }
+.plh-lead { font-size: 19px; color: #D0D5DD; max-width: 540px; }
+.plh-actions { margin: 28px 0 12px; }
+.plh-hero-note { font-size: 14px; color: #B9C0CC; }
+
+.plh-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 48px;
+  padding: 0 24px; border-radius: 8px; font-weight: 600; text-decoration: none;
+  transition: background-color 0.15s ease; }
+.plh-btn-light { background: #fff; color: $plh-navy; }
+.plh-btn-light:hover, .plh-btn-light:focus { background: #EFF4FF; color: $plh-navy; text-decoration: none; }
+
+// Decorative citation card
+.plh-hero-card { background: #fff; color: $plh-text; border-radius: 16px; padding: 24px;
+  box-shadow: 0 24px 48px rgba(16, 24, 40, 0.35); transform: rotate(-2deg); max-width: 380px; justify-self: end; }
+.plh-mock-head { display: flex; justify-content: space-between; align-items: center; }
+.plh-mock-label { font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: $plh-muted; }
+.plh-mock-num { font-size: 22px; font-weight: 700; margin: 8px 0 2px; }
+.plh-mock-sub { color: $plh-muted; font-size: 14px; }
+.plh-pill { font-size: 12px; font-weight: 600; padding: 4px 10px; border-radius: 999px; }
+.plh-pill-amber { background: #FFFAEB; color: $plh-amber; }
+.plh-mock-timeline { list-style: none; margin: 16px 0 0; padding: 16px 0 0; border-top: 1px solid $plh-line; }
+.plh-mock-timeline li { display: flex; align-items: center; gap: 10px; font-size: 14px; padding: 6px 0; }
+.plh-mock-timeline li span { width: 10px; height: 10px; border-radius: 50%; border: 2px solid $plh-line; }
+.plh-mock-timeline li.is-done span { background: $plh-blue; border-color: $plh-blue; }
+.plh-mock-timeline li.is-next span { border-color: $plh-amber; }
+
+// ---------- 2. Key facts (overlaps hero) ----------
+.plh-facts { margin-top: -64px; }
+.plh-fact { background: #fff; border-radius: $plh-radius; padding: 24px;
+  box-shadow: 0 8px 24px rgba(16, 24, 40, 0.08); }
+.plh-fact-big { font-size: 24px; font-weight: 700; margin: 12px 0 4px; }
+.plh-fact-small { color: $plh-muted; font-size: 15px; margin: 0; }
+
+// ---------- 3. Audience cards ----------
+.plh-card { background: #fff; border: 1px solid $plh-line; border-radius: $plh-radius; padding: 28px;
+  transition: box-shadow 0.15s ease, transform 0.15s ease; }
+.plh-card:hover { box-shadow: 0 12px 24px rgba(16, 24, 40, 0.08); transform: translateY(-2px); }
+.plh-card p { color: $plh-muted; }
+.plh-link { color: $plh-blue; font-weight: 600; text-decoration: none; }
+.plh-link:hover { text-decoration: underline; }
+.plh-soon { display: inline-block; font-size: 13px; font-weight: 600; color: $plh-amber;
+  background: #FFFAEB; padding: 4px 10px; border-radius: 999px; }
+
+// ---------- 4. Steps ----------
+.plh-steps { list-style: none; margin: 0; padding: 0; counter-reset: plh-step;
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+.plh-steps li { counter-increment: plh-step; position: relative; padding-top: 56px; }
+.plh-steps li::before { content: counter(plh-step); position: absolute; top: 0; left: 0;
+  width: 40px; height: 40px; border-radius: 50%; background: $plh-blue; color: #fff;
+  font-weight: 700; display: flex; align-items: center; justify-content: center; }
+.plh-steps li::after { content: ""; position: absolute; top: 20px; left: 52px; right: -12px;
+  height: 2px; background: $plh-line; }
+.plh-steps li:last-child::after { display: none; }
+.plh-steps p { color: $plh-muted; }
+
+// ---------- 5. Outcomes ----------
+.plh-outcome { background: #fff; border-radius: $plh-radius; padding: 24px; border-top: 4px solid; }
+.plh-outcome p { color: $plh-muted; margin: 0; }
+.plh-outcome-green { border-top-color: $plh-green; } .plh-outcome-green h3 { color: $plh-green; }
+.plh-outcome-amber { border-top-color: $plh-amber; } .plh-outcome-amber h3 { color: $plh-amber; }
+.plh-outcome-red   { border-top-color: $plh-red; }   .plh-outcome-red h3   { color: $plh-red; }
+
+// ---------- 6. FAQ ----------
+.plh-faq details { border: 1px solid $plh-line; border-radius: 10px; margin-bottom: 12px; background: #fff; }
+.plh-faq summary { cursor: pointer; list-style: none; padding: 18px 20px; font-weight: 600;
+  display: flex; justify-content: space-between; align-items: center; }
+.plh-faq summary::-webkit-details-marker { display: none; }
+.plh-faq summary::after { content: "+"; font-size: 22px; color: $plh-blue; line-height: 1; }
+.plh-faq details[open] summary::after { content: "\2013"; }
+.plh-faq details p { padding: 0 20px 18px; color: $plh-muted; margin: 0; }
+.plh-faq summary:focus-visible { outline: 3px solid #84ADFF; outline-offset: 2px; border-radius: 10px; }
+
+// ---------- 7. Contact ----------
+.plh-contact { background: $plh-navy; color: #D0D5DD; padding: 48px 0; }
+.plh-contact h2 { color: #fff; font-size: 22px; margin-bottom: 8px; }
+.plh-contact-grid { display: flex; justify-content: space-between; gap: 32px; flex-wrap: wrap; }
+.plh-contact-list { list-style: none; margin: 0; padding: 0; }
+.plh-contact-list li { padding: 2px 0; }
+.plh-contact a { color: #fff; font-weight: 600; text-decoration: underline; }
+
+// ---------- Responsive ----------
+@media (max-width: 991px) {
+  .plh-steps { grid-template-columns: repeat(2, 1fr); }
+  .plh-steps li::after { display: none; }
+}
+@media (max-width: 767px) {
+  .plh-hero { padding: 48px 0 96px; }
+  .plh-hero-grid, .plh-grid-3, .plh-steps { grid-template-columns: 1fr; }
+  .plh-hero h1 { font-size: 32px; }
+  .plh-lead { font-size: 17px; }
+  .plh-hero-card { display: none; }
+  .plh-btn { width: 100%; }
+  .plh-section { padding: 56px 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .plh-card, .plh-btn { transition: none; }
+  .plh-card:hover { transform: none; }
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>parking_landing_home</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Parking Landing Home</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>adetola</sys_created_by>
+        <sys_created_on>2026-11-13 22:57:58</sys_created_on>
+        <sys_id>128018e5a9a853107f440744910c15f5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Parking Landing Home</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sp_widget_128018e5a9a853107f440744910c15f5</sys_update_name>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-14 19:43:47</sys_updated_on>
+        <template><![CDATA[<div class="plh">
+
+  <!-- 1. HERO -->
+  <section class="plh-hero" aria-labelledby="plh-title">
+    <div class="plh-wrap plh-hero-grid">
+      <div class="plh-hero-text">
+        <p class="plh-eyebrow">Campus Safety</p>
+        <h1 id="plh-title">Parking citations, handled online</h1>
+        <p class="plh-lead">View your citations, appeal within 14 days, and follow the decision, all in one place.</p>
+        <div class="plh-actions">
+          <a class="plh-btn plh-btn-light" href="?id=login">Sign in with your Staff/Student account</a>
+        </div>
+        <p class="plh-hero-note">Visiting campus? See the Visitors card below.</p>
+      </div>
+
+      <div class="plh-hero-card" aria-hidden="true">
+        <div class="plh-mock-head">
+          <span class="plh-mock-label">Citation</span>
+          <span class="plh-pill plh-pill-amber">Under appeal</span>
+        </div>
+        <p class="plh-mock-num">CIT0001042</p>
+        <p class="plh-mock-sub">Lot B &middot; No valid permit</p>
+        <ul class="plh-mock-timeline">
+          <li class="is-done"><span></span>Issued</li>
+          <li class="is-done"><span></span>Appeal submitted</li>
+          <li class="is-next"><span></span>Decision due in 3 days</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. KEY FACTS -->
+  <section class="plh-facts" aria-label="Key facts">
+    <div class="plh-wrap plh-grid-3">
+      <div class="plh-fact">
+        <svg class="plh-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+        <p class="plh-fact-big">14 days</p>
+        <p class="plh-fact-small">to submit an appeal after a citation is issued</p>
+      </div>
+      <div class="plh-fact">
+        <svg class="plh-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+        <p class="plh-fact-big">5 business days</p>
+        <p class="plh-fact-small">for a decision once your appeal is received</p>
+      </div>
+      <div class="plh-fact">
+        <svg class="plh-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+        <p class="plh-fact-big">Email updates</p>
+        <p class="plh-fact-small">at every step, sent to your college address</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. AUDIENCES -->
+  <section class="plh-section" aria-labelledby="plh-who">
+    <div class="plh-wrap">
+      <h2 id="plh-who">Who is this for?</h2>
+      <div class="plh-grid-3">
+        <article class="plh-card">
+          <svg class="plh-icon plh-icon-tile" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>
+          <h3>Students and employees</h3>
+          <p>See citations linked to your ID, submit one appeal per citation and track its status.</p>
+          <a class="plh-link" href="?id=login">Sign in <span aria-hidden="true">&rarr;</span></a>
+        </article>
+        <article class="plh-card">
+          <svg class="plh-icon plh-icon-tile" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg>
+          <h3>Campus Safety officers</h3>
+          <p>Issue citations from your phone, with plate lookup and photo evidence.</p>
+          <a class="plh-link" href="?id=login">Officer sign in <span aria-hidden="true">&rarr;</span></a>
+        </article>
+        <article class="plh-card">
+          <svg class="plh-icon plh-icon-tile" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 16l1.5-5h11L19 16"/><rect x="3" y="16" width="18" height="4" rx="1"/><circle cx="7" cy="20" r="1"/><circle cx="17" cy="20" r="1"/></svg>
+          <h3>Visitors</h3>
+          <p>Got a citation on a visitor vehicle? Contact the Campus Safety office with your citation number.</p>
+          <p class="plh-soon">Online appeals for visitors are coming soon.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. HOW APPEALS WORK -->
+  <section class="plh-section plh-section-white" aria-labelledby="plh-how">
+    <div class="plh-wrap">
+      <h2 id="plh-how">How appeals work</h2>
+      <ol class="plh-steps">
+        <li><h3>Sign in</h3><p>Use your college account.</p></li>
+        <li><h3>Open the citation</h3><p>Choose Appeal within 14 days.</p></li>
+        <li><h3>Tell us why</h3><p>Explain what happened and attach photos or documents.</p></li>
+        <li><h3>Get a decision</h3><p>We email you within 5 business days.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- 5. OUTCOMES -->
+  <section class="plh-section" aria-labelledby="plh-out">
+    <div class="plh-wrap">
+      <h2 id="plh-out">Possible outcomes</h2>
+      <div class="plh-grid-3">
+        <div class="plh-outcome plh-outcome-green"><h3>Cancelled</h3><p>The citation is withdrawn and nothing is owed.</p></div>
+        <div class="plh-outcome plh-outcome-amber"><h3>Reduced</h3><p>The citation stands at a lower amount.</p></div>
+        <div class="plh-outcome plh-outcome-red"><h3>Upheld</h3><p>The original citation and amount stand.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. FAQ -->
+  <section class="plh-section plh-section-white" aria-labelledby="plh-faq">
+    <div class="plh-wrap plh-narrow">
+      <h2 id="plh-faq">Questions</h2>
+      <div class="plh-faq">
+        <details><summary>How long do I have to appeal?</summary><p>14 days from the date the citation was issued. After that, the Appeal option closes.</p></details>
+        <details><summary>Can I appeal more than once?</summary><p>No. Each citation can be appealed once, so include all your evidence the first time.</p></details>
+        <details><summary>I missed the 14 days. What now?</summary><p>Contact the Campus Safety office; staff will explain your options.</p></details>
+        <details><summary>How will I hear about the decision?</summary><p>By email, and the citation status updates in the portal.</p></details>
+        <details><summary>How do I pay a citation?</summary><p>Check Back for more information!</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. CONTACT -->
+  <footer class="plh-contact" aria-labelledby="plh-contact-title">
+    <div class="plh-wrap plh-contact-grid">
+      <div>
+        <h2 id="plh-contact-title">Campus Safety Office</h2>
+        <p>Building 12 &middot; 9am - 4pm</p>
+      </div>
+      <ul class="plh-contact-list">
+        <li>Phone: +1-8000-PARKING</li>
+        <li>Email: parkingoffice@example.com</li>
+        <li><a href="?id=login">Staff and students: Sign in</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</div>]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>128018e5a9a853107f440744910c15f5</id>
+        <sys_created_by>adetola</sys_created_by>
+        <sys_created_on>2026-11-13 22:57:58</sys_created_on>
+        <sys_id>9e8018e5a9a853107f440744910c15f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-13 22:57:58</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

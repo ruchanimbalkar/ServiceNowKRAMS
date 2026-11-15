@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic_library_usage">
+    <sys_cb_topic_library_usage action="DELETE">
+        <calling_cb_topic_id display_value="Custom AI Search - Fallback">f1e3eadda96813107f440744910c1559</calling_cb_topic_id>
+        <library_cb_topic_id display_value="Now Assist - AI Search Results">d094ecfc531b71105e05ddeeff7b12c3</library_cb_topic_id>
+        <sys_class_name>sys_cb_topic_library_usage</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-13 15:03:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>46e3eedda96813107f440744910c156b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sys_cb_topic_library_usage_46e3eedda96813107f440744910c156b</sys_update_name>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-13 15:03:22</sys_updated_on>
+    </sys_cb_topic_library_usage>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</application>
+        <file_path/>
+        <instance_id>11b399e8971097945382ff671153af6b</instance_id>
+        <instance_name>sya-oct-6371-0004</instance_name>
+        <name>sys_cb_topic_library_usage_46e3eedda96813107f440744910c156b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic_library_usage"><sys_cb_topic_library_usage action="INSERT_OR_UPDATE"><calling_cb_topic_id display_value="Custom AI Search - Fallback">f1e3eadda96813107f440744910c1559</calling_cb_topic_id><library_cb_topic_id display_value="Now Assist - AI Search Results">d094ecfc531b71105e05ddeeff7b12c3</library_cb_topic_id><sys_class_name>sys_cb_topic_library_usage</sys_class_name><sys_created_by>ruchan</sys_created_by><sys_created_on>2026-11-13 15:03:22</sys_created_on><sys_domain>global</sys_domain><sys_id>46e3eedda96813107f440744910c156b</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package><sys_policy/><sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope><sys_update_name>sys_cb_topic_library_usage_46e3eedda96813107f440744910c156b</sys_update_name><sys_updated_by>ruchan</sys_updated_by><sys_updated_on>2026-11-13 15:03:22</sys_updated_on></sys_cb_topic_library_usage></record_update>]]></payload>
+        <payload_hash>-456545885</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>cc1d22b1f19c13107f446e35e74164be</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-13 15:03:22</sys_created_on>
+        <sys_id>c2e3eedda96813107f440744910c156e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1d56f46f70000001</sys_recorded_at>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-13 15:03:22</sys_updated_on>
+        <type>Topic Library Usage</type>
+        <update_guid>86e3eedd39681310a75290c47fc6976d</update_guid>
+        <update_guid_history>86e3eedd39681310a75290c47fc6976d:-456545885</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-13 15:12:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_cb_topic_library_usage">sys_cb_topic_library_usage</sys_db_object>
+        <sys_id>0128c89752694784800fe9d2150aee90</sys_id>
+        <sys_metadata>46e3eedda96813107f440744910c156b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_scope_delete display_value="">262add6e65a2409db2b8906c824ca431</sys_scope_delete>
+        <sys_update_name>sys_cb_topic_library_usage_46e3eedda96813107f440744910c156b</sys_update_name>
+        <sys_update_version display_value="sys_cb_topic_library_usage_46e3eedda96813107f440744910c156b">c2e3eedda96813107f440744910c156e</sys_update_version>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-13 15:12:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_knowledge_base">
+    <m2m_sp_portal_knowledge_base action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <kb_knowledge_base display_value="Appeals Knowledge Base">79725748792453107f44fa0f7d0bc3a4</kb_knowledge_base>
+        <order>100</order>
+        <sp_portal display_value="Campus Safety Portal">dbaa5f59a9a053107f440744910c153e</sp_portal>
+        <sys_class_name>m2m_sp_portal_knowledge_base</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-13 19:16:43</sys_created_on>
+        <sys_id>55eddb11a9e053107f440744910c1571</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Appeals Knowledge Base.Campus Safety Portal</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>m2m_sp_portal_knowledge_base_55eddb11a9e053107f440744910c1571</sys_update_name>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-13 19:16:43</sys_updated_on>
+    </m2m_sp_portal_knowledge_base>
+</record_update>

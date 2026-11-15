@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>open parking safety guide</key>
+        <language>en</language>
+        <message>Open Parking Safety Guide</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-13 15:42:17</sys_created_on>
+        <sys_id>80dcee15a9e813107f440744910c159d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>open parking safety guide</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sys_ui_message_80dcee15a9e813107f440744910c159d</sys_update_name>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-13 15:42:17</sys_updated_on>
+    </sys_ui_message>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <sc_catalog display_value="Parking Services">4e9d5311a9e053107f440744910c15fd</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-13 19:15:56</sys_created_on>
+        <sys_id>71bd5711a9e053107f440744910c157c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Parking Services.catalog_parking_services</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_parking_services">bdbd5711a9e053107f440744910c1579</sys_portal_page>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_71bd5711a9e053107f440744910c157c</sys_update_name>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-13 19:15:56</sys_updated_on>
+    </sc_catalog_view_mtom>
+</record_update>

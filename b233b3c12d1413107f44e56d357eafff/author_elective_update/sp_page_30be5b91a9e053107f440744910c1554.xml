@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <human_readable_url_structure/>
+        <id>parking_employee_home</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles>x_1234_parking_c_0.employee</roles>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-13 19:20:41</sys_created_on>
+        <sys_id>30be5b91a9e053107f440744910c1554</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>parking_employee_home</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sp_page_30be5b91a9e053107f440744910c1554</sys_update_name>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-13 19:20:41</sys_updated_on>
+        <title>My parking</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=30be5b91a9e053107f440744910c1554"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</application>
+        <file_path/>
+        <instance_id>11b399e8971097945382ff671153af6b</instance_id>
+        <instance_name>sya-oct-6371-0004</instance_name>
+        <name>sp_page_30be5b91a9e053107f440744910c1554</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css/><draft>false</draft><dynamic_title_structure/><human_readable_url_structure/><id>parking_employee_home</id><internal>false</internal><omit_watcher>false</omit_watcher><public>false</public><roles>x_1234_parking_c_0.employee</roles><seo_script/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>ruchan</sys_created_by><sys_created_on>2026-11-13 19:20:41</sys_created_on><sys_id>30be5b91a9e053107f440744910c1554</sys_id><sys_mod_count>0</sys_mod_count><sys_name>parking_employee_home</sys_name><sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package><sys_policy/><sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope><sys_update_name>sp_page_30be5b91a9e053107f440744910c1554</sys_update_name><sys_updated_by>ruchan</sys_updated_by><sys_updated_on>2026-11-13 19:20:41</sys_updated_on><title>My parking</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=30be5b91a9e053107f440744910c1554"/></record_update>]]></payload>
+        <payload_hash>-815629518</payload_hash>
+        <record_name>parking_employee_home</record_name>
+        <reverted_from/>
+        <source>cc1d22b1f19c13107f446e35e74164be</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-13 19:20:42</sys_created_on>
+        <sys_id>abce9b91a9e053107f440744910c15ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1d65adf700000001</sys_recorded_at>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-13 19:20:42</sys_updated_on>
+        <type>Page</type>
+        <update_guid>2fce9b91e4e05310e4874c93e3f5f4ab</update_guid>
+        <update_guid_history>2fce9b91e4e05310e4874c93e3f5f4ab:-815629518</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="parking_employee_home">71976795a92453107f440744910c155e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ruchan</sys_created_by>
+        <sys_created_on>2026-11-13 19:59:06</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>16ac133f0cae4b78892f8eb3e3642090</sys_id>
+        <sys_metadata>30be5b91a9e053107f440744910c1554</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>parking_employee_home</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_scope_delete display_value="">262add6e65a2409db2b8906c824ca431</sys_scope_delete>
+        <sys_update_name>sp_page_30be5b91a9e053107f440744910c1554</sys_update_name>
+        <sys_update_version display_value="sp_page_30be5b91a9e053107f440744910c1554">abce9b91a9e053107f440744910c15ac</sys_update_version>
+        <sys_updated_by>ruchan</sys_updated_by>
+        <sys_updated_on>2026-11-13 19:59:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
