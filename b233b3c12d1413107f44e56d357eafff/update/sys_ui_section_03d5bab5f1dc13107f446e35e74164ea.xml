@@ -3,112 +3,126 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
             <position>0</position>
-            <sys_created_by>adetola</sys_created_by>
-            <sys_created_on>2026-11-13 17:02:42</sys_created_on>
-            <sys_id>563f7255a9ac13107f440744910c15d5</sys_id>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-16 16:17:46</sys_created_on>
+            <sys_id>c9b1969afda813107f440dc0ae471de6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1234_parking_c_0_appeal" sys_domain="global" view="Default view">03d5bab5f1dc13107f446e35e74164ea</sys_ui_section>
-            <sys_updated_by>adetola</sys_updated_by>
-            <sys_updated_on>2026-11-13 17:02:42</sys_updated_on>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-16 16:17:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>applied_on</element>
             <position>1</position>
-            <sys_created_by>adetola</sys_created_by>
-            <sys_created_on>2026-11-13 17:02:42</sys_created_on>
-            <sys_id>123f7255a9ac13107f440744910c15d6</sys_id>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-16 16:17:46</sys_created_on>
+            <sys_id>85b1969afda813107f440dc0ae471de7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1234_parking_c_0_appeal" sys_domain="global" view="Default view">03d5bab5f1dc13107f446e35e74164ea</sys_ui_section>
-            <sys_updated_by>adetola</sys_updated_by>
-            <sys_updated_on>2026-11-13 17:02:42</sys_updated_on>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-16 16:17:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assignment_group</element>
             <position>2</position>
-            <sys_created_by>adetola</sys_created_by>
-            <sys_created_on>2026-11-13 17:02:42</sys_created_on>
-            <sys_id>9a3f7255a9ac13107f440744910c15d6</sys_id>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-16 16:17:46</sys_created_on>
+            <sys_id>11b1969afda813107f440dc0ae471de8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1234_parking_c_0_appeal" sys_domain="global" view="Default view">03d5bab5f1dc13107f446e35e74164ea</sys_ui_section>
-            <sys_updated_by>adetola</sys_updated_by>
-            <sys_updated_on>2026-11-13 17:02:42</sys_updated_on>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-16 16:17:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_to</element>
             <position>3</position>
-            <sys_created_by>adetola</sys_created_by>
-            <sys_created_on>2026-11-13 17:02:42</sys_created_on>
-            <sys_id>163f7255a9ac13107f440744910c15d7</sys_id>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-16 16:17:46</sys_created_on>
+            <sys_id>99b1969afda813107f440dc0ae471de8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1234_parking_c_0_appeal" sys_domain="global" view="Default view">03d5bab5f1dc13107f446e35e74164ea</sys_ui_section>
-            <sys_updated_by>adetola</sys_updated_by>
-            <sys_updated_on>2026-11-13 17:02:42</sys_updated_on>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-16 16:17:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>4</position>
-            <sys_created_by>adetola</sys_created_by>
-            <sys_created_on>2026-11-13 17:02:42</sys_created_on>
-            <sys_id>9e3f7255a9ac13107f440744910c15d7</sys_id>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-16 16:17:46</sys_created_on>
+            <sys_id>15b1969afda813107f440dc0ae471de9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1234_parking_c_0_appeal" sys_domain="global" view="Default view">03d5bab5f1dc13107f446e35e74164ea</sys_ui_section>
-            <sys_updated_by>adetola</sys_updated_by>
-            <sys_updated_on>2026-11-13 17:02:42</sys_updated_on>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-16 16:17:46</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
             <position>5</position>
-            <sys_created_by>adetola</sys_created_by>
-            <sys_created_on>2026-11-13 17:02:42</sys_created_on>
-            <sys_id>1a3f7255a9ac13107f440744910c15d8</sys_id>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-16 16:17:46</sys_created_on>
+            <sys_id>9db1969afda813107f440dc0ae471de9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1234_parking_c_0_appeal" sys_domain="global" view="Default view">03d5bab5f1dc13107f446e35e74164ea</sys_ui_section>
-            <sys_updated_by>adetola</sys_updated_by>
-            <sys_updated_on>2026-11-13 17:02:42</sys_updated_on>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-16 16:17:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>applied_by</element>
             <position>6</position>
-            <sys_created_by>adetola</sys_created_by>
-            <sys_created_on>2026-11-13 17:02:42</sys_created_on>
-            <sys_id>923f7255a9ac13107f440744910c15d9</sys_id>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-16 16:17:46</sys_created_on>
+            <sys_id>19b1969afda813107f440dc0ae471dea</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1234_parking_c_0_appeal" sys_domain="global" view="Default view">03d5bab5f1dc13107f446e35e74164ea</sys_ui_section>
-            <sys_updated_by>adetola</sys_updated_by>
-            <sys_updated_on>2026-11-13 17:02:42</sys_updated_on>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-16 16:17:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>citation</element>
+            <element>citation.fine_amount</element>
             <position>7</position>
-            <sys_created_by>adetola</sys_created_by>
-            <sys_created_on>2026-11-13 17:02:42</sys_created_on>
-            <sys_id>1e3f7255a9ac13107f440744910c15d9</sys_id>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-16 16:17:46</sys_created_on>
+            <sys_id>91b1969afda813107f440dc0ae471deb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1234_parking_c_0_appeal" sys_domain="global" view="Default view">03d5bab5f1dc13107f446e35e74164ea</sys_ui_section>
-            <sys_updated_by>adetola</sys_updated_by>
-            <sys_updated_on>2026-11-13 17:02:42</sys_updated_on>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-16 16:17:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>new_amont</element>
+            <position>8</position>
+            <sys_created_by>ruchan</sys_created_by>
+            <sys_created_on>2026-11-16 16:17:46</sys_created_on>
+            <sys_id>1db1969afda813107f440dc0ae471deb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1234_parking_c_0_appeal" sys_domain="global" view="Default view">03d5bab5f1dc13107f446e35e74164ea</sys_ui_section>
+            <sys_updated_by>ruchan</sys_updated_by>
+            <sys_updated_on>2026-11-16 16:17:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
