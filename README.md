@@ -26,6 +26,8 @@ Built in **ServiceNow Studio** (`x_1234_parking_c_0`), the **Parking Citation Ma
 
 ## System Architecture & Components
 
+![Architecture](architecture.png)
+
 ### 1. Core Data Model & Security
 * **Custom Tables:** Citation, Appeal, Owner Lookup, Vehicle, and Violation Type tables built in ServiceNow Studio.
 * **Server-Side Logic:** Business Rules for automated deadline calculations (14-day appeal window, 11-day reminder date) and field validation.
@@ -79,6 +81,12 @@ Built in **ServiceNow Studio** (`x_1234_parking_c_0`), the **Parking Citation Ma
 * **Enterprise Integrations & Analytics:** Cross-departmental system integrations and advanced predictive reporting.
 * **Mobile Field Operations:** Mobile citation issuance with real-time photo uploads for officers on patrol.
 * **Financial Services Integration:** POS/cashier integration, electronic payment gateways, and automated financial reconciliation.
+
+---
+
+## Technology Used (ServiceNow Studio)
+![Technology Used](tech.png)
+Tech used.
 
 ---
 
