@@ -100,7 +100,7 @@ Built in **ServiceNow Studio** (`x_1234_parking_c_0`), the **Parking Citation Ma
 ![Citation Form Filled](citation_form.png)
 
 ### Student Landing Page
-![Appeal a Citation Form](appeal-form.png)
+![Student Landing Page ](student_landing_page.png)
 Record Producer showing active citations and auto-populated fine/violation details.
 
 ### Appeal a Citation Knowledge Base
