@@ -96,6 +96,7 @@ Built in **ServiceNow Studio** (`x_1234_parking_c_0`), the **Parking Citation Ma
 
 ### Security Officer Landing Page
 ![Security Officer Landing Page](security_officer_landing_page.png)
+Landing page of security officer.
 
 ### Citation Form
 ![Citation Form Filled](citation_form.png)
@@ -103,6 +104,7 @@ Record Producer showing citation form auto-populated fine/violation details.
 
 ### Citation Form Submitted
 ![Citation Form Filled Submitted](citation_submitted.png)
+Citation form submitted.
 
 ### Student Landing Page
 ![Student Landing Page ](student_landing_page.png)
@@ -110,13 +112,16 @@ Record Producer showing active citations and auto-populated fine/violation detai
 
 ### Appeal a Citation Knowledge Base
 ![Appeal a Citation Knowledge Base](appeal_knowledge_base.png)
+Knowledge Base on Filing an Appeal.
 
 
 ### Appeal a Citation Form
 ![Appeal a Citation Form](appeal_form.png)
+Appeal a citation form.
 
 ### Appeal a Citation Form Submiited
 ![Appeal a Citation Form Submitted](appeal_submitted_ticket.png)
+Appeal a citation form submitted.
 
 
 ### Director Workspace
@@ -131,7 +136,7 @@ Director List View
 Appeal Decision Form
 
 ### Automated Email Notifications
-![Automated Email Notifications](emails.png)
+![Automated Email Notifications](all_emails.png)
 Outbound citation and appeal emails.
 
 ### Automated Citation Received Email Notifications
