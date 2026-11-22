@@ -138,9 +138,19 @@ Outbound citation and appeal emails.
 ![Automated Citation_Received_Email Notifications](citation_received_email.png)
 Outbound citation received email.
 
-![Automated Appeal Decision_Email For Management Notifications](appeal_mgmt_email.png)
-Outbound appeal decison for mgmt. email.
+### Automated Appeal Received Email Notifications
+![Automated Appeal Received Email Notifications](appeal_received_email.png)
+Appeal Received Email
 
+### Automated Appeal Awaiting Decsion Email for Director Notifications
+![Automated Appeal Awaiting Decsion Email for Director ](appeal_email_director.png)
+Appeal Awaiting Decsion Email
+
+### Automated Appeal Decision Email for Management Notifications
+![Automated Appeal Decision_Email For Management Notifications](appeal_mgmt_email.png)
+Outbound appeal decison for management Email.
+
+### Automated Appeal Decision Email for Student Notifications
 ![Appeal Decision](appeal_decision.png)
 Appeal Decision
 
