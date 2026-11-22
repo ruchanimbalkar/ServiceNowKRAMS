@@ -120,8 +120,15 @@ Record Producer showing active citations and auto-populated fine/violation detai
 
 
 ### Director Workspace
-![Director Workspace & Appeal Decision](director_workspace.png)
+![Director Workspace](director_workspace.png)
 Configurable Workspace view showing analytics.
+
+### Director Workspace List View
+![Director Workspace List View](director_list_view.png)
+Director List View
+
+![Appeal Decision Form](appeal_decision_form.png)
+Appeal Decision Form
 
 ![Appeal Decision](appeal_decision.png)
 Appeal Decision
