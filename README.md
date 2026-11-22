@@ -130,9 +130,6 @@ Director List View
 ![Appeal Decision Form](appeal_decsion_form.png)
 Appeal Decision Form
 
-![Appeal Decision](appeal_decision.png)
-Appeal Decision
-
 ### Automated Email Notifications
 ![Automated Email Notifications](emails.png)
 Outbound citation and appeal emails.
@@ -140,6 +137,12 @@ Outbound citation and appeal emails.
 ### Automated Citation Received Email Notifications
 ![Automated Citation_Received_Email Notifications](citation_received_email.png)
 Outbound citation received email.
+
+![Automated Appeal Decision_Email For Management Notifications](appeal_mgmt_email.png)
+Outbound appeal decison for mgmt. email.
+
+![Appeal Decision](appeal_decision.png)
+Appeal Decision
 
 ## KRAMS Consulting Services Team
 
