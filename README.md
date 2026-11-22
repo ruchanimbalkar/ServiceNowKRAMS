@@ -127,7 +127,7 @@ Configurable Workspace view showing analytics.
 ![Director Workspace List View](director_list_view.png)
 Director List View
 
-![Appeal Decision Form](appeal_decision_form.png)
+![Appeal Decision Form](appeal_decsion_form.png)
 Appeal Decision Form
 
 ![Appeal Decision](appeal_decision.png)
