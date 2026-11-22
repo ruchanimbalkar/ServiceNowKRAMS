@@ -111,11 +111,11 @@ Record Producer showing active citations and auto-populated fine/violation detai
 ![Appeal a Citation Form](appeal_form.png)
 Record Producer showing active citations and auto-populated fine/violation details.
 
-### Director Workspace & Appeal Decision
+### Director Workspace
 ![Director Workspace & Appeal Decision](director_workspace.png)
 Configurable Workspace view showing analytics.
 
-![ppeal Decision](appeal_decision.png)
+![Appeal Decision](appeal_decision.png)
 Appeal Decision
 
 ### Automated Email Notifications
