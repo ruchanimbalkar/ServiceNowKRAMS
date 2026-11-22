@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="INSERT_OR_UPDATE">
+        <description/>
+        <name>Lists</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>adetola</sys_created_by>
+        <sys_created_on>2026-11-16 00:59:34</sys_created_on>
+        <sys_id>c38ffa0668a013107f44b545ab9e8202</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lists</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sys_ux_screen_type_c38ffa0668a013107f44b545ab9e8202</sys_update_name>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-16 00:59:34</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=c38ffa0668a013107f44b545ab9e8202"/>
+</record_update>

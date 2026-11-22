@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Campus Safety Workspace">810dfd71b4ac53107f4416ac7193a3ce</app_config>
+        <description/>
+        <extension_point/>
+        <fields>table,sysId</fields>
+        <icon/>
+        <interoperable>false</interoperable>
+        <name>record</name>
+        <optional_parameters>query,extraParams,views,selectedTab</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>record</route_type>
+        <screen_type display_value="record">40400b8668a013107f44b545ab9e8240</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>adetola</sys_created_by>
+        <sys_created_on>2026-11-16 01:02:39</sys_created_on>
+        <sys_id>88400b8668a013107f44b545ab9e8243</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>record</sys_name>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sys_ux_app_route_88400b8668a013107f44b545ab9e8243</sys_update_name>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-16 01:02:39</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=88400b8668a013107f44b545ab9e8243"/>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list">
+    <sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Campus Team - Parking">9ad5a326b12c13107f44ba8b436970a6</applicability>
+        <list display_value="Open Lookups">bf7aa3eeb12c13107f44ba8b43697080</list>
+        <order>0</order>
+        <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
+        <sys_created_by>adetola</sys_created_by>
+        <sys_created_on>2026-11-17 17:30:10</sys_created_on>
+        <sys_id>bb6aefaeb12c13107f44ba8b436970c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_list_bb6aefaeb12c13107f44ba8b436970c8</sys_update_name>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-17 17:30:10</sys_updated_on>
+    </sys_ux_applicability_m2m_list>
+</record_update>

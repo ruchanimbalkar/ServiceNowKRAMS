@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="DELETE">
+        <active>true</active>
+        <applicability display_value="Campus Team - Parking">9ad5a326b12c13107f44ba8b436970a6</applicability>
+        <order>300</order>
+        <screen display_value="Home default">d46586f9b4ec53107f4416ac7193a39b</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>adetola</sys_created_by>
+        <sys_created_on>2026-11-17 17:06:20</sys_created_on>
+        <sys_id>52662766b12c13107f44ba8b43697048</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_52662766b12c13107f44ba8b43697048</sys_update_name>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-17 17:06:20</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</application>
+        <file_path/>
+        <instance_id>11b399e8971097945382ff671153af6b</instance_id>
+        <instance_name>sya-oct-6371-0004</instance_name>
+        <name>sys_ux_applicability_m2m_screen_52662766b12c13107f44ba8b43697048</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen"><sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE"><active>true</active><applicability display_value="Campus Team - Parking">9ad5a326b12c13107f44ba8b436970a6</applicability><order>300</order><screen display_value="Home default">d46586f9b4ec53107f4416ac7193a39b</screen><sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name><sys_created_by>adetola</sys_created_by><sys_created_on>2026-11-17 17:06:20</sys_created_on><sys_id>52662766b12c13107f44ba8b43697048</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package><sys_policy/><sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope><sys_update_name>sys_ux_applicability_m2m_screen_52662766b12c13107f44ba8b43697048</sys_update_name><sys_updated_by>adetola</sys_updated_by><sys_updated_on>2026-11-17 17:06:20</sys_updated_on></sys_ux_applicability_m2m_screen></record_update>]]></payload>
+        <payload_hash>-1810432615</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>eeb52946b42013107f447ff1c8b13b13</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>adetola</sys_created_by>
+        <sys_created_on>2026-11-17 17:06:20</sys_created_on>
+        <sys_id>9a662766b12c13107f44ba8b4369704b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1ea794c360000001</sys_recorded_at>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-17 17:06:20</sys_updated_on>
+        <type>Screen Applicability</type>
+        <update_guid>9a662766322c1310cbb5a2f21c88e24a</update_guid>
+        <update_guid_history>9a662766322c1310cbb5a2f21c88e24a:-1810432615</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>adetola</sys_created_by>
+        <sys_created_on>2026-11-17 17:40:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_applicability_m2m_screen">sys_ux_applicability_m2m_screen</sys_db_object>
+        <sys_id>20cf064f52dc4ed8abfda3d10c1b50a4</sys_id>
+        <sys_metadata>52662766b12c13107f44ba8b43697048</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_scope_delete display_value="">262add6e65a2409db2b8906c824ca431</sys_scope_delete>
+        <sys_update_name>sys_ux_applicability_m2m_screen_52662766b12c13107f44ba8b43697048</sys_update_name>
+        <sys_update_version display_value="sys_ux_applicability_m2m_screen_52662766b12c13107f44ba8b43697048">9a662766b12c13107f44ba8b4369704b</sys_update_version>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-17 17:40:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

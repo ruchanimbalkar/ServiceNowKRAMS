@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_1234_parking_c_0.Managers - Parking</api_name>
+        <description>These are for the directors and managers</description>
+        <name>Managers - Parking</name>
+        <role_names/>
+        <roles name="x_1234_parking_c_0.manager">454c449ad55053107f448437bb979441</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>adetola</sys_created_by>
+        <sys_created_on>2026-11-17 15:34:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9b319b2eb12813107f44ba8b4369709f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Managers - Parking</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Parking Citations" source="x_1234_parking_c_0">b233b3c12d1413107f44e56d357eafff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Citations">b233b3c12d1413107f44e56d357eafff</sys_scope>
+        <sys_update_name>sys_ux_applicability_9b319b2eb12813107f44ba8b4369709f</sys_update_name>
+        <sys_updated_by>adetola</sys_updated_by>
+        <sys_updated_on>2026-11-17 17:03:07</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>
