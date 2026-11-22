@@ -92,6 +92,36 @@ Built in **ServiceNow Studio** (`x_1234_parking_c_0`), the **Parking Citation Ma
 
 ---
 
+## User Interface & Portal Walkthrough
+
+### Security Officer Landing Page
+![Security Officer Landing Page](security_officer_landing_page.png)
+### CitationForm
+![Citation Form Filled](citation_form.png)
+
+### Student Landing Page
+![Appeal a Citation Form](appeal-form.png)
+Record Producer showing active citations and auto-populated fine/violation details.
+
+### Appeal a Citation Knowledge Base
+![Appeal a Citation Knowledge Base](appeal_knowledge_base.png)
+
+
+### Appeal a Citation Form
+![Appeal a Citation Form](appeal_form.png)
+Record Producer showing active citations and auto-populated fine/violation details.
+
+### Director Workspace & Appeal Decision
+![Director Workspace & Appeal Decision](director_workspace.png)
+Configurable Workspace view showing analytics.
+
+![ppeal Decision](appeal_decision.png)
+Appeal Decision
+
+### Automated Email Notifications
+![Automated Email Notifications](email_notifications.png)
+Outbound student and management emails confirming citation issuance and appeal outcomes.
+
 ## KRAMS Consulting Services Team
 
 * **Maya Burgos** — *Business Process Analyst / Scrum Master*  
