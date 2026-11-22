@@ -96,8 +96,13 @@ Built in **ServiceNow Studio** (`x_1234_parking_c_0`), the **Parking Citation Ma
 
 ### Security Officer Landing Page
 ![Security Officer Landing Page](security_officer_landing_page.png)
-### CitationForm
+
+### Citation Form
 ![Citation Form Filled](citation_form.png)
+Record Producer showing citation form auto-populated fine/violation details.
+
+### Citation Form Submitted
+![Citation Form Filled Submitted](citation_submitted.png)
 
 ### Student Landing Page
 ![Student Landing Page ](student_landing_page.png)
@@ -109,7 +114,10 @@ Record Producer showing active citations and auto-populated fine/violation detai
 
 ### Appeal a Citation Form
 ![Appeal a Citation Form](appeal_form.png)
-Record Producer showing active citations and auto-populated fine/violation details.
+
+### Appeal a Citation Form Submiited
+![Appeal a Citation Form Submitted](appeal_submitted_ticket.png)
+
 
 ### Director Workspace
 ![Director Workspace & Appeal Decision](director_workspace.png)
@@ -119,8 +127,12 @@ Configurable Workspace view showing analytics.
 Appeal Decision
 
 ### Automated Email Notifications
-![Automated Email Notifications](email_notifications.png)
-Outbound student and management emails confirming citation issuance and appeal outcomes.
+![Automated Email Notifications](emails.png)
+Outbound citation and appeal emails.
+
+### Automated Citation Received Email Notifications
+![Automated Citation_Received_Email Notifications](citation_received_email.png)
+Outbound citation received email.
 
 ## KRAMS Consulting Services Team
 
